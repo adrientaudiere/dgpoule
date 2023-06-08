@@ -1,25 +1,16 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block content %}
+<h1 class="title">{{ section.title }}</h1>
 
-{% block content %}
-<h1 class="title">
-  {{ section.title }}
-</h1>
-
-
-
-<summary class="liste">Liste de question</summary>
-<details>
 <ul>
-  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
 
-  
   {% for page in section.pages %}
-  <summary> {{ page.title }} <a href="{{ page.permalink | safe }}"> (Lien)</a> </summary>
-  
-  <details> {{ page.content | safe }} </details>
+  <details>
+    <summary>{{ page.title }}</summary>
+    {{ page.content | safe }}
+    <a class = "small_link" href="{{ page.permalink | safe }}"> (Lien vers la page spécifique de la question)</a>
+  </details>
   {% endfor %}
-  
 </ul>
 
-</details>
 {% endblock content %}

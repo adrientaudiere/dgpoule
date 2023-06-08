@@ -1,3 +1,5 @@
+@use 'adrien.scss';
+
 /* ---------------------ENTETE---------------------------------------- */
 /* Réinitialisation des marges et des rembourrages */
 body, header, nav, ul, li {
@@ -12,7 +14,7 @@ header {
   box-shadow: 0 0 20px 0 grey;
   display: flex;
   display: table;
-  height: 10px;
+  height: 8px;
   /*length: 100%;*/
   width: 100%;
 }
@@ -23,6 +25,7 @@ header h1 {
  font-family: Impact;
  width: 50%;
  padding-left: 10px;
+ margin: 5px;
 }
 
 nav{
@@ -88,28 +91,7 @@ color: white !important;
 a{
     color: white ;
 }
-
 }
-
-
-
-
-
-
-
-
-
-p{background-color: bisque;}
-
-summary.liste {
-   color: brown;
-}
-
-summary {
-    color: rgb(168, 141, 194);
-    font-size: 1.5em;
- }
-
 
 .container {
     margin: auto;
