@@ -1,4 +1,10 @@
 {% extends "base.html" %} {% block content %}
+<div class="button-container">
+  <button class="button active"><a href="connaissance">CONNAISSANCE </a></button>
+  <button  class="button"><a  href="ressources">RESSOURCES</a></button>
+  <button class="button"><a href="faq">FAQ</a></button>
+</div>
+
 <h1 class="title">{{ section.title }}</h1>
 
 <ul>
@@ -10,6 +16,7 @@
     {{ page.content | safe }}
     <a class = "small_link" href="{{ page.permalink | safe }}"> (Lien vers la page spécifique de la question)</a>
   </details>
+  
   {% endfor %}
 </ul>
 
