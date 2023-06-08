@@ -1,0 +1,78 @@
+body {
+  font-size: larger;
+}
+
+button a {
+  font-size: 2rem;
+}
+
+details {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+summary {
+  padding: 1rem;
+  display: block;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+  background-color: #0c4da228;
+  color: black;
+}
+
+summary:before {
+  content: "";
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #886c07;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: 0.2rem 50%;
+  transition: 0.25s transform ease;
+}
+
+.container img {
+    max-width: 600px;
+    margin: auto;
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+
+a.small_link {
+    color: rgb(73, 73, 66);
+    font-size: smaller;
+}
+
+details ul {
+    background-color: #FBC90F60;
+    padding: 4%;
+    list-style-position: inside;
+    list-style-image: url('/img/mini_dg.svg');
+
+    a{
+        color: #02004B;
+    }
+
+    li {
+        padding: 7px 0 7px 0 ;
+    }
+}
+
+header nav {
+    direction: rtl;
+    padding-right: 20px;
+}
+

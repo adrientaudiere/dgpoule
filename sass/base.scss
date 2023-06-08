@@ -1,0 +1,99 @@
+@use 'adrien.scss';
+
+/* ---------------------ENTETE---------------------------------------- */
+/* Réinitialisation des marges et des rembourrages */
+body, header, nav, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style de l'entête */
+header {
+  background-color: #FFFFFF;
+  padding: 5px;
+  box-shadow: 0 0 20px 0 grey;
+  display: flex;
+  display: table;
+  height: 8px;
+  /*length: 100%;*/
+  width: 100%;
+}
+
+/* Style du titre de l'entête */
+header h1 {
+ color: #FBC90F;
+ font-family: Impact;
+ width: 50%;
+ padding-left: 10px;
+ margin: 5px;
+}
+
+nav{
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Style de la navigation */
+nav ul {
+  list-style-type: none;
+  
+  }
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  ;
+}
+
+nav ul li a {
+  text-decoration: none;
+   font-family: Gill sans nova;
+   color: #FBC90F; 
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------BOUTON---------------------------------------- */
+
+.button-container {
+  position: absolute; 
+  right: 0;
+}
+
+.button{
+  border: none;
+  padding:0;
+  margin: 0;
+  width: 50px;
+  display: inline-block;
+  height: 100%;
+  &:hover{color: white !important;}
+}
+
+.button a {
+ height: 100%;
+/* Proportion des boutons  */ 
+font-family: Gill sans nova;
+cursor: crosshair;
+writing-mode: vertical-rl;
+text-orientation: upright;
+color: black;
+text-decoration: none;
+}
+
+
+.button:hover{
+background: linear-gradient(#02004B, #0C4DA2);
+color: white !important;
+a{
+    color: white ;
+}
+}
+
+.container {
+    margin: auto;
+    width: 55%;
+} 
