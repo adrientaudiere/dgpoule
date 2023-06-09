@@ -1,13 +1,37 @@
-{% extends "base.html" %} {% block content %}
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pou Rouge</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="adrien.css" />
+    <link rel="stylesheet" href="media.css" />
+    <!-- <base href="https://adrientaudiere.github.io/dgpoule/" /> -->
+  </head>
 
-<div class="acceuil">
-  <img src="poule.jpg" alt="Deux poules sur l'herbe" />
+  <body>
+    <header>
+      <h1><a href="">DG-POULE</a></h1>
+      <nav>
+        <ul>
+          <li><a href="faq">FAQ</a></li>
+          <li><a href="ressources">Ressources</a></li>
+          <li><a href="connaissance">Connaissance</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section">
+      <div class="acceuil">
+        <img src="poule.jpg" alt="Deux poules sur l'herbe" />
 
-  <div class="button-container">
-    <button class="button"><a href="connaissance">CONNAISSANCE </a></button>
-    <button class="button"><a href="ressources">RESSOURCES</a></button>
-    <button class="button"><a href="faq">FAQ</a></button>
-  </div>
-</div>
-
-{% endblock content %}
+        <div class="button-container">
+          <button class="button">
+            <a href="connaissance">CONNAISSANCE </a>
+          </button>
+          <button class="button"><a href="ressources">RESSOURCES</a></button>
+          <button class="button"><a href="faq">FAQ</a></button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

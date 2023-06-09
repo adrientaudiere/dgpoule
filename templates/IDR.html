@@ -1,30 +1,28 @@
 {% extends "base.html" %} {% block content %}
 
-<div class="container">
-  <div class="button-container">
-    <button class="button active">
-      <a href="connaissance">CONNAISSANCE </a>
-    </button>
-    <button class="button"><a href="ressources">RESSOURCES</a></button>
-    <button class="button"><a href="faq">FAQ</a></button>
-  </div>
-
-  <h1 class="title">{{ section.title }}</h1>
-
-  <ul>
-    <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
-
-    {% for page in section.pages %}
-    <details>
-      <summary>{{ page.title }}</summary>
-      {{ page.content | safe }}
-      <a class="small_link" href="{{ page.permalink | safe }}">
-        (Lien vers la page spécifique de la question)</a
-      >
-    </details>
-
-    {% endfor %}
-  </ul>
+<div class="button-container">
+  <button class="button active">
+    <a href="connaissance">CONNAISSANCE </a>
+  </button>
+  <button class="button"><a href="ressources">RESSOURCES</a></button>
+  <button class="button"><a href="faq">FAQ</a></button>
 </div>
+
+<h1 class="title">{{ section.title }}</h1>
+
+<ul>
+  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
+
+  {% for page in section.pages %}
+  <details>
+    <summary>{{ page.title }}</summary>
+    {{ page.content | safe }}
+    <a class="small_link" href="{{ page.permalink | safe }}">
+      (Lien vers la page spécifique de la question)</a
+    >
+  </details>
+
+  {% endfor %}
+</ul>
 
 {% endblock content %}
