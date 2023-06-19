@@ -1,23 +1,27 @@
 {% extends "base.html" %} {% block content %}
+<section class="section">
+  <div class="container">
+    <div class="button-container">
+      <button class="button"><a href="connaissance">CONNAISSANCE </a></button>
+      <button class="button active-button">
+        <a href="ressources">RESSOURCES</a>
+      </button>
+      <button class="button"><a href="faq">FAQ</a></button>
+    </div>
 
-<div class="button-container">
-  <button class="button"><a href="connaissance">CONNAISSANCE </a></button>
-  <button class="button active-button"><a href="ressources">RESSOURCES</a></button>
-  <button class="button"><a href="faq">FAQ</a></button>
-</div>
+    <h1 class="title">{{ section.title }}</h1>
 
-<h1 class="title">{{ section.title }}</h1>
+    <ul>
+      <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
 
-<ul>
-  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
+      {% for page in section.pages %}
+      <details open="">
+        <summary>{{ page.title }}</summary>
+        {{ page.content | safe }}
+      </details>
 
-  {% for page in section.pages %}
-  <details open="">
-    <summary>{{ page.title }}</summary>
-    {{ page.content | safe }}
-  </details>
-
-  {% endfor %}
-</ul>
-
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 {% endblock content %}
