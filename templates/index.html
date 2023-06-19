@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Pou Rouge</title>
-  <!-- <base href="https://adrientaudiere.github.io/dgpoule/" /> -->  <!-- À décommenter pour github page -->
-    <link rel="stylesheet" href="base.css" />
-    <link rel="stylesheet" href="adrien.css" />
-    <link rel="stylesheet" href="media.css" />    
-  </head>
 
-  <body>
-    <header>
-      <img id= "logo" src="img/logo_PP.png" alt="logo" />
-      <h1><a href="/">DG-POULE</a></h1><!-- À commenter pour github page --> 
-     <!-- <h1><a href="">DG-POULE</a></h1> --><!-- À décommenter pour github page -->
-      <nav>
-        <ul>
-          <li><a href="faq">FAQ</a></li>
-          <li><a href="ressources">Ressources</a></li>
-          <li><a href="connaissance">Connaissance</a></li>             
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <title>Pou Rouge</title>
+  <!-- <base href="https://adrientaudiere.github.io/dgpoule/" /> --> <!-- À décommenter pour github page -->
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="adrien.css" />
+  <link rel="stylesheet" href="media.css" />
+</head>
+
+<body>
+  <header>
+    <a href="/"><img id= "logo" src="img/logo_PP.png" alt="logo" /></a>
+    <h1><a href="/">DG-POULE</a></h1><!-- À commenter pour github page -->
+    <!-- <h1><a href="">DG-POULE</a></h1> --><!-- À décommenter pour github page -->
+    <nav>
+      <ul>
+        <li><a href="/#a-propos">À propos</a></li>
+        <li><a href="faq">FAQ</a></li>
+        <li><a href="ressources">Ressources</a></li>
+        <li><a href="connaissance">Connaissance</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="acceuil">
+    <img src="img/img_acceuil.png" alt="image acceuil" />
+
+    <div class="button-container">
+      <button class="button"><a href="connaissance">CONNAISSANCE </a></button>
+      <button class="button"><a href="ressources">RESSOURCES</a></button>
+      <button class="button"><a href="faq">FAQ</a></button>
+    </div>
+
     <section class="section">
-      <div class="acceuil">
-        <img src="img/img_acceuil.png" alt="image acceuil" />
-
-        <div class="button-container">
-          <button class="button"><a href="connaissance">CONNAISSANCE </a></button>
-          <button class="button"><a href="ressources">RESSOURCES</a></button>
-          <button class="button"><a href="faq">FAQ</a></button>
-        </div>
+      <div class="container apropos">
+        {% block content %}
+        {{ section.content | safe }}
+        {% endblock %}
       </div>
     </section>
-  </body>
+</body>
+
 </html>

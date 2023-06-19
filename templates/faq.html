@@ -13,9 +13,10 @@
   <details>
     <summary>{{ page.title }}</summary>
     {{ page.content | safe }}
+    <p>
     <a class="small_link" href="{{ page.permalink | safe }}">
-      (Lien vers la page spécifique de la question)</a
-    >
+      (Lien vers la page spécifique de la question)</a>
+    </p>
   </details>
 
   {% endfor %}

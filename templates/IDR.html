@@ -10,19 +10,22 @@
 
 <h1 class="title">{{ section.title }}</h1>
 
+<hr/>
+
 <ul>
   <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
 
   {% for page in section.pages %}
-  <details>
-    <summary>{{ page.title }}</summary>
-    {{ page.content | safe }}
-    <a class="small_link" href="{{ page.permalink | safe }}">
-      (Lien vers la page spécifique de la question)</a
-    >
-  </details>
+  
+    <details>
+      <summary>{{ page.title }}</summary>
+      {{ page.content | safe }}
+      <p>
+      <a class="small_link" href="{{ page.permalink | safe }}">
+        (Lien vers la page spécifique de la question)</a>
+      </p>
+    </details>
 
   {% endfor %}
 </ul>
-
 {% endblock content %}

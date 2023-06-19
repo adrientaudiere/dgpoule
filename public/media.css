@@ -1,1 +1,1 @@
-@media only screen and (max-width: 900px){header h1{display:none}.container{width:95%}.container img{max-width:400px}.button-container{display:none}}
+@media (max-width: 900px){header h1{display:none}.container{width:95%}.container img{max-width:400px}.button-container{display:none}header nav{width:80%;padding-right:0;font-size:smaller}header #logo{width:30%;display:inline}hr{left:6.5%}summary{background-color:rgba(255,255,255,.5647058824)}.acceuil{max-width:100%}.acceuil img{padding-top:20px;margin:auto;float:none}.apropos{margin:8px;border:none}}
