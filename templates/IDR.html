@@ -10,14 +10,22 @@
   <button class="button"><a href="faq">FAQ</a></button>
 </div>
 
-<h1 class="title">{{ section.title }}</h1>
+
+<section class="section">
+  
+  <div class="idr">
+    <h1 class="title">{{ section.title }}</h1>
+    {{ section.content | safe }}
+  </div>
+
 
 <div id="carousel__counter">
  {% for page in section.pages %}
-
+  
 <a href="#slide-{{ loop.index }}"><img src=" {{ loop.index }}" alt="{{ loop.index }}"></a>
 
-{% endfor %} 
+ {% endfor %}
+
 </div>
 
 <div class="slider">
@@ -26,7 +34,7 @@
     {% for page in section.pages %}
 
     <div class="slide" id="slide-{{ loop.index }}">
-      <h3>{{ page.title }}</h3>
+      <h1>{{ page.title }}</h1>
       {{ page.content | safe }}
       
     </div>
@@ -36,6 +44,7 @@
 
 
 </div>
+</section>
   <!--     {% for page in section.pages %} -->
   <!--  <details>
       <summary>{{ page.title }}</summary>

@@ -11,21 +11,27 @@
   .button-container {
     display: none;
   }
+  .section {
+    width: 100%;
+  }
 
   header {
     nav {
       width: 80%;
       padding-right: 0;
       font-size: smaller;
+      img{
+        width: 60%;
+      }
     }
     #logo{
-      width: 30%;
+      width: 60%;
       display: inline;
     }
   }
 
   hr {
-    left: 6.5%;
+    display: none;
   }
 
   summary {
