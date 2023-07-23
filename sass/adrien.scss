@@ -13,8 +13,8 @@ details {
   margin-bottom: 0.5rem;
   overflow: hidden;
   /* background-color: #0c4da230; */
-  p {
-    margin: 22px;
+  h1, h2, h3, p {
+    margin: 25px;
   }
 }
 
@@ -61,9 +61,8 @@ summary::before {
 }
 
 hr {
-
   position:absolute;
-  left: 18.4vw;
+  margin-left: 16px;
   min-height: 120vh;
   width: 2px;
   background-color: black;

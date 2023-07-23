@@ -254,6 +254,14 @@ nav ul li a:hover {
   scroll-snap-type: mandatory;
   margin: auto;
 }
+
+.slides::before{ 
+  padding-top: 50px;
+  margin-top: -50px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+
 .slides::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -319,6 +327,7 @@ nav ul li a:hover {
 
 #carousel__counter {
   text-align: center;
+  position: absolute ;
   a {
     color: #02004b;
     padding: 8px;
@@ -326,6 +335,7 @@ nav ul li a:hover {
     width: 25px;
     background-color: #02004b1e;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
+    margin: 25px;
   }
 }

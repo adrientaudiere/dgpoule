@@ -22,7 +22,7 @@
 <div id="carousel__counter">
  {% for page in section.pages %}
   
-<a href="#slide-{{ loop.index }}"><img src=" {{ loop.index }}" alt="{{ loop.index }}"></a>
+<a href="#slide_idr-{{ loop.index }}"><img src=" {{ loop.index }}" alt="{{ loop.index }}"></a>
 
  {% endfor %}
 
@@ -33,7 +33,7 @@
   <div class="slides">
     {% for page in section.pages %}
 
-    <div class="slide" id="slide-{{ loop.index }}">
+    <div class="slide" id="slide_idr-{{ loop.index }}">
       <h1>{{ page.title }}</h1>
       {{ page.content | safe }}
       
