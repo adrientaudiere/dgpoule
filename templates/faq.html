@@ -11,16 +11,16 @@
 
     <hr />
 
-    <ul>
+ 
       {% for page in section.pages %}
       <details>
         <summary>{{ page.title }}</summary>
         {{ page.content | safe }}
-        <p>
+           <!-- <ul><p>
           <a class="small_link" href="{{ page.permalink | safe }}">
             (Lien vers la page spécifique de la question)</a
           >
-        </p>
+        </p> -->
       </details>
 
       {% endfor %}

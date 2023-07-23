@@ -98,8 +98,6 @@ a.small_link {
 }
 
 details ul {
-    background-color: #FBC90F60;
-    padding: 4%;
     list-style-position: inside;
     list-style-image: url('/img/mini_dg.svg');
 
@@ -110,6 +108,11 @@ details ul {
     li {
         padding: 7px 0 7px 0 ;
     }
+}
+
+details.ressources ul{
+  background-color: #FBC90F60;
+  padding: 4%;
 }
 
 header nav {

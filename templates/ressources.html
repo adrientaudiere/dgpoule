@@ -15,7 +15,7 @@
       <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
 
       {% for page in section.pages %}
-      <details open="">
+      <details class="ressources" open="">
         <summary>{{ page.title }}</summary>
         {{ page.content | safe }}
       </details>

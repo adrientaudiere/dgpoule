@@ -29,9 +29,10 @@ Remarque : même si le pou rouge des poules vit à distance de l'hôte, il reste
     <summary>En savoir plus</summary>
 
 ### Sources Scientifiques
-Kuris & Kuris (2002)
-[lien Lafferty & Kuris 2002]
-Wood 1917
+
+- Kuris & Kuris (2002)
+- [lien Lafferty & Kuris 2002]
+- Wood 1917
 
 
 </details>
