@@ -8,6 +8,14 @@ assets = "img/img_IDR.png"
 
 Le pou rouge est transporté entre élevages par les camions soit au début soit à la fin de la bande, pas en cours de bande. **Au début d'une bande de pondeuses**, les acariens peuvent arriver avec les caisses de transport en provenance de l'élevage de poulettes s'il est infesté ; **à la fin d'une bande**, les acariens peuvent arriver avec les caisses de transport fournies par les abattoirs. Elles sont introduites dans l'exploitation après avoir transité dans d'autres élevages et jouent le rôle de vecteurs même lorsqu'elles ne contiennent pas de poule.
 
+<div class="img_largeur_max">
+
+![Schéma de transport involontaire des acariens](/img/transport_camion.png)
+
+Transport de pou rouge entre abattoir, élevage de poulettes et élevage de poules.
+
+</div>
+
 ## Existe-t-il un lien entre oiseau sauvage et infestation des fermes ? 
 
 Les oiseaux sauvages sont innocents : leurs nids hébergent des populations de pou rouge génétiquement différentes et il n'y a pas d'échanges de poux rouges entre oiseaux sauvages et domestiques, même si des oiseaux infestés nichent très près du poulailler.  

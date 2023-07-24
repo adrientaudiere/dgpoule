@@ -222,6 +222,22 @@ nav ul li a:hover {
 }
 }
 
+.img_largeur_max {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+  img {
+    width: 100%;
+  }
+  p {
+    margin: auto;
+    font-size: 0.9em;
+    font-style:italic;
+  }
+}
+
+
+
 .idr{
   text-align: center;
   margin: auto;
