@@ -209,9 +209,15 @@ nav ul li a:hover {
   margin-bottom: 22px;
 }
 
-#logo_partenaires {
+#logo_partenaires p{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   img {
-    width: 30%;
+    height: 90px;
+    width:auto;
+    float:none;
+    margin: 12px;
   }
 }
 }
@@ -232,7 +238,7 @@ nav ul li a:hover {
 
 
 .footnote-definition-label{
-  position: absolute;
+  position: absoluteF§;
 }
 
 /* carrousel */

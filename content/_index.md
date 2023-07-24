@@ -16,12 +16,14 @@ durable du pou rouge : (XXXXXXXXXXXXXXXXX lien à insérer)
 
 <div id = "logo_partenaires">
 
-![intereg](/img/img_pou.png)
-![itavi](/img/img_pou.png)
-![Antwerp](/img/img_pou.png)
-![Belgabroaed](/img/img_pou.png)
-![ku-leven](/img/img_pou.png)
-![koppert](/img/img_pou.png)
+![interreg](/img/interreg.png)
+![itavi](/img/itavi.png)
+![Antwerp](/img/antwerp.png)
+![Belgabroed](/img/belgabroed.png)
+![ku-leuven](/img/leuven.png)
+![koppert](/img/koppert.png)
+![UPVM](/img/UPVM.png)
+![adas](/img/adas.png)
 
 </div>
 
