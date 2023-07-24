@@ -1,7 +1,8 @@
 +++
 title = "IDÉE REÇUE 5 : Le pou rouge résiste beaucoup mieux au froid qu'au chaud "
 date = 2023-08-08
-assets = "img/img_IDR.png"
+[extra]
+is_idr = true
 +++
 
 ## Le pou rouge résiste au froid

@@ -1,7 +1,8 @@
 +++
 title = "IDÉE REÇUE 4 : Le pou rouge trouve la poule presque par hasard "
 date = 2023-08-08
-assets = "img/img_IDR.png"
+[extra]
+is_idr = true
 +++
 
 

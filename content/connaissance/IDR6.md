@@ -1,7 +1,8 @@
 +++
 title = "IDÉE REÇUE 6 : Le pou rouge ne se noie pas "
 date = 2023-08-08
-assets = "img/img_IDR.png"
+[extra]
+is_idr = true
 +++
 
 ## Le pou rouge survit à des immersions de plusieurs heures dans l'eau.

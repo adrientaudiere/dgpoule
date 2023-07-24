@@ -1,7 +1,8 @@
 +++
 title = "IDÉE REÇUE 3 : Le pou rouge fait peu de petits.   "
 date = 2023-08-08
-assets = "img/img_IDR.png"
+[extra]
+is_idr = true
 +++
 
 Chaque femelle pou rouge ne pond qu'une vingtaine d'œufs durant sa vie. À titre de comparaison, une femelle de moustique tigre pond des centaines d'œufs et une femelle de tique en pond des milliers.

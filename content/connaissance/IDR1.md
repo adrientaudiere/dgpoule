@@ -1,6 +1,8 @@
 +++
 title = "IDÉE REÇUE 1 : Le pou rouge des poules n'est pas un vrai parasite !"
 date = 2023-08-08
+[extra]
+is_idr = true
 +++
 
 

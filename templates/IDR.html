@@ -10,52 +10,58 @@
   <button class="button"><a href="faq">FAQ</a></button>
 </div>
 
-
 <section class="section">
-  
   <div class="idr">
     <h1 class="title">{{ section.title }}</h1>
     {{ section.content | safe }}
   </div>
 
-
-<div id="carousel__counter">
- {% for page in section.pages %}
-  
-<a href="#slide_idr-{{ loop.index }}"><img src=" {{ loop.index }}" alt="{{ loop.index }}"></a>
-
- {% endfor %}
-
-</div>
-
-<div class="slider">
-
-  <div class="slides">
-    {% for page in section.pages %}
-
-    <div class="slide" id="slide_idr-{{ loop.index }}">
-      <h1>{{ page.title }}</h1>
-      {{ page.content | safe }}
-      
+  <h2 class = "slider_title">IDÉES REÇUES</h2>
+  <div class="idr_slider">
+    
+    <div id="carousel__counter">
+      {% for page in section.pages %} {% if page.extra.is_idr %}
+      <a href="#slide_idr-{{ loop.index }}"
+        ><img src=" {{ loop.index }}" alt="{{ loop.index }}"
+      /></a>
+      {% endif %} {% endfor %}
     </div>
-    {% endfor %}
+
+    <div class="slider">
+      <div class="slides">
+        {% for page in section.pages %} {% if page.extra.is_idr %}
+        <div class="slide" id="slide_idr-{{ loop.index }}">
+          <h1>{{ page.title }}</h1>
+          {{ page.content | safe }}
+        </div>
+        {% endif %} {% endfor %}
+      </div>
+    </div>
+  </div>
+  
+  <h2 class = "slider_title">CE QUI A ÉTÉ TESTÉ</h2>
+
+  <div class="tester_slider">
+    <div id="carousel__counter">
+      {% for page in section.pages %} {% if not page.extra.is_idr %}
+      <a href="#slide_tester-{{ loop.index }}"
+        ><img src=" {{ loop.index }}" alt="{{ loop.index }}"
+      /></a>
+      {% endif %} {% endfor %}
+    </div>
+
+    <div class="slider">
+      <div class="slides">
+        {% for page in section.pages %} {% if not page.extra.is_idr %}
+        <div class="slide" id="slide_tester-{{ loop.index }}">
+          <h1>{{ page.title }}</h1>
+          {{ page.content | safe }}
+        </div>
+        {% endif %} {% endfor %}
+      </div>
+    </div>
   </div>
 
-
-
-</div>
 </section>
-  <!--     {% for page in section.pages %} -->
-  <!--  <details>
-      <summary>{{ page.title }}</summary>
-      {{ page.content | safe }}
-      <p>
-      <a class="small_link" href="{{ page.permalink | safe }}">
-        (Lien vers la page spécifique de la question)</a>
-      </p>
-    </details> -->
-  <!-- 
-  {% endfor %} -->
-  <!-- </ul> -->
 
-  {% endblock content %}
+{% endblock content %}

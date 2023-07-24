@@ -1,7 +1,8 @@
 +++
 title = "IDÉE REÇUE 2 : Le pou rouge n'est pas introduit dans les élevages par les oiseaux sauvage "
 date = 2023-08-08
-assets = "img/img_IDR.png"
+[extra]
+is_idr = true
 +++
 
 ## D'où viennent les poux de vos élevages ?
