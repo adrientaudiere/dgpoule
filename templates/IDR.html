@@ -14,54 +14,66 @@
   <div class="idr">
     <h1 class="title">{{ section.title }}</h1>
     {{ section.content | safe }}
+
+    Les connaissances sont réparties en deux catégories : <a href="#h2_idr"> les idées reçues</a> et <a href="#h2_tester">ce qui a été testé</a>. 
   </div>
 
-  <h2 class = "slider_title">IDÉES REÇUES</h2>
+  <h2 id="h2_idr" class="slider_title">IDÉES REÇUES</h2>
   <div class="idr_slider">
-    
     <div id="carousel__counter">
-      {% for page in section.pages %} {% if page.extra.is_idr %}
-      <a href="#slide_idr-{{ loop.index }}"
-        ><img src=" {{ loop.index }}" alt="{{ loop.index }}"
-      /></a>
-      {% endif %} {% endfor %}
+      {% set_global count = 1 %}
+      {% for page in section.pages %} 
+        {% if page.extra.is_idr %}
+          <a href="#slide_idr-{{ count }}"><img src=" {{ count }}" alt="{{ count }}" /></a>
+          {% set_global count = count + 1 %} 
+        {% endif %}
+      {% endfor %}
     </div>
 
     <div class="slider">
       <div class="slides">
-        {% for page in section.pages %} {% if page.extra.is_idr %}
-        <div class="slide" id="slide_idr-{{ loop.index }}">
-          <h1>{{ page.title }}</h1>
-          {{ page.content | safe }}
-        </div>
-        {% endif %} {% endfor %}
+        {% set_global count = 1 %}
+        {% for page in section.pages %} 
+          {% if page.extra.is_idr %}
+            <div class="slide" id="slide_idr-{{ count }}">
+              <h1>{{ page.title }}</h1>
+              {{ page.content | safe }}
+            </div>
+            {% set_global count = count + 1 %} 
+          {% endif %} 
+        {% endfor %}
       </div>
     </div>
   </div>
-  
-  <h2 class = "slider_title">CE QUI A ÉTÉ TESTÉ</h2>
+
+  <h2 id = "h2_tester" class="slider_title">CE QUI A ÉTÉ TESTÉ</h2>
 
   <div class="tester_slider">
     <div id="carousel__counter">
-      {% for page in section.pages %} {% if not page.extra.is_idr %}
-      <a href="#slide_tester-{{ loop.index }}"
-        ><img src=" {{ loop.index }}" alt="{{ loop.index }}"
-      /></a>
-      {% endif %} {% endfor %}
+      {% set_global count = 1 %}
+      {% for page in section.pages %} 
+        {% if not page.extra.is_idr %}
+          <a href="#slide_tester-{{ count }}"><img src=" {{ count }}" alt="{{ count }}" /></a>
+          {% set_global count = count + 1 %} 
+        {% endif %} 
+      {% endfor %}
     </div>
 
     <div class="slider">
       <div class="slides">
-        {% for page in section.pages %} {% if not page.extra.is_idr %}
-        <div class="slide" id="slide_tester-{{ loop.index }}">
-          <h1>{{ page.title }}</h1>
-          {{ page.content | safe }}
-        </div>
-        {% endif %} {% endfor %}
+        {% set_global count = 1 %}
+        {% for page in section.pages %} 
+          {% if not page.extra.is_idr %}
+            <div class="slide" id="slide_tester-{{ loop.index }}">
+              <h1>{{ page.title }}</h1>
+              {{ page.content | safe }}
+            </div>
+            {% set_global count = count + 1 %}
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
   </div>
-
 </section>
 
 {% endblock content %}

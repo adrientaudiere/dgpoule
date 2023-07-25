@@ -9,8 +9,7 @@ template = "index.html"
 Ce site est le produit d'un travail collaboratif impliquant des universitaires,
 vétérinaires et ingénieurs européen. Il a été encadré, relu et approuvé par des
 personnes qualifiées dans les domaines de la biologie et de la gestion du pou
-rouge. Il a été créé dans le cadre du projet européen « Mitecontrol » sur la gestion
-durable du pou rouge : (XXXXXXXXXXXXXXXXX lien à insérer)
+rouge. Il a été créé dans le cadre du projet européen [**Mitecontrol**](https://vb.nweurope.eu/projects/project-search/mitecontrol-ensuring-food-safety-animal-health-and-welfare-standards/) sur la gestion intégrée du pou rouge des poules.
 
 ### Partenaires :
 
@@ -29,10 +28,7 @@ durable du pou rouge : (XXXXXXXXXXXXXXXXX lien à insérer)
 
 ### Politique du site
 
-Ce site propose un état de la connaissance sur la biologie du pou rouge et les
-grands types d'outils pour sa gestion, ainsi que des liens vers des documents
-scientifiques au moment de sa mise à en ligne. La mise à jour du contenu ne
-pourra être réalisée que **ponctuellement**.
+Ce site propose un état de la connaissance sur la biologie du pou rouge en relation avec les difficultés de gestion, afin d'aider à la compréhension du problème. Des liens vers des sources scientifiques sont aussi fournis dans des sections "En savoir plus" pour ceux qui souhaitent aller plus loin. Concernant les moyens de gestion, le site n'est pas dédié à fournir des solutions ni des prescriptions de traitement : nous présentons simplement les grands types d'outils potentiels pour la gestion intégrée des bioagresseurs dans l'agriculture en général, en pointant les moyens existants pour gérer le pou rouge des poules.
 
 <div id ="maj_texte">DERNIÈRE MISE À JOUR DU SITE:</div>
 <div id ="maj_date">18 AOÛT 2023</div>
