@@ -13,7 +13,7 @@ Le parasite et le prédateur ont un point commun : ils se nourrissent tous les d
 
 <div class="img_largeur_max">
 
-![Description de la définition d'un parasite, un microparasite et un prédateur](/img/parasite_predateur.png)
+![Description de la définition d'un parasite, un microparasite et un prédateur](/img/parasite_predateur.webp)
 
 Comparaison des concepts de parasite, microparasite et prédateur.
 

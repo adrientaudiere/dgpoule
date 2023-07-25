@@ -11,7 +11,7 @@ Le pou rouge est transporté entre élevages par les camions soit au début soit
 
 <div class="img_largeur_max">
 
-![Schéma de transport involontaire des acariens](/img/transport_camion.png)
+![Schéma de transport involontaire des acariens](/img/transport_camion.webp)
 
 Transport de pou rouge entre abattoir, élevage de poulettes et élevage de poules.
 
