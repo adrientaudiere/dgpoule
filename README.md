@@ -1,5 +1,5 @@
 
-Ce site web est construit avec le logiciel libre (Zola)[https://www.getzola.org]. 
+Ce site web est construit avec le logiciel libre [Zola](https://www.getzola.org). 
 Ce logiciel utilise le principe de contenu séparé du style. Pour écrire du contenu, il faut aller dans le dossier `content` et écrire en format markdown. 
 La mise en page et le style sont définis par les fichiers html du dossier `templates` ainsi que par les feuilles de styles. 
 
