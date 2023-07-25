@@ -27,7 +27,13 @@ Pour maturer ses œufs, une femelle adulte de pou rouge des poules ne consomme q
 
 À la différence du parasite, qui vit généralement sur ou dans l'hôte (le corps de l'hôte est aussi le milieu de vie du parasite), le microprédateur vit typiquement à distance de la proie. Quand ils ne se nourrissent pas, les poux rouges des poules se réunissent sous forme d'agrégats dans les interstices du poulailler. C'est une des causes de la difficulté à traiter les infestations à pou rouge : les poux rouges situés à découvert à un instant t dans le poulailler constituent la partie émergée de l'iceberg de la population. Cela limite généralement l'efficacité des traitements pulvérisés à faible rémanence. Cela vaut aussi bien pour les pulvérisations d'acaricide de synthèse que de substances d'origine naturelle.
 
-![XXXX](/img/iceberg_pop.png)
+<div class="img_largeur_max">
+
+![Illustration de l'effet faible des traitements à faible rémanence sur la population de pou rouge](/img/iceberg_dg.png)
+
+Illustration de l'effet faible des traitements à faible rémanence sur la population de pou rouge.
+
+</div>
 
 
 Remarque : même si le pou rouge des poules vit à distance de l'hôte, il reste toujours dans la zone hors sol (partie abritée, contenant les perchoirs, nids, sources d'aliment et d'eau). On le trouve surtout au niveau des aires de perchage ou de ponte, jamais sur les parcours ni les autres zones extérieures, même si le bâtiment est très infesté. Cela est vrai quel que soit le type d'élevage (élevage commercial au sol, en volière, en cage, poulailler familial).
