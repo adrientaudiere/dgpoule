@@ -1,5 +1,5 @@
 +++
-title = "IDÉE REÇUE 2 : Le pou rouge n'est pas introduit dans les élevages par les oiseaux sauvage "
+title = "Le pou rouge n'est pas introduit dans les élevages par les oiseaux sauvage "
 date = 2023-08-08
 [extra]
 is_idr = true

@@ -1,5 +1,5 @@
 +++
-title = "IDÉE REÇUE 3 : Le pou rouge fait peu de petits.   "
+title = "Le pou rouge fait peu de petits.   "
 date = 2023-08-08
 [extra]
 is_idr = true
@@ -14,7 +14,7 @@ Il faut moins de 7 jours pour un pou pour passer de l'œuf à la femelle adulte.
 
 
 
-<div class="img_largeur_max">
+<div class="img_largeur_max" style="width:60%">
 
 ![Photo avec zoom sur les stades du pou rouge](/img/fienteDG.webp)
 
@@ -29,12 +29,20 @@ Différents stades du pou rouge. Les fientes du pou rouge sont également un ind
 La dynamique démographique des populations de pou rouge présente une période de latence assez longue (plusieurs semaines / mois après le vide sanitaire) avec très peu ou pas d'acariens visibles hors des interstices (très difficiles à détecter). Cette période de latence est suivie d'un accroissement brutal, avec passage d'une infestation faible à une pullulation intense (nombreux agrégats visibles) en 15 jours. Cela donne souvent l'impression (trompeuse) qu'une contamination a eu lieu en cours de bande.
 
 
+<div class="img_largeur_max"  style="width:60%">
+
+![Dessin du cycle de vie du pou rouge](/img/cdv_pouR.webp)
+
+Cycle de vie du pou rouge.
+
+</div>
+
 
 
 <details>
     <summary>En savoir plus</summary>
 
-### Sources Scientifiques
+### Sources scientifiques
 
 - lien vers fiche technique biologique MiteControl 
 - Dupray et al. 2021 

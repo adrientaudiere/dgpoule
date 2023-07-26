@@ -4,7 +4,7 @@ template = "index.html"
 
 ## À Propos
 
-### Qui sommes nous ?
+### Qui sommes-nous ?
 
 Ce site est le produit d'un travail collaboratif impliquant des universitaires,
 vétérinaires et ingénieurs européen. Il a été encadré, relu et approuvé par des
@@ -28,7 +28,7 @@ rouge. Il a été créé dans le cadre du projet européen [**Mitecontrol**](htt
 
 ### Politique du site
 
-Ce site propose un état de la connaissance sur la biologie du pou rouge en relation avec les difficultés de gestion, afin d'aider à la compréhension du problème. Des liens vers des sources scientifiques sont aussi fournis dans des sections "En savoir plus" pour ceux qui souhaitent aller plus loin. Concernant les moyens de gestion, le site n'est pas dédié à fournir des solutions ni des prescriptions de traitement : nous présentons simplement les grands types d'outils potentiels pour la gestion intégrée des bioagresseurs dans l'agriculture en général, en pointant les moyens existants pour gérer le pou rouge des poules.
+Ce site propose de rassembler la connaissance sur la biologie du pou rouge des poules (*Dermanyssus gallinae*) en relation avec les difficultés de gestion de ce parasite en élevage de pondeuses et de la rendre accessible, afin d'aider à la compréhension du problème. Des liens vers des sources scientifiques sont aussi fournis dans des sections "En savoir plus" pour ceux qui souhaitent aller plus loin. Concernant les moyens de gestion, le site n'est pas dédié à fournir des solutions ni des prescriptions de traitement : nous présentons simplement les grands types d'outils potentiels pour la gestion intégrée des bioagresseurs dans l'agriculture en général, en pointant les moyens existants pour gérer le pou rouge des poules.
 
 <div id ="maj_texte">DERNIÈRE MISE À JOUR DU SITE:</div>
 <div id ="maj_date">18 AOÛT 2023</div>
@@ -37,4 +37,4 @@ __Les ressources proposées ici visent à informer les personnes concernées
 par les infestations de poux rouges des poules, mais ne remplacent pas
 l'avis des experts de terrain. Nous conseillons vivement aux personnes
 confrontées au problème de solliciter l'avis de personnels expérimentées
-et qualifiées du domaine (voir Contact).__
+et qualifiées du domaine (voir [Conseil](/)).__

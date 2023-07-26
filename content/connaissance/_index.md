@@ -1,5 +1,5 @@
 +++
-title = "LE SAVIEZ VOUS ?"
+title = "État de la connaissance"
 sort_by = "date"
 template = "IDR.html"
 page_template = "IDR-page.html"

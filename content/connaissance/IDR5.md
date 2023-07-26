@@ -1,5 +1,5 @@
 +++
-title = "IDÉE REÇUE 5 : Le pou rouge résiste beaucoup mieux au froid qu'au chaud "
+title = "Le pou rouge résiste beaucoup mieux au froid qu'au chaud "
 date = 2023-08-08
 [extra]
 is_idr = true
@@ -18,7 +18,7 @@ Les poux rouges peuvent passer 80 jours à 5°C sans que cela n'impacte leur cap
 <details>
     <summary>En savoir plus</summary>
 
-### Sources Scientifiques
+### Sources scientifiques
 
 - Nordenfors et. al. (1999).... https://academic.oup.com/jme/article-abstract/36/1/68/876355 
 - Maurer & Baumgärtner (1992) ...  https://link.springer.com/article/10.1007/BF01193965

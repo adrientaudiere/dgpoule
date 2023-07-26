@@ -227,6 +227,7 @@ nav ul li a:hover {
   display: flex;
   overflow: hidden;
   flex-wrap: wrap;
+  margin: 0 auto 0 auto;
   img {
     width: 100%;
   }
@@ -246,6 +247,7 @@ nav ul li a:hover {
   border-right: 0;
   border-left: 0;
   border-bottom: 0;
+  padding-top: 12px;
 }
 
 h2.slider_title {
@@ -264,6 +266,32 @@ h2.slider_title {
     margin: auto;
     color: #cea512;
     font-size: 2.8em;
+  }
+}
+
+.previous-slide-arrow {
+  position: absolute; 
+  left: 10px;
+  text-decoration: none;
+  border-radius: 9px;
+  color: #02004B;
+  background-color: #cea512;
+  padding: 8px;
+  &:hover{
+    color: #ffffff;
+  }
+}
+
+.next-slide-arrow {
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+  border-radius: 9px;
+  color: #02004B;
+  background-color: #cea512;
+  padding: 8px;
+  &:hover{
+    color: #ffffff;
   }
 }
 
@@ -293,6 +321,13 @@ h2.slider_title {
   scroll-snap-points-x: repeat(500px);
   scroll-snap-type: mandatory;
   margin: auto;
+  h1 {
+    margin-top: 1.2em;
+    margin-bottom: 15px;
+  }
+  p {
+    margin: 0.5em;
+  }
 }
 
 .slides::before {

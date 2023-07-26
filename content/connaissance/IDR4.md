@@ -1,5 +1,5 @@
 +++
-title = "IDÉE REÇUE 4 : Le pou rouge trouve la poule presque par hasard "
+title = "Le pou rouge trouve la poule presque par hasard "
 date = 2023-08-08
 [extra]
 is_idr = true
@@ -26,7 +26,7 @@ Une odeur est un ensemble de molécules volatiles perçue par un système chimio
 Des tests de comportement à différentes échelles spatio-temporelles ont été réalisés en laboratoire : tests de choix sur flux d'air ou analyse du trajet parcouru in vitro (quelques cm2 durant 10 minutes par acarien), tests avec des pièges électriques appâtés ou non par une odeur de poule sur une surface d'un m2 et dans des bâtiments de pondeuses et relevé après une heure à une nuit. Dans les tests de choix, on évalue l'attractivité à courte distance en comparant le choix immédiat de centaines d'acariens entre deux odeurs (odeur de poule et air pur par exemple). Dans les analyses de trajet, on enregistre au moyen d'une caméra pilotée par un nanoordinateur le trajet individuel en 2D de centaines d'acariens confrontés ou non à une odeur dans une arène de 4 cm de diamètre. Dans les expérimentations avec pièges électriques, des tubes verticaux miment les pattes de poule et sont coiffés d'un système électrifié relarguant l'odeur testée. Le système électrifié projette tout acarien cherchant à atteindre l'odeur sur une plaque engluée standard, sur laquelle sont comptés les acariens piégés dans l'intervalle de l'expérimentation (1h ou 1 nuit).
 C'est en confrontant les pourcentages de choix in vitro entre différentes odeurs et de l'air pur, les caractéristiques des trajets parcourus, les quantités de poux rouges piégés en présence ou en absence d'odeur de poule et/ou d'ammoniac et les distances entre points de lâcher et pièges, que nous avons pu améliorer notre compréhensions du comportement de recherche de nourriture chez le pou rouge.
 
-### Sources Scientifiques
+### Sources scientifiques
 
 - Roy et al. 2018
 - Auffray et al. 2022

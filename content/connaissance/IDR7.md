@@ -1,5 +1,5 @@
 +++
-title = "IDÉE REÇUE 7 : Un pou rouge ne tue pas de poule, une population de poux rouges peut tuer des poules "
+title = "Un pou rouge ne tue pas de poule, une population de poux rouges peut tuer des poules "
 date = 2023-08-08
 [extra]
 is_idr = true
@@ -10,7 +10,7 @@ is_idr = true
 <details>
     <summary>En savoir plus</summary>
 
-### Sources Scientifiques
+### Sources scientifiques
 
 L'accroissement de la mortalité des poules en présence d'une infestation élevée de pou rouge est connue depuis longtemps dans le monde vétérinaire. La relation entre taille de la population de poux rouges et mortalité de jeunes poules a pu être objectivée dans le cadre d'une série d'expérimentations en mésocosmes : Zriki et al. (2021; JEZ-A) 
 
