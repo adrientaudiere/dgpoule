@@ -3,9 +3,11 @@ Ce site web est construit avec le logiciel libre (Zola)[https://www.getzola.org]
 Ce logiciel utilise le principe de contenu séparé du style. Pour écrire du contenu, il faut aller dans le dossier `content` et écrire en format markdown. 
 La mise en page et le style sont définis par les fichiers html du dossier `templates` ainsi que par les feuilles de styles. 
 
-Ce site web utilise une action github pour reconstruire le site à chaque fois qu'un nouveau contenu est ajouté ou un style est modifié (en réalité à chaque commit).
+Ce site web utilise une action github pour reconstruire le site à chaque fois qu'un nouveau contenu est ajouté ou un style est modifié (en réalité à chaque action `push`).
 
-Les nouvelles images doivent être chargées dans le dossier `/static/img/`.
+## Gestion des images
+
+Les nouvelles images doivent être chargées dans le dossier `/static/img/`. Pour limiter la taille des images, il est conseillé de convertir les images en format *webp* à l'aide de l'éditeur en ligne [squoosh](https://squoosh.app/editor).
 
 
 ## Format d'un fichier contenu
@@ -33,7 +35,7 @@ Toute la syntaxe de base peut être trouvée sur le site [original](https://dari
 | Gras                   | \*\*Texte\*\*                              | **Texte en gras**                                                                                                         |
 | Gras italique          | \*\*\*Texte\*\*\*                          | ***Texte en gras et italique***                                                                                           |
 | Lien absolu            | \[texte\](url)                             | [Je suis un lien absolu](https://adrientaudiere.github.io/dgpoule)                                                        |
-| Lien relatif           | \[texte\](chemin)                          | [Je suis un lien relatif](XXXXXXXXXXXXXX)                                                                                 |
+| Lien relatif           | \[texte\](chemin)                          | [Je suis un lien relatif](/connaissance)                                                                                 |
 | Image (chemin absolu)  | \!\[texte alternatif\](url vers l'image)   | ![Un texte alternatif pour décrire l'image avec un lien absolu](https://adrientaudiere.github.io/dgpoule/img/logo_PP.png) |
 | Image (chemin relatif) | \!\[texte alternatif\](chemin vers l'image)| ![Un texte alternatif pour décrire l'image avec un lien relatif](/img/nom_image.png)                                          |
 | Citations              | \> Texte cité                              | <blockquote>Stay Hungry Stay Foolish</blockquote>                                                                         |
@@ -83,3 +85,35 @@ Toute la syntaxe de base peut être trouvée sur le site [original](https://dari
 | ------------- |:-------------:| -----:|
 | la colonne 3 est      | aligné à droite | 150 |
 | la colonne 2 est      | centré     |   2 |
+
+
+### Contenu au format html
+
+Quelques rares cas nécessitent un peu de language HTML dans le contenu.
+Attention les lignes vides sont importantes.
+
+#### Image qui prend toute la largeur avec une légende. 
+
+```md
+<div class="img_largeur_max">
+
+![Description de l'image](/img/nom_de_l'image.png)
+
+Légende
+
+</div>
+```
+
+#### En savoir plus des connaissances
+
+<details>
+    <summary>En savoir plus</summary>
+
+Du texte d'explication.
+
+### Sources Scientifiques
+
+- Dupont et Dupond 2022
+-  Roy, L, Taudière, A, Papaïx, J, et al. Evaluating the link between predation and pest control services in the mite world. Ecol Evol. 2020; 10: 9968 - 9980. https://doi.org/10.1002/ece3.6655
+
+</details>
