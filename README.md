@@ -9,6 +9,7 @@ Ce site web utilise une action github pour reconstruire le site à chaque fois q
 
 Les nouvelles images doivent être chargées dans le dossier `/static/img/`. Pour limiter la taille des images, il est conseillé de convertir les images en format *webp* à l'aide de l'éditeur en ligne [squoosh](https://squoosh.app/editor).
 
+Pour les images dans les slides, cf la [section](#img_html) sur les images dans le contenu HTML
 
 ## Format d'un fichier contenu
 
@@ -92,10 +93,22 @@ Toute la syntaxe de base peut être trouvée sur le site [original](https://dari
 Quelques rares cas nécessitent un peu de language HTML dans le contenu.
 Attention les lignes vides sont importantes.
 
-#### Image qui prend toute la largeur avec une légende. 
+#### Image qui prend toute la largeur avec une légende. {#img_html}
 
 ```md
-<div class="img_largeur_max">
+<div class="img_largeur_max"">
+
+![Description de l'image](/img/nom_de_l'image.png)
+
+Légende
+
+</div>
+```
+
+On peux changer la valeur de pourcentage du paramètre `width` du *style* pour avoir une image moins large. Par exemple pour avoir une image à 60% de la largeur on écrit :
+
+```md
+<div class="img_largeur_max" style="width:60%">
 
 ![Description de l'image](/img/nom_de_l'image.png)
 
