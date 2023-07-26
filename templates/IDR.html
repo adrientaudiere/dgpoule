@@ -72,9 +72,9 @@
         page.extra.is_idr %}
         <div class="slide" id="slide_tester-{{ loop.index }}">
           {% set_global count = count - 1 %}
-          <a class="previous-slide-arrow" href="/connaissance#slide_tester-{{ count }}">Précédente</a>
+          <a class="previous-slide-arrow" href="/connaissance#slide_tester-{{ count }}">Précédent</a>
           {% set_global count = count + 2 %}
-          <a class="next-slide-arrow" href="/connaissance#slide_tester-{{ count }}">Suivante</a>
+          <a class="next-slide-arrow" href="/connaissance#slide_tester-{{ count }}">Suivant</a>
           <h1>{{ page.title }}</h1>
           {{ page.content | safe }}
         </div>
