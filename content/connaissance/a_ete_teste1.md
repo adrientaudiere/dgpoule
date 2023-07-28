@@ -1,6 +1,7 @@
 +++
 title = "XXXX"
 date = 2023-08-08
+weight = 1
 [extra]
 is_idr = false
 +++

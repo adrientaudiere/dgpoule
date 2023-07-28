@@ -1,6 +1,6 @@
 {% extends "base.html" %} {% block content %}
 <section class="section">
-  <div class="container">
+  <div class="container" style="width: 75%;">
     <div class="button-container">
       <button class="button"><a href="/connaissance">CONNAISSANCE </a></button>
       <button class="button"><a href="/ressources">RESSOURCES</a></button>
@@ -8,9 +8,9 @@
     </div>
 
     <h1 class="title">{{ section.title }}</h1>
+    {{ section.content | safe }} 
 
     <hr />
-
  
       {% for page in section.pages %}
       <details>

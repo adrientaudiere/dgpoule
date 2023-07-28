@@ -1,6 +1,7 @@
 +++
-title = "Le pou rouge n'est pas introduit dans les élevages par les oiseaux sauvage "
+title = "Le pou rouge n'est pas introduit dans les élevages par les oiseaux sauvages "
 date = 2023-08-08
+weight = 3
 [extra]
 is_idr = true
 +++
@@ -13,7 +14,7 @@ Le pou rouge est transporté entre élevages par les camions soit au début soit
 
 ![Schéma de transport involontaire des acariens](/img/transport_camion.webp)
 
-Transport de pou rouge entre abattoir, élevage de poulettes et élevage de poules.
+Transport involontaire de poux rouges par les caisses de transport et les camions.
 
 </div>
 

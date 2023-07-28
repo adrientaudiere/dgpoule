@@ -12,8 +12,23 @@
     <h1 class="title">{{ section.title }}</h1>
 
     <ul>
-      <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
+      
+      <h2 id="conseil"> Conseil </h2>
 
+      <p>Du fait de ses <a href="https://pourougepoule.fr/connaissance/#h2_idr">particularités biologiques</a>, le pou rouge est délicat à gérer. 
+        Des <a href="https://pourougepoule.fr/connaissance/#h2_tester">solutions</a> existent, mais aucune n'est parfaite et
+        aucune n'est mobilisable efficacement sans expérience. En
+        outre, de nombreuses pistes de solutions sont à l'étude.
+        Ne restez pas seuls face aux problèmes de pou rouge des
+        poules : du personnel qualifié et au fait des dernières
+        innovations peuvent vous accompagner!</p>
+
+        <p>CE RENSEIGNER AUPRÈS :</p>
+        <div class="img_largeur_max" style="width:80%;">
+          <p><img src="/img/img_conseil.webp" alt="Se renseigner auprès des vétérinaires et des techniciens de chambre d'agriculture "></p>
+          </div>
+
+      
       {% for page in section.pages %}
       <details class="ressources" open="">
         <summary>{{ page.title }}</summary>

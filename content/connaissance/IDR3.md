@@ -1,6 +1,7 @@
 +++
 title = "Le pou rouge fait peu de petits.   "
 date = 2023-08-08
+weight = 4
 [extra]
 is_idr = true
 +++
@@ -13,14 +14,14 @@ Chaque femelle pou rouge ne pond qu'une vingtaine d'œufs durant sa vie. À titr
 Il faut moins de 7 jours pour un pou pour passer de l'œuf à la femelle adulte. C'est le renouvellement rapide de la population qui permet en partie aux populations de pou rouge d'augmenter autant. Dans ces 7 jours ils passent par plusieurs stades (œuf, larve, protonymphe, deutonymphe et adulte), seuls les trois derniers stades ont besoin d'un apport de sang. 
 
 
-
+<!-- 
 <div class="img_largeur_max" style="width:60%">
 
 ![Photo avec zoom sur les stades du pou rouge](/img/fienteDG.webp)
 
 Différents stades du pou rouge. Les fientes du pou rouge sont également un indice de leur présence.
 
-</div>
+</div> -->
 
 *NB : L'absence de nourriture rallonge le cycle. Le pou rouge peut survivre durant de longues périodes sans hôte donc sans se nourrir (au moins jusqu'à 9 mois) et il ne peut pas se nourrir d'autre chose que de sang.*
 

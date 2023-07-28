@@ -15,12 +15,18 @@
     <h1 class="title">{{ section.title }}</h1>
     {{ section.content | safe }} 
     <p style="text-align: left;">
-      Les connaissances sont présentées en deux catégories : <a href="/connaissance#h2_idr"> Le saviez-vous ? </a> et <a href="/connaissance#h2_tester">Modes d'action possibles</a>.
+      La catégorie : « <a class="bouton" href="/connaissance#h2_idr">Le saviez-vous ?</a> » présente une série d'informations fondamentales essentielles pour comprendre les difficultés relatives aux infestations à pou rouge. Des liens vers des sources scientifiques (avec quelques explications éventuelles) sont accessibles en cliquant sur « En savoir plus ». 
+
+      La catégorie « <a class="bouton" href="/connaissance#h2_tester">Modes d'action possibles</a> » présente de manière concise les grandes catégories de modes d'action possibles dans le domaine de la gestion intégrée des bioagresseurs acariens EN GENERAL et signale l'existence éventuelle de solutions commercialisées et/ou de travaux en cours, sans les présenter nommément. Nous encourageons les personnes qui souhaitent en savoir plus à se rapprocher de personnes compétentes [lien vers Conseil]. »
+
+
+      
+      Les connaissances sont présentées en deux catégories : <a href="/connaissance#h2_idr"> Le saviez-vous ? </a> et .
     </p>
     
   </div>
 
-  <h2 id="h2_idr" class="slider_title">Le saviez-vous</h2> 
+  <h2 id="h2_idr" class="slider_title">Le saviez-vous ?</h2> 
 
 
 
@@ -40,9 +46,9 @@
         page.extra.is_idr %}
         <div class="slide" id="slide_idr-{{ count }}">
           {% set_global count = count - 1 %}
-          <a class="previous-slide-arrow" href="/connaissance#slide_idr-{{ count }}">Précédente</a>
+          <a class="previous-slide-arrow" href="/connaissance#slide_idr-{{ count }}">Info précédente</a>
           {% set_global count = count + 2 %}
-          <a class="next-slide-arrow" href="/connaissance#slide_idr-{{ count }}">Suivante</a>
+          <a class="next-slide-arrow" href="/connaissance#slide_idr-{{ count }}">Info suivante</a>
           <h1>{{ page.title }}</h1>
           {{ page.content | safe }}
           

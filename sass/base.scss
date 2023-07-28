@@ -269,6 +269,19 @@ h2.slider_title {
   }
 }
 
+a.bouton{
+  font-weight: 900;
+  text-decoration: none;
+  border-radius: 9px;
+  color: #02004B;
+  background-color: #cea512;
+  padding: 2px 5px 2px 8px;
+  &:hover{
+    color: #ffffff;
+    background-color:#02004B;
+  }
+}
+
 .previous-slide-arrow {
   position: absolute; 
   left: 10px;
@@ -429,8 +442,20 @@ details {
   margin-bottom: 0.5rem;
   overflow: hidden;
   /* background-color: #0c4da230; */
-  h1, h2, h3, p {
-    margin: 25px;
+  h1, h2, h3, h4, p {
+    margin: 25px; 
+  }
+  ul {
+    list-style-image: url('/img/mini_dg.svg');
+    
+    a{
+        color: #02004B;
+    }
+
+    li {
+      margin-left: 60px;
+        padding: 0px 0px 7px 0 ;
+    }
   }
 }
 
@@ -479,7 +504,7 @@ summary::before {
 hr {
   position:absolute;
   margin-left: 16px;
-  min-height: 120vh;
+  min-height: 380vh;
   width: 2px;
   background-color: black;
 }
@@ -511,19 +536,6 @@ hr {
 a.small_link {
     color: rgb(169, 169, 10);
     font-size: smaller;
-}
-
-details ul {
-    list-style-position: inside;
-    list-style-image: url('/img/mini_dg.svg');
-
-    a{
-        color: #02004B;
-    }
-
-    li {
-        padding: 7px 0 7px 0 ;
-    }
 }
 
 details.ressources ul{
