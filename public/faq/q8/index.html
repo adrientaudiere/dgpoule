@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pou Rouge</title>
+    <base href="https://pourougepoule.fr/" />  
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/media.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="/"><img id="logo" src="img/logo_PP.png" alt="logo" /></a>
+      <h1><a href="/">POUROUGEPOULE</a></h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/#a-propos"
+              ><img src="/img/icon_contact_sm.png" alt="À propos"
+            /></a>
+          </li>
+          <li>
+            <a href="/faq"><img src="/img/icon_help_sm.png" alt="FAQ" /></a>
+          </li>
+          <li>
+            <a href="/ressources"
+              ><img src="/img/icon_siteweb_sm.png" alt="Ressources"
+            /></a>
+          </li>
+          <li>
+            <a href="/connaissance"
+              ><img src="/img/icon_article_sm.png" alt="Connaissance"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+
+  <h1 class="title">Comment nettoyer le poulailler ?</h1>
+  <p class="subtitle"><strong>2023-08-08</strong></p>
+  <p>Lors du nettoyage des bâtiments durant le vide sanitaire, nettoyer seulement à l'eau permet d'éliminer par ruissellement une partie de la population de poux rouges, mais ne noie pas les acariens accumulés dans les interstices. Pour noyer ces derniers et ainsi éliminer une plus grande portion de la population d'acariens, il est recommandé de réaliser le lavage en ajoutant un tensioactif à l'eau (savon). 
+Les fiches techniques développées dans le cadre du projet MiteControl contiennent des préconisations utiles <a href="https://pourougepoule.fr/faq/q8/XXXXXX">Lien vers les fiches techniques MiteCOntrol…</a>. Un nettoyage et une gestion efficace contre le pou rouge sont délicats, entourez-vous de personnes qualifiées <a href="https://pourougepoule.fr/faq/q8/XXXXXX">lien vers contact</a>.</p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<p>-&gt; fiche technique MiteControl biologie XXX
+-&gt; fiche technique Mitecontrol piège XXX</p>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-7">7</a></p>
+</details>
+
+
+
+    <script>
+      /** https://lebcit.github.io/posts/automatically-close-other-details/ */
+      /* Automatically close other <details>  except details of class "en_savoir_plus" */
+      const allDetails = document.querySelectorAll("details:not(.en_savoir_plus)");
+
+      allDetails.forEach((details) => {
+        details.addEventListener("toggle", (e) => {
+          if (details.open) {
+            allDetails.forEach((details) => {
+              if (details != e.target && details.open) {
+                details.open = false;
+              }
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

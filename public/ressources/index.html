@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pou Rouge</title>
+    <base href="https://pourougepoule.fr/" />  
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/media.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="/"><img id="logo" src="img/logo_PP.png" alt="logo" /></a>
+      <h1><a href="/">POUROUGEPOULE</a></h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/#a-propos"
+              ><img src="/img/icon_contact_sm.png" alt="À propos"
+            /></a>
+          </li>
+          <li>
+            <a href="/faq"><img src="/img/icon_help_sm.png" alt="FAQ" /></a>
+          </li>
+          <li>
+            <a href="/ressources"
+              ><img src="/img/icon_siteweb_sm.png" alt="Ressources"
+            /></a>
+          </li>
+          <li>
+            <a href="/connaissance"
+              ><img src="/img/icon_article_sm.png" alt="Connaissance"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+<section class="section">
+  <div class="container">
+    <div class="button-container">
+      <button class="button"><a href="/connaissance">CONNAISSANCE </a></button>
+      <button class="button active-button">
+        <a href="/ressources">RESSOURCES</a>
+      </button>
+      <button class="button"><a href="/faq">FAQ</a></button>
+    </div>
+
+    <h1 class="title">Ressources</h1>
+
+    <ul>
+      
+      <h2 id="conseil"> Conseil </h2>
+
+      <p>Du fait de ses <a href="https://pourougepoule.fr/connaissance/#h2_idr">particularités biologiques</a>, le pou rouge est délicat à gérer. 
+        Des <a href="https://pourougepoule.fr/connaissance/#h2_tester">solutions</a> existent, mais aucune n'est parfaite et
+        aucune n'est mobilisable efficacement sans expérience. En
+        outre, de nombreuses pistes de solutions sont à l'étude.
+        Ne restez pas seuls face aux problèmes de pou rouge des
+        poules : du personnel qualifié et au fait des dernières
+        innovations peuvent vous accompagner!</p>
+
+        <p>SE RENSEIGNER AUPRÈS DE:</p>
+        <div class="img_largeur_max" style="width:80%;">
+          <p><img src="/img/img_conseil.webp" alt="Se renseigner auprès des vétérinaires et des techniciens de chambre d'agriculture "></p>
+          </div>
+
+      
+      
+      <details class="ressources" open="">
+        <summary>Webographie</summary>
+        <ul>
+<li><a href="#">site1</a> : euitran eaiturnesranu sreatn </li>
+<li><a href="#">site2</a></li>
+<li><a href="#">site3</a></li>
+<li><a href="#">site4</a></li>
+<li><a href="#">site5</a></li>
+</ul>
+
+      </details>
+
+      
+      <details class="ressources" open="">
+        <summary>bibliographie</summary>
+        <ul>
+<li><a href="#">livre 1</a> : euitran eaiturnesranu sreatn </li>
+<li><a href="#">article 2</a></li>
+</ul>
+
+      </details>
+
+      
+    </ul>
+  </div>
+</section>
+
+
+    <script>
+      /** https://lebcit.github.io/posts/automatically-close-other-details/ */
+      /* Automatically close other <details>  except details of class "en_savoir_plus" */
+      const allDetails = document.querySelectorAll("details:not(.en_savoir_plus)");
+
+      allDetails.forEach((details) => {
+        details.addEventListener("toggle", (e) => {
+          if (details.open) {
+            allDetails.forEach((details) => {
+              if (details != e.target && details.open) {
+                details.open = false;
+              }
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

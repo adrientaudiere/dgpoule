@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pou Rouge</title>
+    <base href="https://pourougepoule.fr/" />  
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/media.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="/"><img id="logo" src="img/logo_PP.png" alt="logo" /></a>
+      <h1><a href="/">POUROUGEPOULE</a></h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/#a-propos"
+              ><img src="/img/icon_contact_sm.png" alt="À propos"
+            /></a>
+          </li>
+          <li>
+            <a href="/faq"><img src="/img/icon_help_sm.png" alt="FAQ" /></a>
+          </li>
+          <li>
+            <a href="/ressources"
+              ><img src="/img/icon_siteweb_sm.png" alt="Ressources"
+            /></a>
+          </li>
+          <li>
+            <a href="/connaissance"
+              ><img src="/img/icon_article_sm.png" alt="Connaissance"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+
+  <h1 class="title">Comment savoir s&#x27;il y a des poux rouges dans le bâtiment &#x2F; poulailler ? </h1>
+  <p class="subtitle"><strong>2023-08-08</strong></p>
+  <p>De par son mode de vie distant de la poule et sa petite taille, le pou rouge est très difficile à détecter en dehors des périodes de pullulation. Pourtant, des individus sont présents dès le début de la bande, indétectables par simple examen visuel pendant des semaines ou des mois avant déclaration de l'infestation (on arrive à en piéger un petit peu cependant si on met beaucoup de pièges). En outre, l'impact sur les poules est relativement hétérogène et peu évident lorsque l'infestation est basse. 
+Une surveillance peut être mise en place au moyen de pièges ou d'observations spécifiques afin de détecter les poux rouges avant pullulation. Des fiches techniques sont disponibles dans la partie &quot;En savoir plus&quot;. <em>La présence de traces blanches et noires très difficiles à nettoyer témoigne de la présence passée d'agrégats de poux rouges conséquents (il s'agit des fientes des acariens ; voir figure ci-dessous).</em></p>
+<div class="img_largeur_max" style="width:80%">
+<p><img src="/img/photos_fientes.webp" alt="Fientes de poux rouges sur divers supports" /></p>
+<p>L'observation de fientes de poux rouges dans le bâtiment ne permet pas d'établir un diagnostic sur la bande en cours, mais indique des zones où les poux rouges se sont agrégés dans le passé. Cela peut aider à localiser les points de départ des futures infestations. Par exemple, les photos ci-dessus montrent des traces d'infestation massive ancienne (A, fientes seules), en cours (B, fientes autour d'un tube rempli de poux rouges) et anciennes avec signes de remontée en cours (C et D, fientes sur zones larges avec des poux rouges vivants par endroits). Note : En (B), la poussière gris-beige clair mêlée aux poux rouges est constituée principalement de mues et d'enveloppes d'œufs de poux rouges.</p>
+</div>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<p>-&gt; fiche technique MiteControl biologie XXX
+-&gt; fiche technique Mitecontrol piège XXX</p>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-2">2</a></p>
+</details>
+
+
+
+    <script>
+      /** https://lebcit.github.io/posts/automatically-close-other-details/ */
+      /* Automatically close other <details>  except details of class "en_savoir_plus" */
+      const allDetails = document.querySelectorAll("details:not(.en_savoir_plus)");
+
+      allDetails.forEach((details) => {
+        details.addEventListener("toggle", (e) => {
+          if (details.open) {
+            allDetails.forEach((details) => {
+              if (details != e.target && details.open) {
+                details.open = false;
+              }
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

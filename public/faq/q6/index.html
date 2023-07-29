@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pou Rouge</title>
+    <base href="https://pourougepoule.fr/" />  
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/media.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="/"><img id="logo" src="img/logo_PP.png" alt="logo" /></a>
+      <h1><a href="/">POUROUGEPOULE</a></h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/#a-propos"
+              ><img src="/img/icon_contact_sm.png" alt="À propos"
+            /></a>
+          </li>
+          <li>
+            <a href="/faq"><img src="/img/icon_help_sm.png" alt="FAQ" /></a>
+          </li>
+          <li>
+            <a href="/ressources"
+              ><img src="/img/icon_siteweb_sm.png" alt="Ressources"
+            /></a>
+          </li>
+          <li>
+            <a href="/connaissance"
+              ><img src="/img/icon_article_sm.png" alt="Connaissance"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+
+  <h1 class="title">Est-ce que le pou rouge transmet des maladies ?</h1>
+  <p class="subtitle"><strong>2023-08-08</strong></p>
+  <p>Le pou rouge est un réservoir avéré de certains micro-organismes pathogènes (virus, bactéries, champignons qui provoquent des maladies) comme les salmonelles ou le virus de la maladie de Newcastle : ces bactéries et virus peuvent se multiplier dans le corps de l'acarien vivant. Le pou rouge peut donc contribuer à la persistance de certains pathogènes dans le bâtiment, notamment durant le vide sanitaire, puisque les nettoyages ne suffisent pas à l'éliminer. </p>
+<p>Cependant, on ne connaît pas très bien le rôle du pou rouge en tant que vecteur au sens strict : est-il capable de transmettre directement le pathogène aux poules ou aux humains ? On sait que les poules peuvent se contaminer par les salmonelles si elles ingèrent des poux rouges porteurs de ces bactéries, mais on ne connaît pas la fréquence ni l'intensité d'un tel comportement sur le terrain. Et on ignore si la piqûre d'une poule par des poux rouges contaminés permet sa contamination.</p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<h4 id="comment-le-sait-on-et-pourquoi-beaucoup-de-questions-restent-elles-en-suspens">Comment le sait-on et pourquoi beaucoup de questions restent-elles en suspens ?</h4>
+<p>De nombreuses études ont utilisé des marqueurs ADN pour détecter des microorganismes dans le corps d'acariens prélevés sur le terrain ou manipulés en laboratoire : cela a permis de savoir que différents pathogènes peuvent se trouver en présence du pou rouge. Mais cela ne permet pas de déterminer si le pou rouge est réservoir ni vecteur de ces pathogènes. Seule deux études ont étudié explicitement le potentiel de réservoir (et de transmission par ingestion) du pou rouge vis à vis d'une salmonelle : ces auteurs ont nourri artificiellement des poux rouges avec du sang de poule contaminé de salmonelles et ont mesuré l'accroissement du nombre de salmonelles après des durées variées par des techniques de microbiologie classique. Ils ont aussi établi la colonisation des organes par les salmonelles chez des poussins après gavage avec des poux rouges contaminés. Nous manquons d'études expérimentales sur les relations entre le pou rouge et d'autres pathogènes.</p>
+<p>Concernant la capacité vectorielle au sens strict (effet seringue) du pou rouge, nous manquons cruellement de données. Pour que le pou rouge puisse transmettre un pathogène par piqûre, il faudrait que le pathogène se développe dans les glandes salivaires du pou rouge (comme c'est le cas de l'agent du paludisme chez le moustique). Or on ne sait pas où les différents pathogènes séjournent dans le corps de l'acarien, et cela est très difficile à étudier du fait de la très petite taille de l'acarien, qui rend les dissections très délicates.</p>
+<h4 id="sources-scientifiques">Sources scientifiques</h4>
+<p><a href="https://pourougepoule.fr/faq/q6/XXXX">Schiavone et al. 2022</a>
+<a href="https://pourougepoule.fr/faq/q6/XXXX">Valiente Moro et al. 2007a, b</a></p>
+</details>
+
+
+
+    <script>
+      /** https://lebcit.github.io/posts/automatically-close-other-details/ */
+      /* Automatically close other <details>  except details of class "en_savoir_plus" */
+      const allDetails = document.querySelectorAll("details:not(.en_savoir_plus)");
+
+      allDetails.forEach((details) => {
+        details.addEventListener("toggle", (e) => {
+          if (details.open) {
+            allDetails.forEach((details) => {
+              if (details != e.target && details.open) {
+                details.open = false;
+              }
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
