@@ -32,8 +32,8 @@ En ce qui concerne les odeurs, il a fallu d'abord caractériser celles que produ
 
 
 - [Kilpinen (2001)](https://link.springer.com/article/10.1023/A:1020409221348)
-- [Kilpinen (2005)](https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3032.2005.00452.x)
-- [Kilpinen & Mullens (2005)](https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.0269-283X.2004.00522.x)
+- [Kilpinen (2005)](https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3032.2005.00452.x) 
+- [Kilpinen & Mullens (2005)](https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.0269-283X.2004.00522.x) 
 - [El Adouzi et al. (2020)](XXXX)
 - [Roy et al. (2018) (brevet)](XXXX)
 - [Auffray et al. (2022)](XXXX)
