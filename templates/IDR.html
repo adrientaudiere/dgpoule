@@ -17,11 +17,8 @@
     <p style="text-align: left;">
       La catégorie : « <a class="bouton" href="/connaissance#h2_idr">Le saviez-vous ?</a> » présente une série d'informations fondamentales essentielles pour comprendre les difficultés relatives aux infestations à pou rouge. Des liens vers des sources scientifiques (avec quelques explications éventuelles) sont accessibles en cliquant sur « En savoir plus ». 
 
-      La catégorie « <a class="bouton" href="/connaissance#h2_tester">Modes d'action possibles</a> » présente de manière concise les grandes catégories de modes d'action possibles dans le domaine de la gestion intégrée des bioagresseurs acariens EN GENERAL et signale l'existence éventuelle de solutions commercialisées et/ou de travaux en cours, sans les présenter nommément. Nous encourageons les personnes qui souhaitent en savoir plus à se rapprocher de personnes compétentes [lien vers Conseil]. »
+      La catégorie « <a class="bouton" href="/connaissance#h2_tester">Modes d'action possibles</a> » présente de manière concise les grandes catégories de modes d'action possibles dans le domaine de la gestion intégrée des bioagresseurs acariens EN GENERAL et signale l'existence éventuelle de solutions commercialisées et/ou de travaux en cours, sans les présenter nommément. Nous encourageons les personnes qui souhaitent en savoir plus à se rapprocher de personnes compétentes (voir [Conseils](/ressources#conseil)). »
 
-
-      
-      Les connaissances sont présentées en deux catégories : <a href="/connaissance#h2_idr"> Le saviez-vous ? </a> et .
     </p>
     
   </div>
@@ -35,7 +32,7 @@
       {% set_global count = 1 %} {% for page in section.pages %} {% if
       page.extra.is_idr %}
       <a href="/connaissance#slide_idr-{{ count }}"
-        ><img src=" {{ count }}" alt="{{ count }}"
+        title="{{ page.title | safe }}"><img src=" {{ count }}" alt="{{ count }}"
       /></a>
       {% set_global count = count + 1 %} {% endif %} {% endfor %}
     </div>
@@ -54,7 +51,6 @@
           
         </div>
         
-        
         {% endif %} {% endfor %}
       </div>
     </div>
@@ -67,7 +63,7 @@
       {% set_global count = 1 %} {% for page in section.pages %} {% if not
       page.extra.is_idr %}
       <a href="/connaissance#slide_tester-{{ count }}"
-        ><img src=" {{ count }}" alt="{{ count }}"
+        title="{{ page.title | safe }}"><img src=" {{ count }}" alt="{{ count }}"
       /></a>
       {% set_global count = count + 1 %} {% endif %} {% endfor %}
     </div>
@@ -76,7 +72,7 @@
       <div class="slides">
         {% set_global count = 1 %} {% for page in section.pages %} {% if not
         page.extra.is_idr %}
-        <div class="slide" id="slide_tester-{{ loop.index }}">
+        <div class="slide" id="slide_tester-{{ count }}">
           {% set_global count = count - 1 %}
           <a class="previous-slide-arrow" href="/connaissance#slide_tester-{{ count }}">Précédent</a>
           {% set_global count = count + 2 %}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Pou Rouge</title>
-    <base href="https://pourougepoule.fr/" /> 
+    <!-- <base href="https://pourougepoule.fr/" />  -->
     <link rel="stylesheet" href="/base.css" />
     <link rel="stylesheet" href="/media.css" />
   </head>
@@ -40,8 +40,8 @@
 
     <script>
       /** https://lebcit.github.io/posts/automatically-close-other-details/ */
-      /* Automatically close other <details>  */
-      const allDetails = document.querySelectorAll("details");
+      /* Automatically close other <details>  except details of class "en_savoir_plus" */
+      const allDetails = document.querySelectorAll("details:not(.en_savoir_plus)");
 
       allDetails.forEach((details) => {
         details.addEventListener("toggle", (e) => {

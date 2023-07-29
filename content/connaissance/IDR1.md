@@ -34,7 +34,7 @@ Pour maturer ses œufs, une femelle adulte de pou rouge des poules ne consomme q
 
 ![Illustration de l'effet faible des traitements à faible rémanence sur la population de pou rouge](/img/iceberg_dg.webp)
 
-Illustration de l'effet faible des traitements à faible rémanence sur la population de pou rouge.
+Illustration de l'effet faible des traitements pulvérisés à faible rémanence sur la population de pou rouge.
 
 </div>
 
@@ -45,7 +45,7 @@ Remarque : même si le pou rouge des poules vit à distance de l'hôte, il reste
 <details>
     <summary>En savoir plus</summary>
 
-### Sources scientifiques
+#### Sources scientifiques
 
 - Kuris & Kuris (2002)
 - [lien Lafferty & Kuris 2002]

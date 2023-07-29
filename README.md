@@ -93,6 +93,14 @@ Toute la syntaxe de base peut être trouvée sur le site [original](https://dari
 Quelques rares cas nécessitent un peu de language HTML dans le contenu.
 Attention les lignes vides sont importantes.
 
+### Faire un commentaire 
+
+Pour écrire un texte qui ne sera pas visible (par ex. pour annoter un endroit où l'on voudrait rajouter une image), il faut utiliser la notation suivante :
+
+```md
+<!-- Idéalement, une figure montrant un acarien grimpant sur une patte serait chouette (mais pas indispensable) -->
+```
+
 #### Image qui prend toute la largeur avec une légende. {#img_html}
 
 ```md
@@ -117,7 +125,9 @@ Légende
 </div>
 ```
 
-#### En savoir plus des connaissances
+#### Style pour le "En savoir plus des connaissances"
+
+```md
 
 <details>
     <summary>En savoir plus</summary>
@@ -130,3 +140,4 @@ Du texte d'explication.
 -  Roy, L, Taudière, A, Papaïx, J, et al. Evaluating the link between predation and pest control services in the mite world. Ecol Evol. 2020; 10: 9968 - 9980. https://doi.org/10.1002/ece3.6655
 
 </details>
+```
