@@ -277,13 +277,13 @@ a.bouton {
   font-weight: 900;
   text-decoration: none;
   border-radius: 9px;
-  color: #02004B;
+  color: #02004b;
   background-color: #cea512;
   padding: 2px 5px 2px 8px;
 
   &:hover {
     color: #ffffff;
-    background-color: #02004B;
+    background-color: #02004b;
   }
 }
 
@@ -292,7 +292,7 @@ a.bouton {
   left: 10px;
   text-decoration: none;
   border-radius: 9px;
-  color: #02004B;
+  color: #02004b;
   background-color: #cea512;
   padding: 8px;
 
@@ -306,7 +306,7 @@ a.bouton {
   right: 10px;
   text-decoration: none;
   border-radius: 9px;
-  color: #02004B;
+  color: #02004b;
   background-color: #cea512;
   padding: 8px;
 
@@ -373,13 +373,13 @@ a.bouton {
   background: transparent;
 }
 
-.slide>p>img {
+.slide > p > img {
   display: block;
   max-width: 600px;
   margin: auto;
 }
 
-.slides>div {
+.slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
   border-radius: 10px;
@@ -391,7 +391,7 @@ a.bouton {
   flex-direction: column;
 }
 
-.slider>a {
+.slider > a {
   display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
@@ -404,11 +404,11 @@ a.bouton {
   position: relative;
 }
 
-.slider>a:active {
+.slider > a:active {
   top: 1px;
 }
 
-.slider>a:focus {
+.slider > a:focus {
   background: #000;
 }
 
@@ -442,7 +442,6 @@ a.bouton {
   }
 }
 
-
 body {
   font-size: larger;
 }
@@ -468,16 +467,29 @@ details {
 
   h4 {
     font-size: 1em;
-    color: #02004B;
+    color: #02004b;
+  }
+
+  a {
+    color: #02004b;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 9px;
+    background-color: #cea512;
+    padding: 2px 8px 2px 8px;
+    margin: 0 3px 0 3px;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #02004b;
+    }
   }
 
   ul {
-    list-style-image: url('/img/mini_dg.svg');
-
+    list-style-image: url("/img/mini_dg.svg");
     a {
-      color: #02004B;
+      background-color: #0c4da220;
     }
-
     li {
       margin-left: 60px;
       padding: 0px 0px 7px 0;
@@ -507,7 +519,7 @@ details.en_savoir_plus {
 
   summary {
     font-weight: 900;
-    color: #02004B;
+    color: #02004b;
   }
 }
 
@@ -518,10 +530,10 @@ summary {
   cursor: pointer;
   font-weight: 900;
   font-style: oblique;
-  color: #02004B;
+  color: #02004b;
 }
 
-details[open]>summary:before {
+details[open] > summary:before {
   transform: rotate(90deg);
 }
 
@@ -529,16 +541,15 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
-
 summary::before {
   margin-left: 2px;
   display: inline-block;
   transition: 0.2s;
   padding: 4px 10px 4px 10px;
   margin-right: 8px;
-  content: '>';
+  content: ">";
   font-weight: 900;
-  color: #02004B;
+  color: #02004b;
   background-color: white;
   border-radius: 100%;
   border: 1px solid black;
@@ -587,15 +598,13 @@ ol {
   margin: auto;
 }
 
-
-
 a.small_link {
   color: rgb(169, 169, 10);
   font-size: smaller;
 }
 
 details.ressources ul {
-  background-color: #FBC90F60;
+  background-color: #fbc90f60;
   padding: 4%;
 }
 

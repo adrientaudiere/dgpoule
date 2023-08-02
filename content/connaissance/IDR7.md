@@ -30,10 +30,9 @@ Le pou rouge des poules, bien que dépourvu d'ailes comme tous les acariens, peu
 <details>
     <summary>En savoir plus</summary>
 
+[Le saviez-vous](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-1) et n°[3](https://pourougepoule.fr/connaissance#slide_idr-3)
 
 
-- voir IDR … oiseaux XXXXX
-- IDR ...n'est pas un vrai parasiteXXXXX
 ## Comment sait-on cela ?
 
 À courte distance, les trajets individuels de centaines d'acariens femelles adultes non gorgées a été caractérisé dans des arènes rondes de 4 cm de diamètre sur des périodes de 10 minutes dans des arènes expérimentales au moyen d'un système électronique spécialement développé pour mesurer la répulsion ou l'attraction vis-à-vis d'odeurs diverses (caméras pilotées par des nano-ordinateurs). La vitesse moyenne chez les individus témoins (sans odeur spécifique) sur ces périodes de 10 minutes se situait aux alentours de 4 mètres par heure (m/h), avec des individus atteignant 10 m/h voir plus. Sachant que ces individus n'étaient pas obligés de se déplacer durant la période de mesure, il est probable que des pointes >20m puissent être atteintes. Le trajet montrait une tendance des acariens à demeurer contre les bords, mais s'est avéré très erratique (tortueux, sans règle évidente).
@@ -45,6 +44,7 @@ Le pou rouge des poules, bien que dépourvu d'ailes comme tous les acariens, peu
 #### Sources scientifiques
 
 Une partie de la connaissance sur ce point est issue d'expérimentations et analyses conduites par l'équipe de L. Roy, qui n'ont pas été publiées à ce jour. Les publications disponibles à ce jour sont les suivantes :
+
 - [Dupray *et al.* 2022](https://onlinelibrary.wiley.com/doi/10.1002/ps.7033)
 - [Masier *et al.* 2021](https://onlinelibrary.wiley.com/doi/10.1002/jez.2651)
 - [Roy *et al.* 2021](https://www.frontiersin.org/articles/10.3389/fvets.2021.650546/full)
