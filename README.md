@@ -137,7 +137,7 @@ Du texte d'explication.
 ### Sources scientifiques
 
 - Dupont et Dupond 2022
--  Roy, L, Taudière, A, Papaïx, J, et al. Evaluating the link between predation and pest control services in the mite world. Ecol Evol. 2020; 10: 9968 - 9980. https://doi.org/10.1002/ece3.6655
+-  Roy, L, Taudière, A, Papaïx, J, *et al.* Evaluating the link between predation and pest control services in the mite world. Ecol Evol. 2020; 10: 9968 - 9980. https://doi.org/10.1002/ece3.6655
 
 </details>
 ```

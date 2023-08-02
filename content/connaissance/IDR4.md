@@ -34,9 +34,9 @@ En ce qui concerne les odeurs, il a fallu d'abord caractériser celles que produ
 - [Kilpinen (2001)](https://link.springer.com/article/10.1023/A:1020409221348)
 - [Kilpinen (2005)](https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3032.2005.00452.x) 
 - [Kilpinen & Mullens (2005)](https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.0269-283X.2004.00522.x) 
-- [El Adouzi et al. (2020)](XXXX)
-- [Roy et al. (2018) (brevet)](XXXX)
-- [Auffray et al. (2022)](XXXX)
+- [El Adouzi *et al.* (2019)](https://www.cambridge.org/core/journals/parasitology/article/abs/modulation-of-feed-composition-is-able-to-make-hens-less-attractive-to-the-poultry-red-mite-dermanyssus-gallinae/A767F6C67FC90C4F0BF01462AE5E7054)
+- [Roy *et al.* (2018) (brevet)](https://www.cefe.cnrs.fr/images/D_INES/eq_TBI/Lise_Roy/WO_2018109417_A1.pdf)
+- [Auffray *et al.* (2022)](https://doi.org/10.1007/s10886-022-01399-7)
 
 </details>
 

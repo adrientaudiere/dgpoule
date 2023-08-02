@@ -23,7 +23,7 @@ Les poux rouges peuvent passer 80 jours à 5°C sans que cela n'impacte leur cap
 
 - Nordenfors et. al. (1999).... https://academic.oup.com/jme/article-abstract/36/1/68/876355 
 - Maurer & Baumgärtner (1992) ...  https://link.springer.com/article/10.1007/BF01193965
-- Tucci et al. (2008) Development of *Dermanyssus gallinae* (Acari: Dermanyssidae) at different temperatures ... https://pubmed.ncbi.nlm.nih.gov/18502586/ 
+- Tucci *et al.* (2008) Development of *Dermanyssus gallinae* (Acari: Dermanyssidae) at different temperatures ... https://pubmed.ncbi.nlm.nih.gov/18502586/ 
 
 
 </details>

@@ -45,10 +45,10 @@ Le pou rouge des poules, bien que dépourvu d'ailes comme tous les acariens, peu
 #### Sources scientifiques
 
 Une partie de la connaissance sur ce point est issue d'expérimentations et analyses conduites par l'équipe de L. Roy, qui n'ont pas été publiées à ce jour. Les publications disponibles à ce jour sont les suivantes :
-- Dupray et al. (2022) XXXXX
-- Masier et al. (2021) XXXXX
-- Roy et al. 2021      XXXXX
-- Roy et al. 2009 EAA  XXXXX
+- [Dupray *et al.* 2022](https://onlinelibrary.wiley.com/doi/10.1002/ps.7033)
+- [Masier *et al.* 2021](https://onlinelibrary.wiley.com/doi/10.1002/jez.2651)
+- [Roy *et al.* 2021](https://www.frontiersin.org/articles/10.3389/fvets.2021.650546/full)
+- [Roy *et al.* 2009](https://link.springer.com/article/10.1007/s10493-009-9239-1)
 
 
 </details>

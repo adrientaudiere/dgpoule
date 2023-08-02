@@ -46,7 +46,7 @@ Cycle de vie du pou rouge.
 #### Sources scientifiques
 
 - lien vers fiche technique biologique MiteControl 
-- Dupray et al. 2021 
+- Dupray *et al.* 2021 
 - Högglund & Nordenfor 
 
 
