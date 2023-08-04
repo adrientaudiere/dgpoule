@@ -1,53 +1,54 @@
 +++
-title = "Le pou rouge fait peu de petits.   "
+title = "Le pou rouge n'est pas introduit dans les élevages par les oiseaux sauvages "
 date = 2023-08-08
-weight = 4
+weight = 3
 [extra]
 is_idr = true
 +++
 
-Chaque femelle pou rouge ne pond qu'une vingtaine d'œufs durant sa vie. À titre de comparaison, une femelle de moustique tigre pond des centaines d'œufs et une femelle de tique en pond des milliers.
+## D'où viennent les poux de vos élevages ?
 
+Le pou rouge est transporté entre élevages par les camions soit au début soit à la fin de la bande, pas en cours de bande. **Au début d'une bande de pondeuses**, les acariens peuvent arriver avec les caisses de transport en provenance de l'élevage de poulettes s'il est infesté ; **à la fin d'une bande**, les acariens peuvent arriver avec les caisses de transport fournies par les abattoirs. Elles sont introduites dans l'exploitation après avoir transité dans d'autres élevages et jouent le rôle de vecteurs même lorsqu'elles ne contiennent pas de poule.
 
-## Comment les poux arrivent à être si nombreux s'ils font peu de petits ?
+<div class="img_largeur_max">
 
-Il faut moins de 7 jours pour un pou pour passer de l'œuf à la femelle adulte. C'est le renouvellement rapide de la population qui permet en partie aux populations de pou rouge d'augmenter autant. Dans ces 7 jours ils passent par plusieurs stades (œuf, larve, protonymphe, deutonymphe et adulte), seuls les trois derniers stades ont besoin d'un apport de sang. 
+![Schéma de transport involontaire des acariens](/img/transport_camion.webp)
 
-
-<!-- 
-<div class="img_largeur_max" style="width:60%">
-
-![Photo avec zoom sur les stades du pou rouge](/img/fienteDG.webp)
-
-Différents stades du pou rouge. Les fientes du pou rouge sont également un indice de leur présence.
-
-</div> -->
-
-*NB : L'absence de nourriture rallonge le cycle. Le pou rouge peut survivre durant de longues périodes sans hôte donc sans se nourrir (au moins jusqu'à 9 mois) et il ne peut pas se nourrir d'autre chose que de sang.*
-
-## À quelle vitesse un bâtiment se retrouve-t-il envahi de pou rouge ?
-
-La dynamique démographique des populations de pou rouge présente une période de latence assez longue (plusieurs semaines / mois après le vide sanitaire) avec très peu ou pas d'acariens visibles hors des interstices (très difficiles à détecter). Cette période de latence est suivie d'un accroissement brutal, avec passage d'une infestation faible à une pullulation intense (nombreux agrégats visibles) en 15 jours. Cela donne souvent l'impression (trompeuse) qu'une contamination a eu lieu en cours de bande.
-
-
-<div class="img_largeur_max"  style="width:60%">
-
-![Dessin du cycle de vie du pou rouge](/img/cdv_pouR.webp)
-
-Cycle de vie du pou rouge.
+Transport involontaire de poux rouges par les caisses de transport et les camions.
 
 </div>
 
+## Existe-t-il un lien entre oiseau sauvage et infestation des fermes ? 
+
+Les oiseaux sauvages sont innocents : leurs nids hébergent des populations de pou rouge génétiquement différentes et il n'y a pas d'échanges de poux rouges entre oiseaux sauvages et domestiques, même si des oiseaux infestés nichent très près du poulailler.  
+Les événements de contamination sont-ils fréquents ? 
+Paradoxalement, bien qu'une infestation puisse résulter de l'introduction d'un tout petit nombre d'acariens, les événements de contamination efficace (suivis de l'installation d'une population de poux rouges et aboutissant à une infestation) semblent rares. Mais une fois l'acarien installé dans le bâtiment, il est très difficile de s'en débarrasser. Les pullulations de poux rouges en cours de bande résultent de la reproduction des poux rouges présents dans le bâtiment au début de la bande et non de contaminations externes. Le vide sanitaire ne permet pas d'éliminer la population de poux rouges : même si le nettoyage élimine beaucoup d'acariens, il en reste bien assez en fin de vide sanitaire pour permettre leur prolifération durant la bande suivante, même s'ils passent très souvent inaperçus pendant plusieurs mois. 
 
 
 <details>
     <summary>En savoir plus</summary>
 
+
+## Comment sait-on cela ?
+
+Des équipes de recherche ont conduit des analyses de génétique des populations (voir Roy *et al.* 2021). Ces analyses s'appuient sur le génotypage de nombreux acariens prélevés dans les fermes (voir plus bas). Le principe repose sur les connaissances suivantes : Le pou rouge se reproduit de manière sexuée si bien que chaque acarien a un père et une mère. Comme chez les autres espèces à reproduction sexuée, le patrimoine génétique (ou génome) de chaque individu est une combinaison unique de séquences d'ADN transmises par ses deux parents avec brassage : chaque individu partage bien sûr de nombreuses portions d'ADN avec les autres individus, mais il présente aussi des versions différentes à certains endroits du génome<a href="connaissance/#footnote_idr3_2"><sup>1</sup></a>. Le nombre de versions différentes dépend notamment du degré d'apparentement. On sait aussi que le hasard de la rencontre des sexes et du brassage génétique induit des variations de génération en génération dans la fréquence des différentes versions au sein de la population (c'est la dérive génétique). La fréquence des différentes versions ne varie pas de la même manière entre populations isolées (entre lesquelles il n'y a pas de croisement).
+
+Génotyper<a href="connaissance/#footnote_idr3_2"><sup>2</sup></a> individuellement des acariens prélevés dans différents élevages de volailles ainsi que dans des nids d'oiseaux sauvages et analyser les données à l'échelle des populations permet de comparer les proportions d'apparentement au sein de et entre les populations. Nous identifions ainsi les voies de contamination des élevages en nous basant sur les hypothèses suivantes : Les acariens de deux populations connectées ont presque autant de chances de se reproduire entre eux qu'à l'intérieur de l'une d'entre elles. En revanche, les acariens de populations moins connectées ont plus de chances de se reproduire avec des acariens de leur propre population. Cette simple réduction du flux génétique entraîne une différenciation des populations d'acariens d'une génération à l'autre, ce qui a un impact significatif sur la gestion des épidémies.
+
+
+<span id="footnote_idr3_1"></span> *1*: Plus précisément, le pou rouge est haplodiploïde comme les abeilles : les œufs non fécondés donnent naissance aux mâles et les œufs fécondés aux femelles. Les mâles étant par nature incapables d'engendrer des petits, la contribution des deux sexes est donc indispensable au développement des populations (il ne semble pas y avoir de reproduction strictement asexuée comme chez d'autres acariens).
+
+<span id="footnote_idr3_2"></span> *2*: Génotyper consiste ici à caractériser les séquences d'ADN de plusieurs zones déterminées du génome au sein de l'individu. Les analyses de génétique des populations consistent en gros à comparer la fréquence et l'identité des zones différentes entre individus prélevés au même endroit et entre individus prélevés dans des fermes et/ou nids différents.
+
 #### Sources scientifiques
 
-- lien vers fiche technique biologique MiteControl 
-- Dupray *et al.* 2021 
-- Högglund & Nordenfor 
+Une partie des informations résumées dans cette section est issue de travaux récents de l'équipe de L. Roy, non publiés au moment de l'élaboration du site. Les études disponibles sont les suivantes :
+
+- [Roy *et al.* (2021)](https://www.frontiersin.org/articles/10.3389/fvets.2021.650546/full)
+- [Roy & Buronfosse (2011)](https://pubmed.ncbi.nlm.nih.gov/21799818/)
+- [Oines & Brännström (2011)](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2915.2011.00958.x)
+- [Oliver (1996)](https://academic.oup.com/jme/article-abstract/3/1/29/864276?redirectedFrom=fulltext)
+- [Oliver (1977)](https://www.annualreviews.org/doi/abs/10.1146/annurev.en.22.010177.002203?journalCode=ento)
 
 
 </details>
