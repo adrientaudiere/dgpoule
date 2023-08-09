@@ -1,4 +1,7 @@
 @media (max-width: 900px) {
+  body{
+    font-size: 0.9em;
+  }
   header h1 {
     display: none;
   }
@@ -50,6 +53,12 @@
   .apropos {
     margin: 8px;
     border: none;
+  }
+
+  details ul li {
+    margin-left: 30px;
+    padding-top: 5px;
+    line-height: 1.4em;
   }
 }
 
