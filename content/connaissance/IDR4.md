@@ -1,5 +1,5 @@
 +++
-title = "Le pou rouge fait peu de petits.   "
+title = "Le pou rouge fait peu de petits."
 date = 2023-08-08
 weight = 4
 [extra]

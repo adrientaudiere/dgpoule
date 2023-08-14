@@ -1,6 +1,6 @@
 
 +++
-title = "bibliographie"
+title = "Bibliographie"
 +++
 
 
@@ -21,7 +21,7 @@ title = "bibliographie"
 
 - [Seeman & Walter 2023](https://www.annualreviews.org/doi/pdf/10.1146/annurev-ento-120220-013329) ; cité dans la [foire au question](/faq) : "Les mouches peuvent-elles amener des poux rouges ?"
 - [Schiavone *et al.* 2022](https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-021-05142-1) ; cité dans la [foire au question](/faq) : "Est-ce que le pou rouge transmet des maladies ?"
-- [Oines & Brännström (2011)](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2915.2011.00958.x) ; cité dans « le saviez-vous » n°[3](https://pourougepoule.fr/connaissance#slide_idr-3)
+- [Øines & Brännström (2011)](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2915.2011.00958.x) ; cité dans « le saviez-vous » n°[3](https://pourougepoule.fr/connaissance#slide_idr-3)
 - [Pétillon *et al.* 2009](https://royalsocietypublishing.org/doi/10.1098/rsbl.2009.0127) ; cité dans « le saviez-vous » n°[7](https://pourougepoule.fr/connaissance#slide_idr-7) 
 - [Tucci *et al.* (2008)](https://pubmed.ncbi.nlm.nih.gov/18502586/) ; cité dans « le saviez-vous » n°[6](https://pourougepoule.fr/connaissance#slide_idr-6)
 - [Valiente Moro *et al.* 2007a](https://www.tandfonline.com/doi/full/10.1080/03079450701460484) ; cité dans la [foire au question](/faq) : "Est-ce que le pou rouge transmet des maladies ?" et "Est-ce que les poules peuvent manger les poux rouges ?"

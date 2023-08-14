@@ -1,5 +1,5 @@
 +++
-title = "Le pou rouge des poules n'est pas un vrai parasite !"
+title = "Le pou rouge des poules n'est pas un vrai parasite."
 date = 2023-08-08
 weight = 1
 [extra]

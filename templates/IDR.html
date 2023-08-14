@@ -1,23 +1,26 @@
 {% extends "base.html" %} {% block content %}
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js "></script>
 
 <div class="button-container">
-  <button class="button active-button">
-    <a href="/connaissance">CONNAISSANCE </a>
-  </button>
-  <button class="button"><a href="/ressources">RESSOURCES</a></button>
+  <button class="button active-button"><a href="/connaissance">CONNAISSANCE </a></button>
+  <button class="button"><a href="/gestion">GESTION INTÉGRÉE</a></button>
   <button class="button"><a href="/faq">FAQ</a></button>
+  <button class="button"><a href="/ressources">RESSOURCES</a></button>
 </div>
 
 <section class="section">
   <div class="idr">
     <h1 class="title">{{ section.title }}</h1>
     {{ section.content | safe }} 
-    <p style="text-align: left;">
-      La catégorie : « <a class="bouton" href="/connaissance#h2_idr">Le saviez-vous ?</a> » présente une série d'informations fondamentales essentielles pour comprendre les difficultés relatives aux infestations à pou rouge. Des liens vers des sources scientifiques (avec quelques explications éventuelles) sont accessibles en cliquant sur « En savoir plus ». 
+    
+    <p> Ce qui suit résume l'état de la connaissance issue de la recherche scientifique au 18 août 2023.
+    </p>
 
-      La catégorie « <a class="bouton" href="/connaissance#h2_tester">Modes d'action possibles</a> » présente de manière concise les grandes catégories de modes d'action possibles dans le domaine de la gestion intégrée des bioagresseurs acariens EN GENERAL et signale l'existence éventuelle de solutions commercialisées et/ou de travaux en cours, sans les présenter nommément. Nous encourageons les personnes qui souhaitent en savoir plus à se rapprocher de personnes compétentes (voir <a class="bouton" href="/ressources#conseil">Conseils</a>). »
+    <p>
+      La catégorie : « <a class="bouton" href="/connaissance#h2_idr">Le saviez-vous ?</a> » présente une série d'informations fondamentales essentielles pour comprendre les difficultés relatives aux infestations à pou rouge. Des liens vers des sources scientifiques (avec quelques explications éventuelles) sont accessibles en cliquant sur « En savoir plus ». 
+    </p>
+    <p>
+      Vous pouvez également aller voir la page traitant de la « <a class="bouton" href="/connaissance#h2_tester">gestion intégrée : le champ des possibles</a> » qui présente de manière concise les grandes catégories de modes d'action possibles dans le domaine de la gestion intégrée des bioagresseurs acariens EN GENERAL et signale l'existence éventuelle de solutions commercialisées et/ou de travaux en cours, sans les présenter nommément. Nous encourageons les personnes qui souhaitent en savoir plus à se rapprocher de personnes compétentes (voir <a class="bouton" href="/ressources#conseil">Conseils</a>). »
 
     </p>
     
@@ -25,14 +28,12 @@
 
   <h2 id="h2_idr" class="slider_title">Le saviez-vous ?</h2> 
 
-
-
   <div class="idr_slider">
     <div id="carousel__counter">
       {% set_global count = 1 %} {% for page in section.pages %} {% if
       page.extra.is_idr %}
       <a href="/connaissance#slide_idr-{{ count }}"
-        title="{{ page.title | safe }}"><img src=" {{ count }}" alt="{{ count }}"
+        title="{{ page.title | safe }}"><img class = "counter" src=" {{ count }}" alt="{{ count }}"
       /></a>
       {% set_global count = count + 1 %} {% endif %} {% endfor %}
     </div>
@@ -56,34 +57,6 @@
     </div>
   </div>
 
-  <h2 id="h2_tester" class="slider_title">Modes d'action possibles</h2>
-
-  <div class="tester_slider">
-    <div id="carousel__counter">
-      {% set_global count = 1 %} {% for page in section.pages %} {% if not
-      page.extra.is_idr %}
-      <a href="/connaissance#slide_tester-{{ count }}"
-        title="{{ page.title | safe }}"><img src=" {{ count }}" alt="{{ count }}"
-      /></a>
-      {% set_global count = count + 1 %} {% endif %} {% endfor %}
-    </div>
-
-    <div class="slider">
-      <div class="slides">
-        {% set_global count = 1 %} {% for page in section.pages %} {% if not
-        page.extra.is_idr %}
-        <div class="slide" id="slide_tester-{{ count }}">
-          {% set_global count = count - 1 %}
-          <a class="previous-slide-arrow" href="/connaissance#slide_tester-{{ count }}">Précédent</a>
-          {% set_global count = count + 2 %}
-          <a class="next-slide-arrow" href="/connaissance#slide_tester-{{ count }}">Suivant</a>
-          <h1>{{ page.title }}</h1>
-          {{ page.content | safe }}
-        </div>
-        {% endif %} {% endfor %}
-      </div>
-    </div>
-  </div>
 </section>
 
 {% endblock content %}

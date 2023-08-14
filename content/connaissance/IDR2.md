@@ -1,5 +1,5 @@
 +++
-title = "Le pou rouge court vite mais se déplace également de manière passive."
+title = "Le pou rouge court vite mais se déplace surtout de manière passive."
 date = 2023-08-08
 weight = 2
 [extra]

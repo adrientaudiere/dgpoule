@@ -1,5 +1,5 @@
 +++
-title = "Le pou rouge n'est pas introduit dans les élevages par les oiseaux sauvages "
+title = "Le pou rouge n'est pas introduit dans les élevages par les oiseaux sauvages."
 date = 2023-08-08
 weight = 3
 [extra]
@@ -46,7 +46,7 @@ Une partie des informations résumées dans cette section est issue de travaux r
 
 - [Roy *et al.* (2021)](https://www.frontiersin.org/articles/10.3389/fvets.2021.650546/full)
 - [Roy & Buronfosse (2011)](https://pubmed.ncbi.nlm.nih.gov/21799818/)
-- [Oines & Brännström (2011)](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2915.2011.00958.x)
+- [Øines & Brännström (2011)](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/j.1365-2915.2011.00958.x)
 - [Oliver (1996)](https://academic.oup.com/jme/article-abstract/3/1/29/864276?redirectedFrom=fulltext)
 - [Oliver (1977)](https://www.annualreviews.org/doi/abs/10.1146/annurev.en.22.010177.002203?journalCode=ento)
 

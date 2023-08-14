@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section">
+    <div class="button-container">
+        <button class="button"><a href="/connaissance">CONNAISSANCE </a></button>
+        <button class="button active-button"><a href="/gestion">GESTION INTÉGRÉE</a></button>
+        <button class="button"><a href="/faq">FAQ</a></button>
+        <button class="button"><a href="/ressources">RESSOURCES</a></button>
+      </div>
+    <div class="idr">
+        <h1 class="title">{{ section.title }}</h1>
+        {{ section.content | safe }} 
+        
+        <p> Ce qui suit résume l'état de la connaissance issue de la recherche scientifique au 18 août 2023.
+        </p>
+    
+        <p>
+          Cette page sur la « <a class="bouton" href="/connaissance#h2_tester">gestion intégrée : le champ des possibles</a> » présente de manière concise les grandes catégories de modes d'action possibles dans le domaine de la gestion intégrée des bioagresseurs acariens EN GENERAL et signale l'existence éventuelle de solutions commercialisées et/ou de travaux en cours, sans les présenter nommément. Nous encourageons les personnes qui souhaitent en savoir plus à se rapprocher de personnes compétentes (voir <a class="bouton" href="/ressources#conseil">Conseils</a>). »
+        </p>
+        <p>
+          Vous pouvez également aller voir la page traitant de les connaissances actuelles : « <a class="bouton" href="/connaissance#h2_idr">Le saviez-vous ?</a> » présente une série d'informations fondamentales essentielles pour comprendre les difficultés relatives aux infestations à pou rouge. Des liens vers des sources scientifiques (avec quelques explications éventuelles) sont accessibles en cliquant sur « En savoir plus ». 
+     
+        </p>
+        
+      </div>
+
+    <div class="container">
+      
+      {{ section.content | safe }}
+
+    </div>
+  </section>
+
+  {% endblock %}

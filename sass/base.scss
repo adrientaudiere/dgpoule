@@ -102,8 +102,8 @@ nav ul li a:hover {
 
   img {
     margin-top: 20px;
-    float: left;
-    width: 80%;
+    margin: auto;
+    width: 60%;
   }
 
   .button-container {
@@ -116,7 +116,7 @@ nav ul li a:hover {
   top: 0px;
   right: 0px;
   height: 100%;
-  width: 240px;
+  width: 295px;
   text-align: right;
 }
 
@@ -124,11 +124,10 @@ nav ul li a:hover {
   border: none;
   padding: 0px;
   margin: none;
-  width: 75px;
+  width: 70px;
   display: inline-block;
   justify-content: flex-end;
   height: 100%;
-  font-size: 30px;
   text-align: center;
 }
 
@@ -141,6 +140,8 @@ nav ul li a:hover {
   text-orientation: upright;
   color: black;
   text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .button:hover {
@@ -182,6 +183,7 @@ nav ul li a:hover {
     //text-align: center;
     font-variant: small-caps;
     font-weight: 900;
+    margin-top: 20px;
   }
 
   h3 {
@@ -327,7 +329,7 @@ a.bouton {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
+  margin-left: 0;
 }
 
 .slides {
@@ -439,6 +441,7 @@ a.bouton {
     border-radius: 50%;
     display: block;
     margin: 25px;
+/*     background-image: img/mini_dg.svg; */
   }
 }
 
@@ -631,4 +634,63 @@ img.acceuil {
   max-height: 600px;
   margin-right: 200px;
   margin-top: 0px;
+}
+
+
+footer {
+  background-color: #cea512e3;
+  font-size: 16px;
+  padding: 5px 20px 5px 20px;
+  width: 75%;
+  p {
+    margin: 0;
+  }
+}
+
+.search-container {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+
+  input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+}
+
+.search-results {
+  display: none;
+  position: absolute;
+  background: white;
+  color: black;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  max-height: 500px;
+  overflow: auto;
+  width: 150%;
+  right: 0;
+
+  &__items {
+    list-style: none;
+  }
+
+  li {
+    margin-top: 1rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.9rem;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  &__item {
+    margin-bottom: 1rem;
+
+    a {
+      font-size: 1.2rem;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+  }
 }

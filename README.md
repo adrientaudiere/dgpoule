@@ -141,3 +141,20 @@ Du texte d'explication.
 
 </details>
 ```
+
+
+## Développement local avec Zola
+
+Pour développer le site en local à l'aide des commandes `zola build` ou `zola serve` il faut commenter la ligne suivante dans 2 fichiers (base.html et index.html) :
+
+```html
+<base href="https://pourougepoule.fr/" />
+```
+
+devient alors :
+
+```html
+<!-- <base href="https://pourougepoule.fr/" />   -->
+```
+
+Il ne faut pas oublier de le décommenter pour la publication *via* github.

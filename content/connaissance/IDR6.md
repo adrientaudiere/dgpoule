@@ -1,5 +1,5 @@
 +++
-title = "Le pou rouge résiste beaucoup mieux au froid qu'au chaud "
+title = "Le pou rouge résiste beaucoup mieux au froid qu'au chaud."
 date = 2023-08-08
 weight = 6
 [extra]

@@ -6,37 +6,38 @@
     <!-- <base href="https://pourougepoule.fr/" />   -->
     <link rel="stylesheet" href="/base.css" />
     <link rel="stylesheet" href="/media.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js "></script>
   </head>
 
   <body>
     <header>
-      <a href="/"><img id="logo" src="/img/logo_PP.png" alt="logo" /></a>
+      <a href="/"><img id= "logo" src="/img/logo_PP.png" alt="logo" /></a>
       <h1><a href="/">POUROUGEPOULE</a></h1>
+      <div class="search-container">
+        <input id="search" type="search" placeholder="Rechercher des informations">
+
+        <div class="search-results">
+            <div class="search-results__items"></div>
+        </div>
+    </div>
       <nav>
         <ul>
-          <li>
-            <a href="/#a-propos"
-              ><img src="/img/icon_contact_sm.png" alt="À propos"
-            /></a>
-          </li>
-          <li>
-            <a href="/faq"><img src="/img/icon_help_sm.png" alt="FAQ" /></a>
-          </li>
-          <li>
-            <a href="/ressources"
-              ><img src="/img/icon_web_ressource_sm.png" alt="Ressources"
-            /></a>
-          </li>
-          <li>
-            <a href="/connaissance"
-              ><img src="/img/icon_article_sm.png" alt="Connaissance"
-            /></a>
-          </li>
+          <li><a href="/#a-propos"><img src="/img/icon_contact_sm.png" alt="À propos"></a></li>
+          <li><a href="/connaissance"><img src="/img/icon_article_sm.png" alt="Connaissance"></a></li>
+          <li><a href="/gestion"><img src="/img/icon_gestion.png" alt="Gestion intégrée"></a></li>
+          <li><a href="/faq"><img src="/img/icon_help_sm.png" alt="FAQ"></a></li>
+          <li><a href="/ressources"><img src="/img/icon_web_ressource_sm.png" alt="Ressources"></a></li>
         </ul>
       </nav>
     </header>
 
     {% block content %} {% endblock %}
+
+    <footer>
+      <p><strong>Réalisation du site:</strong> Adrien Taudière et Axelle Delmas à l'aide du logiciel libre <a href="https://getzola.org">Zola</a>. </p>
+      <p><strong>Texte et image :</strong> Axelle Delmas et Lise Roy</p>
+      <p><strong>Licence :</strong> L'ensemble du texte et des images du site sont sous <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>.</p>
+    </footer>
 
     <script>
       /** https://lebcit.github.io/posts/automatically-close-other-details/ */
@@ -53,6 +54,30 @@
             });
           }
         });
+      });
+    </script>
+<script type="text/javascript" src="elasticlunr.min.js"></script>
+<script type="text/javascript" src="{{ get_url(path="search.js") }}"></script>
+<script src="lunr.stemmer.support.js"></script>
+<script src="lunr.fr.js"></script>
+
+<script>var idx = lunr(function () {
+  // use the language (fr)
+  this.use(lunr.fr);
+  // then, the normal lunr index initialization
+  this.field('title', { boost: 10 });
+  this.field('body');
+});
+</script>
+
+    <script>
+      /* Automaticly open img in a new window on click and change style cursor */
+      const section = document.querySelector('section');
+      const imgs = section.querySelectorAll('img:not(.counter)');
+      
+      imgs.forEach((img) => {
+        img.setAttribute('onclick', "window.open(this.src)");
+        img.style.cursor= 'all-scroll';
       });
     </script>
   </body>
