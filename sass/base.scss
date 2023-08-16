@@ -30,10 +30,9 @@ header h1 {
     text-decoration: none;
     scale: 1.2;
   }
-
   display: table-cell;
-  width: 35%;
   padding-left: 10px;
+  padding-right: 20px;
   vertical-align: middle;
 }
 
@@ -54,9 +53,10 @@ p {
 }
 
 #logo {
-  width: 20%;
+  max-width: 50px;
   display: table-cell;
   margin-left: 12px;
+  vertical-align: middle;
 }
 
 nav {
@@ -118,6 +118,7 @@ nav ul li a:hover {
   height: 100%;
   width: 295px;
   text-align: right;
+  z-index: 1;
 }
 
 .button {
@@ -240,7 +241,9 @@ nav ul li a:hover {
     margin: auto;
     font-size: 0.9em;
     font-style: italic;
+    padding: 0 12px 0 12px;
   }
+
 }
 
 .idr_slider,
@@ -272,6 +275,19 @@ h2.slider_title {
     margin: auto;
     color: #cea512;
     font-size: 2.8em;
+  }
+}
+
+.sommaire_idr {
+  text-align:left;
+  a {
+  text-decoration: none;
+  font-weight: 900;
+  text-decoration: none;
+  border-radius: 9px;
+  color: #02004b;
+  padding: 2px 5px 2px 8px;
+  background-color: #cea512af;
   }
 }
 
@@ -437,12 +453,22 @@ a.bouton {
     padding: 8px;
     height: 25px;
     width: 25px;
-    background-color: #02004b1e;
+    /* background-color: #02004b1e; */
     border-radius: 50%;
     display: block;
     margin: 25px;
-/*     background-image: img/mini_dg.svg; */
+    padding-left: 2px;
+    &:hover {
+      opacity: 0.6;
+    }
   }
+}
+
+.counter-img {
+  position: relative;
+  z-index:-1;
+  transform: translate(-18%, -78%);
+  width: 50px;
 }
 
 body {
@@ -458,7 +484,7 @@ details {
   margin: 0 auto;
   margin-bottom: 0.5rem;
   overflow: hidden;
-
+  text-align: justify;
   /* background-color: #0c4da230; */
   h1,
   h2,
@@ -504,11 +530,12 @@ details[open] {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
-  border-image-source: linear-gradient(to left, #02004b, #0c4da200);
-  border-radius: 30px;
+  border-image-source: linear-gradient(to left,#0c4da200, #02004b, #0c4da200);
+  border-radius: 20px;
   border-right: 0;
   border-top: 0;
   border-left: 0;
+  background-color: #02004b20;
 }
 
 details.en_savoir_plus {
@@ -526,8 +553,45 @@ details.en_savoir_plus {
   }
 }
 
+details.gestion {
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 5px;
+  }
+  p {
+    text-align: justify;
+    padding: 16px;
+  }
+  ul li {
+    text-align: justify;
+    padding-right: 16px;
+  }
+  summary {
+    font-size: 90%;
+  }
+}
+details.gestion[open] {
+  background-color: #02004b15;
+  border-radius: 2%;
+}
+
+.gestion_div{
+  h3 {  
+    font-size: 1.6rem;
+    color: #b5900b;
+    font-weight: 900;
+  }
+  h4 {  
+    font-size: 1.2rem;
+    color: #02004b;
+  }
+}
+
 summary {
-  padding: 1rem 0 1rem 0;
+  padding: 0.25rem 0 0.1rem 0;
   display: block;
   position: relative;
   cursor: pointer;
@@ -558,13 +622,13 @@ summary::before {
   border: 1px solid black;
 }
 
-hr {
+/* hr {
   position: absolute;
   margin-left: 16px;
   min-height: 380vh;
   width: 2px;
   background-color: black;
-}
+} */
 
 ol {
   margin: 0.5em 0 0.5em 0;
@@ -636,15 +700,16 @@ img.acceuil {
   margin-top: 0px;
 }
 
-
 footer {
-  background-color: #cea512e3;
+  background-color: #b5900b;
   font-size: 16px;
   padding: 5px 20px 5px 20px;
   width: 75%;
   p {
     margin: 0;
   }
+  bottom: 0;
+  position: relative;
 }
 
 .search-container {
@@ -692,5 +757,32 @@ footer {
       display: inline-block;
       margin-bottom: 0.5rem;
     }
+  }
+}
+
+video {
+  margin: 0 auto 0 auto;
+}
+
+blockquote {
+  border-left: solid 4px #cea512;
+  padding-left: 12px;
+  margin: 16px 16px 16px 16px;
+}
+
+details blockquote p {
+  margin: 0;
+}
+
+.toc{
+  li {
+    padding-left: 10px;
+  }
+  a {
+    color: #02004b;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: #cea5128a;
   }
 }

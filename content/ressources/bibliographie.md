@@ -37,5 +37,5 @@ title = "Bibliographie"
 - [Oliver (1977)](https://www.annualreviews.org/doi/abs/10.1146/annurev.en.22.010177.002203?journalCode=ento) ; cité dans « le saviez-vous » n°[3](https://pourougepoule.fr/connaissance#slide_idr-3)
 - [Koslov 1970](https://www.cabdirect.org/cabdirect/abstract/19721001749) ; cité dans la [foire au question](/faq) : "Est-ce que les ténébrions sont des prédateurs du pou rouge ?"
 - [Kirkwood (1963)](https://www.sciencedirect.com/science/article/pii/0014489463900432) ; cité dans la [foire au question](/faq) : "Combien de temps les poux rouges peuvent-ils survivre sans manger ?"
-- [Wood (1917)](https://www.biodiversitylibrary.org/item/190790#page/5/mode/1up) ; cité dans « le saviez-vous » n°[1](https://pourougepoule.fr/connaissance#slide_idr-1) 
+- [Wood (1917)](https://www.biodiversitylibrary.org/item/190790) ; cité dans « le saviez-vous » n°[1](https://pourougepoule.fr/connaissance#slide_idr-1) 
 

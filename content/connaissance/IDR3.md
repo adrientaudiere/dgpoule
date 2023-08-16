@@ -35,10 +35,13 @@ Des équipes de recherche ont conduit des analyses de génétique des population
 
 Génotyper<a href="#footnote_idr3_2"><sup>2</sup></a> individuellement des acariens prélevés dans différents élevages de volailles ainsi que dans des nids d'oiseaux sauvages et analyser les données à l'échelle des populations permet de comparer les proportions d'apparentement au sein de et entre les populations. Nous identifions ainsi les voies de contamination des élevages en nous basant sur les hypothèses suivantes : Les acariens de deux populations connectées ont presque autant de chances de se reproduire entre eux qu'à l'intérieur de l'une d'entre elles. En revanche, les acariens de populations moins connectées ont plus de chances de se reproduire avec des acariens de leur propre population. Cette simple réduction du flux génétique entraîne une différenciation des populations d'acariens d'une génération à l'autre, ce qui a un impact significatif sur la gestion des épidémies.
 
+<div style="font-size:0.9em">
 
-<span id="footnote_idr3_1"></span> *1*: Plus précisément, le pou rouge est haplodiploïde comme les abeilles : les œufs non fécondés donnent naissance aux mâles et les œufs fécondés aux femelles. Les mâles étant par nature incapables d'engendrer des petits, la contribution des deux sexes est donc indispensable au développement des populations (il ne semble pas y avoir de reproduction strictement asexuée comme chez d'autres acariens).
+<span id="footnote_idr3_1"></span> **1**: Plus précisément, le pou rouge est haplodiploïde comme les abeilles : les œufs non fécondés donnent naissance aux mâles et les œufs fécondés aux femelles. Les mâles étant par nature incapables d'engendrer des petits, la contribution des deux sexes est donc indispensable au développement des populations (il ne semble pas y avoir de reproduction strictement asexuée comme chez d'autres acariens).
 
-<span id="footnote_idr3_2"></span> *2*: Génotyper consiste ici à caractériser les séquences d'ADN de plusieurs zones déterminées du génome au sein de l'individu. Les analyses de génétique des populations consistent en gros à comparer la fréquence et l'identité des zones différentes entre individus prélevés au même endroit et entre individus prélevés dans des fermes et/ou nids différents.
+<span id="footnote_idr3_2"></span> **2**: Génotyper consiste ici à caractériser les séquences d'ADN de plusieurs zones déterminées du génome au sein de l'individu. Les analyses de génétique des populations consistent en gros à comparer la fréquence et l'identité des zones différentes entre individus prélevés au même endroit et entre individus prélevés dans des fermes et/ou nids différents.
+
+</div>
 
 #### Sources scientifiques
 

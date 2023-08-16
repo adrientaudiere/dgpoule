@@ -8,15 +8,31 @@ is_idr = true
 
 Le pou rouge des poules, bien que dépourvu d'ailes comme tous les acariens, peut parcourir des distances relativement importantes car il court plutôt vite. Pourtant il ne va pas très loin « à pied », sa propagation au sein du poulailler et entre élevage s'explique surtout par des mouvements passifs. En somme, le pou rouge se déplace de trois manières différentes, selon la distance et le moment de la journée :
    
-1. **Activement, par ses propres moyens à courte distance (quelques mètres, surtout la nuit)** : à « pieds », le pou rouge se déplace vivement, suivant des trajets tortueux et parcourant très aisément 65 cm en 10 min lorsqu'il est à jeun [insérer une vidéo ?]. Comme il séjourne dans la zone hors sol des élevages, le pou rouge trouve facilement une poule pour prélever du sang en sortant de son abri [cf [le saviez-vous](https://pourougepoule.fr/connaissance) n°[5](https://pourougepoule.fr/connaissance#slide_idr-5)]. 
+1. **Activement, par ses propres moyens à courte distance (quelques mètres, surtout la nuit)** : à « pieds », le pou rouge se déplace vivement, suivant des trajets tortueux et parcourant très aisément 65 cm en 10 min lorsqu'il est à jeun. Comme il séjourne dans la zone hors sol des élevages, le pou rouge trouve facilement une poule pour prélever du sang en sortant de son abri [cf [le saviez-vous](https://pourougepoule.fr/connaissance) n°[5](https://pourougepoule.fr/connaissance#slide_idr-5)]. 
+
+ <video width="320" height="320" controls muted>
+      <source src="/video/Repas_poux-rouges_patte.mp4" type=video/mp4>
+      <p>
+    Votre navigateur ne prend pas en charge les vidéos HTML5. Voici
+    <a href="/video/Repas_poux-rouges_patte.mp4">un lien pour télécharger la vidéo</a>.
+  </p>
+    </video>
+
+<p style="text-align:center; width:520px; margin: 0 auto 0 auto; font-size:0.9em">
+ <em> Poux rouges affamés se dirigeant vers leur repas (infestation importante mais pas maximale : poule en bonne santé les jours suivants). </em>
+ </p>
+<p style="text-align:center; width:520px; margin: 0 auto 0 auto; font-size:0.9em">
+ Licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>.
+</p>
 
 <div class="notes">
 
 **Note 1** : Le pou rouge semble cependant relativement paresseux, capable de demeurer dans les agrégats près de perchoirs ou de cages vides (durant un vide sanitaire) plutôt que de rejoindre des hôtes potentiels à quelques mètres de distance. <br />
 **Note 2** : Le pou rouge peut aussi parcourir des dizaines de mètres de manière semi-passive, en marchant sur les tapis mobiles (tapis à œufs par ex.).
+
 </div>
 
-1. **Passivement, par le biais des poules à distance moyenne (quelques dizaines de mètres, en début de nuit, durant le « dîner »)** : comme pour le moustique, il faut quelques minutes au pou rouge pour prélever un repas de sang sur son hôte/proie. Mais à la différence du moustique, il ne peut pas s'envoler après le repas : il descend généralement le long des pattes de la poule pour rejoindre un abri et digérer le sang prélevé. Une part importante de la population de poux rouges commence à grimper sur les poules peu avant le coucher du soleil ou l'extinction des lumières en élevage. Or, au même moment, les poules se déplacent souvent d'un perchoir à l'autre avant de se stabiliser par petits groupes. Par conséquent, les acariens qui dînent tôt (avant ou pendant le coucher des poules) ont de très fortes chances de quitter la poule à un endroit différent de celui où ils ont embarqué. Ainsi, bien qu'il ne s'établisse pas sur la poule, le pou rouge transite en début de nuit avec elle.
+2. **Passivement, par le biais des poules à distance moyenne (quelques dizaines de mètres, en début de nuit, durant le « dîner »)** : comme pour le moustique, il faut quelques minutes au pou rouge pour prélever un repas de sang sur son hôte/proie. Mais à la différence du moustique, il ne peut pas s'envoler après le repas : il descend généralement le long des pattes de la poule pour rejoindre un abri et digérer le sang prélevé. Une part importante de la population de poux rouges commence à grimper sur les poules peu avant le coucher du soleil ou l'extinction des lumières en élevage. Or, au même moment, les poules se déplacent souvent d'un perchoir à l'autre avant de se stabiliser par petits groupes. Par conséquent, les acariens qui dînent tôt (avant ou pendant le coucher des poules) ont de très fortes chances de quitter la poule à un endroit différent de celui où ils ont embarqué. Ainsi, bien qu'il ne s'établisse pas sur la poule, le pou rouge transite en début de nuit avec elle.
 
 <div class="notes">
 
@@ -24,7 +40,7 @@ Le pou rouge des poules, bien que dépourvu d'ailes comme tous les acariens, peu
 
 </div>
 
-1. **Passivement, par le matériel inerte manipulé par l'homme tel les caisses et les camions (dizaines à milliers de kilomètres durant les transferts de volailles)** : lorsque l'on transporte des poules qui proviennent d'un élevage infesté, on peut transporter des poux rouges. En général, ils s'accumulent soit dans les caisses de transport soit dans le camion lui-même, qui deviennent des vecteurs de l'acarien. De tels transferts involontaires sont possibles entre élevages de poulettes infestés et élevages de pondeuses ou entre élevages de pondeuses au moment de la réforme, par l'usage des mêmes caisses de transport pour plusieurs élevages.
+3. **Passivement, par le matériel inerte manipulé par l'homme tel les caisses et les camions (dizaines à milliers de kilomètres durant les transferts de volailles)** : lorsque l'on transporte des poules qui proviennent d'un élevage infesté, on peut transporter des poux rouges. En général, ils s'accumulent soit dans les caisses de transport soit dans le camion lui-même, qui deviennent des vecteurs de l'acarien. De tels transferts involontaires sont possibles entre élevages de poulettes infestés et élevages de pondeuses ou entre élevages de pondeuses au moment de la réforme, par l'usage des mêmes caisses de transport pour plusieurs élevages.
 
 
 <details>

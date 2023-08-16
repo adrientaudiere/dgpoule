@@ -14,7 +14,7 @@ Le parasite et le prédateur ont un point commun : ils se nourrissent tous les d
 
 <div class="img_largeur_max" style="width:60%">
 
-![Définition d'un parasite, un microprédateur et un prédateur](/img/para_preda.webp)
+![Définition d'un parasite, un microprédateur et un prédateur](/img/parasite_predateur.webp)
 
 Comparaison des concepts de parasite, microprédateur et prédateur.
 
@@ -42,13 +42,13 @@ Illustration de l'effet faible des traitements pulvérisés à faible rémanence
 Remarque : même si le pou rouge des poules vit à distance de l'hôte, il reste toujours dans la zone hors sol (partie abritée, contenant les perchoirs, nids, sources d'aliment et d'eau). On le trouve surtout au niveau des aires de perchage ou de ponte, jamais sur les parcours ni les autres zones extérieures, même si le bâtiment est très infesté. Cela est vrai quel que soit le type d'élevage (élevage commercial au sol, en volière, en cage, poulailler familial).
 
 
-<details>
+<details class="en-savoir-plus">
     <summary>En savoir plus</summary>
 
 #### Sources scientifiques
 
 - [Lafferty & Kuris (2002)](https://www.sciencedirect.com/science/article/abs/pii/S0169534702026150)
-- [Wood (1917)](https://www.biodiversitylibrary.org/item/190790#page/5/mode/1up )
+- [Wood (1917)](https://www.biodiversitylibrary.org/item/190790)
 
 
 </details>

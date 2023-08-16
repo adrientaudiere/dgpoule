@@ -1,34 +1,72 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="section">
-    <div class="button-container">
-        <button class="button"><a href="/connaissance">CONNAISSANCE </a></button>
-        <button class="button active-button"><a href="/gestion">GESTION INTÉGRÉE</a></button>
-        <button class="button"><a href="/faq">FAQ</a></button>
-        <button class="button"><a href="/ressources">RESSOURCES</a></button>
-      </div>
-    <div class="idr">
-        <h1 class="title">{{ section.title }}</h1>
-        {{ section.content | safe }} 
-        
-        <p> Ce qui suit résume l'état de la connaissance issue de la recherche scientifique au 18 août 2023.
-        </p>
-    
-        <p>
-          Cette page sur la « <a class="bouton" href="/connaissance#h2_tester">gestion intégrée : le champ des possibles</a> » présente de manière concise les grandes catégories de modes d'action possibles dans le domaine de la gestion intégrée des bioagresseurs acariens EN GENERAL et signale l'existence éventuelle de solutions commercialisées et/ou de travaux en cours, sans les présenter nommément. Nous encourageons les personnes qui souhaitent en savoir plus à se rapprocher de personnes compétentes (voir <a class="bouton" href="/ressources#conseil">Conseils</a>). »
-        </p>
-        <p>
-          Vous pouvez également aller voir la page traitant de les connaissances actuelles : « <a class="bouton" href="/connaissance#h2_idr">Le saviez-vous ?</a> » présente une série d'informations fondamentales essentielles pour comprendre les difficultés relatives aux infestations à pou rouge. Des liens vers des sources scientifiques (avec quelques explications éventuelles) sont accessibles en cliquant sur « En savoir plus ». 
-     
-        </p>
-        
-      </div>
+  <div class="button-container">
+    <button class="button"><a href="/connaissance">LE SAVIEZ-VOUS</a></button>
+    <button class="button active-button"><a href="/gestion">GESTION INTÉGRÉE</a></button>
+    <button class="button"><a href="/faq">FAQ</a></button>
+    <button class="button"><a href="/ressources">RESSOURCES</a></button>
+  </div>
 
-    <div class="container">
-      
-      {{ section.content | safe }}
 
-    </div>
-  </section>
 
-  {% endblock %}
+  <div class="container gestion_div">
+    <h1 class="title">{{ section.title }}</h1>
+
+    <ol class="toc" type="I">
+      {% for h1 in section.toc %}
+      <li>
+        <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+        {% if h1.children %}
+        <ol type="a">
+          {% for h2 in h1.children %}
+
+          <li>
+            <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+            {% if h2.children %}
+            <ul>
+              {% for h3 in h2.children %}
+              <li  style="list-style: none;">
+                <a href="{{ h3.permalink | safe }}">{{ h3.title }}</a>
+                <ul>
+                  {% for h4 in h3.children %}
+                  <li>
+                    <a href="{{ h4.permalink | safe }}">{{ h4.title }}</a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ol>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+
+    <p>
+      Cette page survole les grands principes de la gestion intégrée des bioagresseurs de type insectes et acariens EN
+      GENERAL et indique dans quelle mesure elle est ou peut être appliquée au pou rouge des poules. Elle vise à ouvrir
+      le champ des possibles et ne constitue en aucun cas une liste de prescription. Nous encourageons les personnes qui
+      souhaitent en savoir plus à se rapprocher de personnes compétentes (voir <a class="bouton"
+        href="/ressources#conseil">Conseils</a>). Pour ceux qui souhaitent mieux comprendre les difficultés rencontrées
+      et / ou mettre en place des tests, la partie "Pour aller plus loin ..." offre des pistes de réflexion croisant
+      connaissances scientifiques et connaissances techniques.
+    </p>
+
+    <p>
+      Vous pouvez également aller voir la page : « <a class="bouton" href="/connaissance#h2_idr">connaissance</a> » qui
+      présente une série d'informations fondamentales essentielles pour comprendre les difficultés relatives aux
+      infestations à pou rouge. Des liens vers des sources scientifiques (avec quelques explications éventuelles) sont
+      accessibles en cliquant sur « En savoir plus ».
+    </p>
+
+    {{ section.content | safe }}
+
+  </div>
+</section>
+
+{% endblock %}
