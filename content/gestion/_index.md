@@ -220,7 +220,7 @@ Pour qu'une stratégie de gestion puisse être considérée comme efficace, elle
 
 <div class="img_largeur_max">
 
-<img src="/img/evol_pop_pou.webp" alt="Courbe qui décrit l'évolution très rapide des populations de pou rouge. À partir de 200 femmelles on obtient 444 774 poux en 40 jours." style ="margin:auto; max-width:90%;">
+<img src="/img/evol_pop_pou.webp" alt="Courbe qui décrit l'évolution très rapide des populations de pou rouge. À partir de 200 femelles on obtient 444 774 poux en 40 jours." style ="margin:auto; max-width:90%;">
 
 </div>
 

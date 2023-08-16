@@ -4,15 +4,24 @@
 <head>
   <meta charset="utf-8" />
   <title>Pou Rouge</title>
- <!-- <base href="https://pourougepoule.fr/" />  -->
+ <base href="https://pourougepoule.fr/" /> 
   <link rel="stylesheet" href="base.css" />
   <link rel="stylesheet" href="media.css" />
 </head>
 
 <body>
   <header>
-    <a href="/"><img id= "logo" src="/img/logo_PP.png" alt="logo" /></a>
+    <a href="/"><img id="logo" src="/img/logo_PP.png" alt="logo" /></a>
     <h1><a href="/">POUROUGEPOULE</a></h1>
+
+    <div class="search-container">
+      <input id="search" type="search" placeholder="🔎 Rechercher dans le site">
+
+      <div class="search-results">
+        <div class="search-results__items"></div>
+      </div>
+    </div>
+
     <nav>
       <ul>
         <li><a href="/#a-propos"><img src="/img/icon_contact_sm.png" alt="À propos"></a></li>
@@ -23,8 +32,9 @@
       </ul>
     </nav>
   </header>
-  <div class="acceuil">
-    <img src="/img/img_acceuil.webp" alt="image acceuil"/>
+  
+  <div class="accueil">
+    <img src="/img/img_accueil.webp" alt="image accueil"/>
 
     <div class="button-container">
       <button class="button"><a href="/connaissance">LE SAVIEZ-VOUS</a></button>
