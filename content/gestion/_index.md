@@ -28,7 +28,7 @@ Nécessite le développement d'outils de biocontrôle au sens large et de strat�
 <details  class="gestion">
     <summary>Principe n°3 : anticiper les résistances.</summary>
 
-Nécessite des études sur les résistances aux outils alternatifs aux acaricides de synthèse : des travaux ont démontré l'émergence de résistances à des outils de biocontrôle chez d'autres bioagresseurs, cela reste à étudier chez le pou rouge. Des travaux ont par ailleurs démontré une prévalence non négligeable de résistances à des acaricides de synthèse anciens (pyréthinoïdes).  
+Nécessite des études sur les résistances aux outils alternatifs aux acaricides de synthèse : des travaux ont démontré l'émergence de résistances à des outils de biocontrôle chez d'autres bioagresseurs, cela reste à étudier chez le pou rouge. Des travaux ont par ailleurs démontré une prévalence non négligeable de résistances à des acaricides de synthèse anciens (pyréthinoïdes) chez le pou rouge.  
 
 </details>
 
@@ -55,7 +55,7 @@ Principaux modes d'action utilisés dans les domaines de la gestion intégrée d
 </div>
 
 
-#### &#8226; Mode d'action de type 1 : Tuer directement des individus dans la population du bioagresseur. </summary>
+#### &#8226; Modes d'action ciblant la survie : Tuer directement des individus dans la population du bioagresseur. </summary>
 
 Peut être accompli par des outils très divers :
 
@@ -113,7 +113,7 @@ Note : Le pou rouge des poules étant présent en France et dans les élevages d
 
 </details>
 
-#### &#8226; Mode d'action de type 2 : Empêcher les mâles et femelles du bioagresseur de se reproduire. 
+#### &#8226; Modes d'action ciblant le reproduction : Empêcher les mâles et femelles du bioagresseur de se reproduire. 
 
 Deux groupes de modes d'action existent dans d'autres systèmes :
 
@@ -136,7 +136,7 @@ Le principe de la technique est de perturber la phase de rapprochement des bioag
 </details>
 
 
-#### &#8226; Mode d'action de type 3 : Interférer dans la relation biologique entre le bioagresseur et la plante ou l'animal de production.
+#### &#8226; Modes d'action par interférence : Interférer dans la relation biologique entre le bioagresseur et la plante ou l'animal de production.
 
  Divers modes d'action sont possibles, dont certains à utiliser en combinaison :
 
@@ -182,12 +182,13 @@ Certaines variétés végétales cultivées ou races animales élevées se trouv
 
 
 
+#### &#8226; Modes d'action par entrave : Entraver l'accès du bioagresseur à la plante ou l'animal de production ou aux gîtes 
+
 
 <details  class="gestion">
-    <summary>Mode d'action de type 4 : Entraver l'accès du bioagresseur à la plante ou l'animal de production ou aux gîtes </summary>
+    <summary>Glues, graisses minérales ou végétales et/ou des savons purs (ex. savon noir)</summary>
 
-- **Glues, graisses minérales ou végétales et/ou des savons purs**  (ex. savon noir)
-Elles permettent de former des barrières physiques infranchissables par les insectes sans ailes et les acariens. Leur action est principalement mécanique, par leur affinité forte avec la cuticule et leur capacité à obturer les orifices respiratoires. Selon la localisation et le mode d'application de ces matières, on peut entraver l'accès des bioagresseurs qui ne vivent pas sur l'hôte (microprédateurs; voir [le saviez-vous](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-1)) à la plante ou l'animal de production peut contribuer à réguler leurs populations. Introduire dans les microhabitats des matières gênant les mouvements des bioagresseurs peut limiter l'espace disponible pour le développement de leurs populations. Des lavages à l'eau savonneuse permettent aussi d'éliminer une partie des populations et d'éloigner temporairement les bioagresseurs.  
+Elles permettent de former des barrières physiques infranchissables par les insectes sans ailes et les acariens. Leur action est principalement mécanique, par leur affinité forte avec la cuticule et leur capacité à obturer les orifices respiratoires. Selon la localisation et le mode d'application de ces matières, on peut entraver l'accès des bioagresseurs qui ne vivent pas sur l'hôte (microprédateurs; voir [le saviez-vous ?](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-1)) à la plante ou l'animal de production peut contribuer à réguler leurs populations. Introduire dans les microhabitats des matières gênant les mouvements des bioagresseurs peut limiter l'espace disponible pour le développement de leurs populations. Des lavages à l'eau savonneuse permettent aussi d'éliminer une partie des populations et d'éloigner temporairement les bioagresseurs.  
 
 > L'application d'huiles, de graisses, ou éventuellement de savon noir directement ou à l'aide d'un pinceau dans les interstices où s'accumulent les poux rouges (identifiables même après leur départ par les traces de fientes persistantes; voir la [question](https://pourougepoule.fr/faq#faq-10) : Comment savoir s'il y a des poux rouges dans le bâtiment / poulailler ?), vise à dissuader les poux rouges de s'accumuler dans les zones traitées. On en applique notamment dans les parties des structures portant les perchoirs et dans les interstices entre les caillebotis en élevages au sol.  Des applications répétées sont généralement nécessaires car, avec le temps, l'accumulation de poussière forme une pellicule qui permet aux acariens de marcher sur les substances sans effet néfaste et de s'installer à nouveau. Les savons purs se déshydratent progressivement et perdent rapidement leurs propriétés. 
 Un perchoir électrifié a été conçu aux Pays-Bas pour empêcher les acariens d'accéder aux poules perchées (les acariens qui cherchent à les atteindre en grimpant sur le perchoir sont électrisés). Il doit être intégré à la structure interne du bâtiment. 
@@ -195,8 +196,8 @@ Un perchoir électrifié a été conçu aux Pays-Bas pour empêcher les acariens
 </details>
 
 
-<details  class="gestion">
-    <summary>Références Bibliographiques </summary>
+<details class="gestion">
+    <summary class="gestion-bib">Références Bibliographiques </summary>
 
 <!-- XXX -->
 
@@ -216,7 +217,7 @@ De nombreuses solutions prometteuses se heurtées et se heurtent à des échecs 
 <details  class="gestion">
     <summary>Pourquoi un produit qui tue des poux rouges in vitro n'est-il pas nécessairement efficace (<strong>principe n°2</strong>) ? </summary>
 
-Pour qu'une stratégie de gestion puisse être considérée comme efficace, elle doit empêcher ou limiter le développement des populations de pou rouge et se traduire par une réduction ou une élimination des dégâts. La dynamique démographique du pou rouge est généralement très discrète en début de la bande et s'accélère de manière exponentielle au bout de quelques mois (pullulation) (cf [le saviez-vous](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-3)). Des pullulations équivalentes à celles atteintes en élevage ont été obtenues en conditions contrôlées et de manière répétée à partir de l'équivalent d'un tout petit agrégat (voir figure ci-dessous).  
+Pour qu'une stratégie de gestion puisse être considérée comme efficace, elle doit empêcher ou limiter le développement des populations de pou rouge et se traduire par une réduction ou une élimination des dégâts. La dynamique démographique du pou rouge est généralement très discrète en début de la bande et s'accélère de manière exponentielle au bout de quelques mois (pullulation) (cf [le saviez-vous ?](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-3)). Des pullulations équivalentes à celles atteintes en élevage ont été obtenues en conditions contrôlées et de manière répétée à partir de l'équivalent d'un tout petit agrégat (voir figure ci-dessous).  
 
 <div class="img_largeur_max">
 
@@ -229,7 +230,7 @@ Il est fréquent de se heurter à l'inefficacité d'outils de gestion dont le mo
 
 - à l'échelle du bâtiment, la répartition spatiale des poux rouges est très hétérogène, aucune intervention ne peut porter sur l'ensemble du bâtiment de manière homogène
 
-- localement, les produits pulvérisés à faible rémanence ne touchent qu'une petite partie de la population de pou rouge, car une grande partie demeure accumulée dans les interstices (cf [le saviez-vous](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-1))
+- localement, les produits pulvérisés à faible rémanence ne touchent qu'une petite partie de la population de pou rouge, car une grande partie demeure accumulée dans les interstices (cf [le saviez-vous ?](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-1))
 
 - à l'échelle de la population de pou rouge, tous les individus ne vont pas manger en même temps, ce qui empêche les antiparasitaires administrés par l'eau de boisson de toucher tous les acariens. Même si les poux rouges en jeûne depuis plusieurs jours sont en général affamés, certains demeurent en jeûne durant des semaines malgré la présence de poules.
 
@@ -264,7 +265,7 @@ Réaliser le traitement testé plusieurs fois successives dans un bâtiment donn
 </details>
 
 <details  class="gestion">
-    <summary>Références Bibliographiques </summary>
+     <summary class="gestion-bib">Références Bibliographiques </summary>
 
 <!-- XXX -->
 

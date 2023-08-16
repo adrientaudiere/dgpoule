@@ -578,6 +578,19 @@ details.gestion[open] {
   border-radius: 2%;
 }
 
+summary.gestion-bib{
+    font-size: 1.6rem;
+    color: #b5900b;
+    font-weight: 900;
+}
+summary.gestion-bib::before {
+  font-weight: 900;
+  color: #b5900b;
+  background-color: #fff;
+  border-radius: 100%;
+  border: 2px solid #b5900b;
+}
+
 .gestion_div{
   h3 {  
     font-size: 1.6rem;
@@ -620,6 +633,7 @@ summary::before {
   background-color: white;
   border-radius: 100%;
   border: 1px solid black;
+  font-family: Arial;
 }
 
 /* hr {
@@ -670,9 +684,22 @@ a.small_link {
   font-size: smaller;
 }
 
-details.ressources ul {
+details.ressources {
+  ul {
   background-color: #fbc90f30;
   padding: 2%;
+  }
+  h4 {
+    margin: 8px;
+  }
+}
+
+summary.ressources-bib{
+  h2 {
+    margin: 8px;
+  }
+  color: #02004b;
+  font-family: Impact;
 }
 
 header nav {

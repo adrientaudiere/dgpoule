@@ -8,7 +8,7 @@ is_idr = true
 
 Le pou rouge des poules, bien que dépourvu d'ailes comme tous les acariens, peut parcourir des distances relativement importantes car il court plutôt vite. Pourtant il ne va pas très loin « à pied », sa propagation au sein du poulailler et entre élevage s'explique surtout par des mouvements passifs. En somme, le pou rouge se déplace de trois manières différentes, selon la distance et le moment de la journée :
    
-1. **Activement, par ses propres moyens à courte distance (quelques mètres, surtout la nuit)** : à « pieds », le pou rouge se déplace vivement, suivant des trajets tortueux et parcourant très aisément 65 cm en 10 min lorsqu'il est à jeun. Comme il séjourne dans la zone hors sol des élevages, le pou rouge trouve facilement une poule pour prélever du sang en sortant de son abri [cf [le saviez-vous](https://pourougepoule.fr/connaissance) n°[5](https://pourougepoule.fr/connaissance#slide_idr-5)]. 
+1. **Activement, par ses propres moyens à courte distance (quelques mètres, surtout la nuit)** : à « pieds », le pou rouge se déplace vivement, suivant des trajets tortueux et parcourant très aisément 65 cm en 10 min lorsqu'il est à jeun. Comme il séjourne dans la zone hors sol des élevages, le pou rouge trouve facilement une poule pour prélever du sang en sortant de son abri [cf [Le saviez-vous ?](https://pourougepoule.fr/connaissance) n°[5](https://pourougepoule.fr/connaissance#slide_idr-5)]. 
 
  <video width="320" height="320" controls muted>
       <source src="/video/Repas_poux-rouges_patte.mp4" type=video/mp4>
@@ -46,7 +46,7 @@ Le pou rouge des poules, bien que dépourvu d'ailes comme tous les acariens, peu
 <details>
     <summary>En savoir plus</summary>
 
-[Le saviez-vous](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-1) et n°[3](https://pourougepoule.fr/connaissance#slide_idr-3)
+[Le saviez-vous ?](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-1) et n°[3](https://pourougepoule.fr/connaissance#slide_idr-3)
 
 
 ## Comment sait-on cela ?

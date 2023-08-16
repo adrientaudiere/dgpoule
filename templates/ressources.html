@@ -2,7 +2,7 @@
 <section class="section">
   <div class="container">
     <div class="button-container">
-      <button class="button"><a href="/connaissance">LE SAVIEZ-VOUS</a></button>
+      <button class="button"><a href="/connaissance">LE SAVIEZ-VOUS ?</a></button>
       <button class="button"><a href="/gestion">GESTION INTÉGRÉE</a></button>
       <button class="button"><a href="/faq">FAQ</a></button>
       <button class="button active-button"><a href="/ressources">RESSOURCES</a></button>
@@ -30,7 +30,7 @@
       
       {% for page in section.pages %}
       <details class="ressources" open="">
-        <summary>{{ page.title }}</summary>
+        <summary class="ressources-bib"> <h2 style="display: inline-block;">{{ page.title }}</h2></summary>
         {{ page.content | safe }}
       </details>
 
