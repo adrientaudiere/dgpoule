@@ -846,3 +846,24 @@ a.external_link {
     background-color: #02004b;
   }
 }
+
+.mini_logo {
+  display: inline;
+  img {
+    width: 40px !important;
+    vertical-align: middle;
+  }
+  a {
+    color: #02004b;
+    font-size: 34px;
+    vertical-align: middle;
+    text-decoration: none;
+    &:hover {
+      color: black;
+      border-radius: 9px;
+      padding: 2px 4px 2px 4px;
+      margin: 0 3px 0 3px;
+      background-color: rgba(12, 77, 162, 0.15);
+    }
+  }
+}

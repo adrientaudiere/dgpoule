@@ -3,8 +3,45 @@ template = "index.html"
 +++
 
 ## À Propos
+Ce site résume la connaissance sur la biologie du pou rouge des poules
+(*Dermanyssus gallinae*) en relation avec les difficultés de gestion de ce parasite en
+élevage de pondeuses. Il a été conçu de manière à aider les personnes confrontées
+au problème à l'appréhender au mieux.
 
-Ce site propose de rassembler la connaissance sur la biologie du pou rouge des poules (*Dermanyssus gallinae*) en relation avec les difficultés de gestion de ce parasite en élevage de pondeuses et de la rendre accessible, afin d'aider à la compréhension du problème. Des liens vers des sources scientifiques sont aussi fournis dans des sections "En savoir plus" pour ceux qui souhaitent aller plus loin. Concernant les moyens de gestion, le site n'est pas dédié à fournir des solutions ni des prescriptions de traitement : nous présentons simplement les grands types d'outils potentiels pour la gestion intégrée des bioagresseurs dans l'agriculture en général, en pointant les moyens existants pour gérer le pou rouge des poules.
+Il est organisé en quatre parties :
+
+<div class="mini_logo"> 
+<img src="/img/icon_article_sm.png" alt="Connaissance" class="mini_logo"> <a href="/connaissance"> Le saviez-vous ? </a>
+</div>
+
+Présente une série d'informations essentielles issues de la recherche scientifique
+pour comprendre les difficultés relatives aux infestations à pou rouge.
+
+<div class="mini_logo"> 
+<img src="/img/icon_gestion_sm.webp" alt="Gestion intégrée" class="mini_logo"> <a href="/gestion"> Gestion intégrée </a>
+</div>
+
+Présente les grandes principes et modes d'action possibles dans le domaine de la
+gestion intégrée des bioagresseurs insectes et acariens EN GENERAL et pointe
+l'existence éventuelle d'outils concernant la gestion intégrée du pou rouge.
+
+<div class="mini_logo"> 
+<img src="/img/icon_help_sm.png" alt="Foire aux questions" class="mini_logo"> <a href="/faq"> FAQ (foire aux questions) </a>
+</div>
+
+
+Répond à une liste de questions formulées à partir de l'expérience d'acteurs de
+terrain face au pou rouge.
+
+<div class="mini_logo"> 
+<img src="/img/icon_web_ressource_sm.png" alt="Ressources" class="mini_logo"> <a href="/ressources"> Ressources </a>
+</div>
+
+Regroupe des suggestions pour accéder à un accompagnement et les ressources
+utilisées dans le site (bibliographique, webographique). Des liens vers des sources
+scientifiques sont aussi fournis dans des sections "En savoir plus" pour ceux qui
+souhaitent aller plus loin.
+
 ### Qui sommes-nous ?
 
 Ce site est le produit d'un travail collaboratif impliquant des universitaires,
