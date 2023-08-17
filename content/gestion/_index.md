@@ -103,11 +103,15 @@ La plupart des insectes et acariens supportent très mal les chocs thermiques ch
 
 La lutte biologique s'appuie sur l'adage : « l'ennemi de mon ennemi est mon ami… ». Les ennemis naturels des bioagresseurs sont leurs prédateurs ou leurs pathogènes : divers insectes, araignées ou acariens se nourrissent d'autres invertébrés et des champignons, bactéries ou virus pathogènes leur causent des maladies. Ces ennemis naturels constituent des « auxiliaires ». On distingue trois grands types de lutte biologique :
 
-> **a.** En lutte biologique par acclimatation, on inocule des ennemis naturels initialement absents du milieu, transférés depuis d'autres milieux, que l'on cherche à installer durablement. Cela concerne généralement des bioagresseurs nouvellement arrivés dans un système ou dans une aire géographique (invasion en cours).
+<div class="no-list-style">
 
-> **b.** En lutte biologique par augmentation, on procède à des introductions massives d'ennemis naturels, produits par élevage de masse, qui viennent augmenter l'activité des ennemis naturellement présents dans le milieu.
+- **a.** En lutte biologique par acclimatation, on inocule des ennemis naturels initialement absents du milieu, transférés depuis d'autres milieux, que l'on cherche à installer durablement. Cela concerne généralement des bioagresseurs nouvellement arrivés dans un système ou dans une aire géographique (invasion en cours).
 
-> **c.** En lutte biologique par conservation, on favorise les ennemis naturels du bioagresseur spontanément présents dans le milieu
+- **b.** En lutte biologique par augmentation, on procède à des introductions massives d'ennemis naturels, produits par élevage de masse, qui viennent augmenter l'activité des ennemis naturellement présents dans le milieu.
+
+- **c.** En lutte biologique par conservation, on favorise les ennemis naturels du bioagresseur spontanément présents dans le milieu
+
+</div>
 
 > Plusieurs espèces d'acariens, d'autres arachnides et d'insectes prédateurs se développent spontanément dans les bâtiments de pondeuses, mais aucune action régulatrice n'a été détectée malgré des expérimentations menées à différentes échelles : la lutte biologique par conservation semble assez peu pertinente à ce jour. Dans le cadre de la lutte biologique par augmentation, des acariens prédateurs sont élevés en masse et commercialisés pour introduction massive dans les bâtiments de pondeuses.
 
@@ -146,11 +150,11 @@ Le principe de la technique est de perturber la phase de rapprochement des bioag
 L'objectif est d'**interférer dans la relation biologique entre le bioagresseur et la plante ou l'animal de production**. Divers modes d'action sont possibles, dont certains à utiliser en combinaison :
 
 <details  class="gestion">
-    <summary> Confusion sexuelle </summary>
+    <summary> Répulsifs </summary>
 
-- **Répulsifs.**
-  Il est parfois possible de décourager le bioagresseur de contacter la plante ou l'animal de production en utilisant une substance répulsive, c'est-à-dire une odeur (ou un goût) qui provoque chez le bioagresseur un comportement de fuite. Une difficulté majeure est la conception spatiale de l'usage de l'outil, qui doit induire chez le bioagresseur un comportement de fuite à distance de la proie ou hôte, ou une répugnance à utiliser les gîtes appropriés. Sachant que le bioagresseur peut s'habituer rapidement à une odeur répulsive, répandre un répulsif partout dans un système n'a pas beaucoup de sens (le bioagresseur ne peut rien fuir au final). Les stratégies « push-pull » (pousser-tirer) combinent un répulsif positionné de manière à repousser le bioagresseur (« push », au moyen du répulsif) loin de la plante ou l'animal de production et un leurre attractif (voir ci-dessous) l'attirant (« pull ») ailleurs.
-  > Certains compléments alimentaires à base de plantes sont additionnés à l'aliment ou l'eau de boisson des poules afin de rendre l'odeur globale de la poule répulsive vis-à-vis du pou rouge des poules.
+Il est parfois possible de décourager le bioagresseur de contacter la plante ou l'animal de production en utilisant une substance répulsive, c'est-à-dire une odeur (ou un goût) qui provoque chez le bioagresseur un comportement de fuite. Une difficulté majeure est la conception spatiale de l'usage de l'outil, qui doit induire chez le bioagresseur un comportement de fuite à distance de la proie ou hôte, ou une répugnance à utiliser les gîtes appropriés. Sachant que le bioagresseur peut s'habituer rapidement à une odeur répulsive, répandre un répulsif partout dans un système n'a pas beaucoup de sens (le bioagresseur ne peut rien fuir au final). Les stratégies « push-pull » (pousser-tirer) combinent un répulsif positionné de manière à repousser le bioagresseur (« push », au moyen du répulsif) loin de la plante ou l'animal de production et un leurre attractif (voir ci-dessous) l'attirant (« pull ») ailleurs.
+
+> Certains compléments alimentaires à base de plantes sont additionnés à l'aliment ou l'eau de boisson des poules afin de rendre l'odeur globale de la poule répulsive vis-à-vis du pou rouge des poules.
 
  </details>
 
