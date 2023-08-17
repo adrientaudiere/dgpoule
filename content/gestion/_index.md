@@ -7,7 +7,7 @@ template = "gestion.html"
 ## La gestion intégrée du pou rouge : qu'est-ce que c'est ?
 ### Gestion intégrée en général
 
-La gestion intégrée des ravageurs et parasites est une approche systémique. Elle repose sur des combinaisons d'approches et outils basés sur des modes d'action variés et cherche à créer des synergies (stratégies). Largement développée au cours du XXème siècle dans les secteurs de production végétale (lire l'article wikipedia sur la [Lutte intégrée](https://fr.wikipedia.org/wiki/Lutte_int%C3%A9gr%C3%A9e)) et de la gestion des vecteurs de maladies humaines, elle a globalement commencé à être explorée tardivement en production animale.
+La gestion intégrée des ravageurs et parasites est une approche systémique. Elle repose sur des combinaisons d'approches et outils basés sur des modes d'action variés et cherche à créer des synergies (stratégies). Largement développée au cours du XXème siècle dans les secteurs de production végétale (lire l'article wikipedia sur la <a href="https://fr.wikipedia.org/wiki/Lutte_int%C3%A9gr%C3%A9e" class="external_link"> Lutte intégrée </a>) et de la gestion des vecteurs de maladies humaines, elle a globalement commencé à être explorée tardivement en production animale.
 
 La gestion intégrée met l'accent sur les approches préventives et s'appuie sur les 4 principes suivants :
 
@@ -55,9 +55,9 @@ Principaux modes d'action utilisés dans les domaines de la gestion intégrée d
 </div>
 
 
-#### &#8226; Modes d'action ciblant la survie : Tuer directement des individus dans la population du bioagresseur. </summary>
+#### &#8226; Modes d'action ciblant la survie 
 
-Peut être accompli par des outils très divers :
+Il s'agit alors de **tuer directement des individus dans la population du bioagresseur**. Peut être accompli par des outils très divers :
 
 <details  class="gestion">
     <summary>Substances toxiques (= insecticides, acaricides, antiparasitaires) de synthèse ou d'origine naturelle</summary> 
@@ -113,9 +113,9 @@ Note : Le pou rouge des poules étant présent en France et dans les élevages d
 
 </details>
 
-#### &#8226; Modes d'action ciblant le reproduction : Empêcher les mâles et femelles du bioagresseur de se reproduire. 
+#### &#8226; Modes d'action ciblant la reproduction 
 
-Deux groupes de modes d'action existent dans d'autres systèmes :
+L'objectif est d'**empêcher les mâles et femelles du bioagresseur de se reproduire**. Deux groupes de modes d'action existent dans d'autres systèmes :
 
 <details  class="gestion">
     <summary> Technique de l'insecte stérile (TIS) </summary> 
@@ -136,9 +136,9 @@ Le principe de la technique est de perturber la phase de rapprochement des bioag
 </details>
 
 
-#### &#8226; Modes d'action par interférence : Interférer dans la relation biologique entre le bioagresseur et la plante ou l'animal de production.
+#### &#8226; Modes d'action par interférence 
 
- Divers modes d'action sont possibles, dont certains à utiliser en combinaison :
+L'objectif est d'**interférer dans la relation biologique entre le bioagresseur et la plante ou l'animal de production**. Divers modes d'action sont possibles, dont certains à utiliser en combinaison :
 
 <details  class="gestion">
     <summary> Confusion sexuelle </summary> 
@@ -182,19 +182,38 @@ Certaines variétés végétales cultivées ou races animales élevées se trouv
 
 
 
-#### &#8226; Modes d'action par entrave : Entraver l'accès du bioagresseur à la plante ou l'animal de production ou aux gîtes 
+#### &#8226; Modes d'action par entrave 
 
+Il s'agit d'**entraver l'accès du bioagresseur à la plante ou l'animal de production ou aux gîtes**.
 
 <details  class="gestion">
-    <summary>Glues, graisses minérales ou végétales et/ou des savons purs (ex. savon noir)</summary>
+    <summary>Glues, graisses minérales ou végétales</summary>
 
-Elles permettent de former des barrières physiques infranchissables par les insectes sans ailes et les acariens. Leur action est principalement mécanique, par leur affinité forte avec la cuticule et leur capacité à obturer les orifices respiratoires. Selon la localisation et le mode d'application de ces matières, on peut entraver l'accès des bioagresseurs qui ne vivent pas sur l'hôte (microprédateurs; voir [le saviez-vous ?](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-1)) à la plante ou l'animal de production peut contribuer à réguler leurs populations. Introduire dans les microhabitats des matières gênant les mouvements des bioagresseurs peut limiter l'espace disponible pour le développement de leurs populations. Des lavages à l'eau savonneuse permettent aussi d'éliminer une partie des populations et d'éloigner temporairement les bioagresseurs.  
+Glues et graisses permettent de former des barrières physiques infranchissables par les insectes sans ailes et les acariens. Leur action est principalement mécanique, par leur affinité forte avec la cuticule : la surface du corps de l'insecte ou de l'acarien est plus ou moins envahie par capillarité, cela réduit la liberté de mouvements des pattes et peut obturer les orifices respiratoires. Selon la localisation et le mode d'application de ces matières, on peut ainsi entraver l'accès des bioagresseurs qui ne vivent pas sur l'hôte (microprédateurs; voir [le saviez-vous ?](https://pourougepoule.fr/connaissance) n°[1](https://pourougepoule.fr/connaissance#slide_idr-1)) à la plante ou l'animal de production et limiter l'accroissement de leurs populations. Introduire dans les microhabitats des matières gênant les allées et venues des bioagresseurs peut limiter l'espace disponible pour le développement de leurs populations.  
 
-> L'application d'huiles, de graisses, ou éventuellement de savon noir directement ou à l'aide d'un pinceau dans les interstices où s'accumulent les poux rouges (identifiables même après leur départ par les traces de fientes persistantes; voir la [question](https://pourougepoule.fr/faq#faq-10) : Comment savoir s'il y a des poux rouges dans le bâtiment / poulailler ?), vise à dissuader les poux rouges de s'accumuler dans les zones traitées. On en applique notamment dans les parties des structures portant les perchoirs et dans les interstices entre les caillebotis en élevages au sol.  Des applications répétées sont généralement nécessaires car, avec le temps, l'accumulation de poussière forme une pellicule qui permet aux acariens de marcher sur les substances sans effet néfaste et de s'installer à nouveau. Les savons purs se déshydratent progressivement et perdent rapidement leurs propriétés. 
-Un perchoir électrifié a été conçu aux Pays-Bas pour empêcher les acariens d'accéder aux poules perchées (les acariens qui cherchent à les atteindre en grimpant sur le perchoir sont électrisés). Il doit être intégré à la structure interne du bâtiment. 
+> L'application d'huiles ou de graisses plus épaisses à l'aide d'un pinceau ou directement dans les interstices où s'accumulent les poux rouges (identifiables même après leur départ par les traces de fientes persistantes; voir la question : [Comment savoir s'il y a des poux rouges dans le bâtiment / poulailler ?](https://pourougepoule.fr/faq#faq-10)), vise à dissuader les poux rouges de s'accumuler dans les zones traitées. On en applique notamment dans les parties des structures portant les perchoirs et dans les interstices entre les caillebotis en élevages au sol. Des applications répétées sont généralement nécessaires car, avec le temps, l'accumulation de poussière forme une pellicule qui permet aux acariens de marcher sur les substances sans effet néfaste et de s'installer à nouveau.  
 
 </details>
 
+<details  class="gestion">
+    <summary>Savons et autres tensio-actifs </summary>
+
+L'application de savons purs (ex. savon noir) peut jouer un rôle similaire au glues et graisses. En outre, des lavages à l'eau savonneuse permettent aussi d'éliminer mécaniquement une partie des populations de bioagresseurs (ex. lavage de feuilles d'arbres pour éliminer des pucerons).
+
+> L'application de savon noir pur peut aussi être réalisée comme décrit plus haut pour les huiles et autres graisses pour gérer le pou rouge. En outre, l'ajout de savon à l'eau de lavage durant le vide sanitaire contribue à réduire temporairement la population de poux rouges par élimination mécanique tout en favorisant leur noyade (abaissement de la tension de surface de l'eau permettant son entrée dans les orifices respiratoires).
+
+</details>
+
+<details  class="gestion">
+    <summary>Barrières physiques </summary>
+
+- Structures infranchissables : moustiquaires et autres filets  
+> Rien de tel contre le pou rouge à notre connaissance. 
+
+- Structures électrifiées : Il existe des clôtures électriques permettent d'exclure les renards et autres mammifères prédateurs de volailles ainsi que des désinsectiseurs électriques pour électriser les insectes volants (mouches, moustiques). 
+> Un perchoir électrifié a été conçu aux Pays-Bas pour empêcher les acariens d'accéder aux poules perchées (les acariens qui cherchent à les atteindre en grimpant sur le perchoir sont électrisés). Il doit être intégré à la structure interne du bâtiment.  
+
+</details>
 
 <details class="gestion">
     <summary class="gestion-bib">Références Bibliographiques </summary>
@@ -203,9 +222,7 @@ Un perchoir électrifié a été conçu aux Pays-Bas pour empêcher les acariens
 
 </details>
 
-
 ## Pour aller plus loin : pourquoi la gestion intégrée contre le pou rouge des poules est-elle si délicate ?
-
 
 <details  class="gestion">
     <summary>Le système est complexe : il faut de la patience (<strong>principe n°2</strong>). </summary>
@@ -223,10 +240,13 @@ Pour qu'une stratégie de gestion puisse être considérée comme efficace, elle
 
 <img src="/img/evol_pop_pou.webp" alt="Courbe qui décrit l'évolution très rapide des populations de pou rouge. À partir de 200 femelles on obtient 444 774 poux en 40 jours." style ="margin:auto; max-width:90%;">
 
+Au laboratoire, des lots de 200 femelles adultes de poux rouges (équivalents à des agrégats d'environ 1 cm de diam.) ont été inoculés dans plusieurs dizaines d'isolateurs étanches aux acariens hébergeant chacun une petite poule (mésocosmes clos). Après différents nombres de semaines, la poule a été retirée, les acariens ont été extraits de chaque isolateur et comptés. Le graphique ci-dessus montre le nombre moyen de poux rouges obtenus à partir de 200 femelles adultes en axe vertical après les durées indiquées en axe horizontal. De même, l'inoculation de 3 poux rouges dans un poulailler expérimental hébergeant 5 poules a permis le développement d'une population pullulante (nombreux agrégats visibles un peu partout) en moins de 4 mois.
+
 </div>
 
-Au laboratoire, des lots de 200 femelles adultes de poux rouges (équivalents à des agrégats d'environ 1 cm de diam.) ont été inoculés dans plusieurs dizaines d'isolateurs étanches aux acariens hébergeant chacun une petite poule (mésocosmes clos). Après différents nombres de semaines, la poule a été retirée, les acariens ont été extraits de chaque isolateur et comptés. Le graphique ci-dessus montre le nombre moyen de poux rouges obtenus à partir de 200 femelles adultes en axe vertical après les durées indiquées en axe horizontal. De même, l'inoculation de 3 poux rouges dans un poulailler expérimental hébergeant 5 poules a permis le développement d'une population pullulante (nombreux agrégats visibles un peu partout) en moins de 4 mois.
-Il est fréquent de se heurter à l'inefficacité d'outils de gestion dont le mode d'action est pourtant avéré. Aucune solution ne touche absolument tous les poux rouges dans le poulailler et il suffit d'un petit nombre d'individus pour qu'une population énorme se développe après quelques mois. C'est pourquoi tuer des individus ne suffit souvent pas à éviter les pullulations de pou rouge. Les raisons en sont multiples, voici les principales :
+Il est fréquent de se heurter à l'inefficacité d'outils de gestion dont le mode d'action est pourtant avéré. Aucune solution ne touche absolument tous les poux rouges dans le poulailler et il suffit d'un petit nombre d'individus pour qu'une population énorme se développe après quelques mois. C'est pourquoi tuer des individus ne suffit souvent pas à éviter les pullulations de pou rouge.
+
+Les raisons en sont multiples, voici les principales :
 
 - à l'échelle du bâtiment, la répartition spatiale des poux rouges est très hétérogène, aucune intervention ne peut porter sur l'ensemble du bâtiment de manière homogène
 

@@ -238,12 +238,13 @@ nav ul li a:hover {
   }
 
   p {
-    margin: auto;
+    margin: auto !important;
     font-size: 0.9em;
     font-style: italic;
     padding: 0 12px 0 12px;
+    text-align: center;
+    width:80%;
   }
-
 }
 
 .idr_slider,
@@ -279,15 +280,15 @@ h2.slider_title {
 }
 
 .sommaire_idr {
-  text-align:left;
+  text-align: left;
   a {
-  text-decoration: none;
-  font-weight: 900;
-  text-decoration: none;
-  border-radius: 9px;
-  color: #02004b;
-  padding: 2px 5px 2px 8px;
-  background-color: #cea512af;
+    text-decoration: none;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 9px;
+    color: #02004b;
+    padding: 2px 5px 2px 8px;
+    background-color: #cea512af;
   }
 }
 
@@ -466,7 +467,7 @@ a.bouton {
 
 .counter-img {
   position: relative;
-  z-index:-1;
+  z-index: -1;
   transform: translate(-18%, -78%);
   width: 50px;
 }
@@ -526,11 +527,21 @@ details {
   }
 }
 
+summary {
+  padding: 0.25rem 0 0.1rem 0;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-weight: 900;
+  font-style: oblique;
+  color: #02004b;
+}
+
 details[open] {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
-  border-image-source: linear-gradient(to left,#0c4da200, #02004b, #0c4da200);
+  border-image-source: linear-gradient(to left, #0c4da200, #02004b, #0c4da200);
   border-radius: 20px;
   border-right: 0;
   border-top: 0;
@@ -563,7 +574,7 @@ details.gestion {
   }
   p {
     text-align: justify;
-    padding: 16px;
+    padding: 16px 8px 16px 8px;
   }
   ul li {
     text-align: justify;
@@ -571,6 +582,7 @@ details.gestion {
   }
   summary {
     font-size: 90%;
+    padding: 0%;
   }
 }
 details.gestion[open] {
@@ -578,11 +590,13 @@ details.gestion[open] {
   border-radius: 2%;
 }
 
-summary.gestion-bib{
-    font-size: 1.6rem;
-    color: #b5900b;
-    font-weight: 900;
+summary.gestion-bib {
+  font-size: 1.6rem !important;
+  color: #b5900b;
+  font-weight: 900;
+  margin: 22px 0 12px 0;
 }
+
 summary.gestion-bib::before {
   font-weight: 900;
   color: #b5900b;
@@ -591,26 +605,32 @@ summary.gestion-bib::before {
   border: 2px solid #b5900b;
 }
 
-.gestion_div{
-  h3 {  
+.gestion_div {
+  h3 {
     font-size: 1.6rem;
     color: #b5900b;
     font-weight: 900;
   }
-  h4 {  
+  h4 {
     font-size: 1.2rem;
     color: #02004b;
+    margin: 12px;
+    display: flex;
   }
-}
-
-summary {
-  padding: 0.25rem 0 0.1rem 0;
-  display: block;
-  position: relative;
-  cursor: pointer;
-  font-weight: 900;
-  font-style: oblique;
-  color: #02004b;
+  p {
+    margin: 6px 0 12px 0;
+  }
+  h4::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 4px solid #02004bc2;
+    margin: auto auto auto 2%;
+  }
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
 }
 
 details[open] > summary:before {
@@ -686,15 +706,15 @@ a.small_link {
 
 details.ressources {
   ul {
-  background-color: #fbc90f30;
-  padding: 2%;
+    background-color: #fbc90f30;
+    padding: 2%;
   }
   h4 {
     margin: 8px;
   }
 }
 
-summary.ressources-bib{
+summary.ressources-bib {
   h2 {
     margin: 8px;
   }
@@ -801,7 +821,7 @@ details blockquote p {
   margin: 0;
 }
 
-.toc{
+.toc {
   li {
     padding-left: 10px;
   }
@@ -811,5 +831,18 @@ details blockquote p {
   }
   a:hover {
     background-color: #cea5128a;
+  }
+}
+
+a.external_link {
+  color: #02004b;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 2px 4px 2px 4px;
+  margin: 0 3px 0 3px;
+  background-color: rgba(12, 77, 162, 0.15);
+  &:hover {
+    color: #ffffff;
+    background-color: #02004b;
   }
 }
