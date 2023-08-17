@@ -574,11 +574,15 @@ details.gestion {
   }
   p {
     text-align: justify;
-    padding: 16px 8px 16px 8px;
+    padding: 12px 8px 8px 8px;
   }
   ul li {
     text-align: justify;
     padding-right: 16px;
+    list-style-image: none;
+    p {
+      padding: 0%;
+    }
   }
   summary {
     font-size: 90%;
@@ -630,6 +634,14 @@ summary.gestion-bib::before {
   ::after,
   ::before {
     box-sizing: border-box;
+  }
+  .sous-section{
+    border-left: 2px solid #02004bc2;
+    padding-left: 4px;
+  }
+  .sous-sous-section{
+    border-left: 4px solid #b5900b7e;
+    padding-left: 12px;
   }
 }
 
@@ -812,9 +824,21 @@ video {
 }
 
 blockquote {
-  border-left: solid 4px #cea512;
+  border-left: solid 4px #750e0e;
   padding-left: 12px;
   margin: 16px 16px 16px 16px;
+  &::before{
+    display: inline-block;
+    content: '';
+    background: url("/img/mini_dg.svg")  no-repeat;
+    filter: invert(9%) sepia(35%) saturate(6623%) hue-rotate(352deg) brightness(112%) contrast(97%);
+    width: 20px;
+    height: 12px;
+    position: relative;
+  }
+  p {
+    display: inline;
+  }
 }
 
 details blockquote p {
