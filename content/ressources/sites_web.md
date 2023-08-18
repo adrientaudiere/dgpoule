@@ -8,3 +8,5 @@ title = "Webographie"
 - [fiche technique MiteControl biologie (pdf)](/doc/Guide_biologie_du_pou_rouge.pdf)
 - [fiche technique Mitecontrol piège (pdf)](/doc/Guide_controle_durable_des_poux.pdf)
 - [Réseau académique autour des Effets Non-Intentionnels des BioContrôles](https://eni-bc.hub.inrae.fr/)
+- [Qu'est ce que le biocontrôle](https://agriculture.gouv.fr/quest-ce-que-le-biocontrole) sur *Agriculture.gouv*
+- [Lutte Intégré](https://fr.wikipedia.org/wiki/Lutte_int%C3%A9gr%C3%A9e) sur *Wikipédia*

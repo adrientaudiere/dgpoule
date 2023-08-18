@@ -223,9 +223,19 @@ L'application de savons purs (ex. savon noir) peut jouer un rôle similaire au g
 </details>
 
 <details class="gestion">
-    <summary class="gestion-bib">Références Bibliographiques </summary>
+    <summary class="gestion-bib">En savoir plus</summary>
 
-<!-- XXX -->
+**Site Web :**
+
+- [Qu'est ce que le biocontrôle](https://agriculture.gouv.fr/quest-ce-que-le-biocontrole) sur *Agriculture.gouv*
+- [Lutte Intégré](https://fr.wikipedia.org/wiki/Lutte_int%C3%A9gr%C3%A9e) sur *Wikipédia*
+
+**Articles scientifiques :**
+
+- [Barzman *et al.* (2015)](https://link.springer.com/article/10.1007/s13593-015-0327-9)
+- [Katsavou *et al.* (2019)](https://onlinelibrary.wiley.com/doi/10.1002/ps.5582)
+- [Mul (2017)](https://research.wur.nl/en/publications/advancing-integrated-pest-management-for-dermanyssus-gallinae-in-)
+- [Zriki *et al.* (2021)](https://onlinelibrary.wiley.com/doi/10.1002/jez.2496)
 
 </details>
 
@@ -301,9 +311,14 @@ Réaliser le traitement testé plusieurs fois successives dans un bâtiment donn
 </details>
 
 <details  class="gestion">
-     <summary class="gestion-bib">Références Bibliographiques </summary>
+     <summary class="gestion-bib">En savoir plus</summary>
 
-<!-- XXX -->
+**Articles scientifiques :**
+
+- [Durpray *et al.* (2022)](https://onlinelibrary.wiley.com/doi/full/10.1002/ps.7033)
+- [Hokkanen (2017)](https://link.springer.com/article/10.1007/s11829-017-9575-8)
+- [Zriki *et al.* (2021)](https://onlinelibrary.wiley.com/doi/10.1002/jez.2496)
+
 
 </details>
 

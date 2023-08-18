@@ -10,6 +10,8 @@ Le pou rouge des poules, bien que dépourvu d'ailes comme tous les acariens, peu
    
 1. **Activement, par ses propres moyens à courte distance (quelques mètres, surtout la nuit)** : à « pieds », le pou rouge se déplace vivement, suivant des trajets tortueux et parcourant très aisément 65 cm en 10 min lorsqu'il est à jeun. Comme il séjourne dans la zone hors sol des élevages, le pou rouge trouve facilement une poule pour prélever du sang en sortant de son abri [cf [le saviez-vous ?](https://pourougepoule.fr/connaissance) n°[5](https://pourougepoule.fr/connaissance#slide_idr-5)]. 
 
+<div style="text-align:center">
+
  <video width="320" height="320" controls muted>
       <source src="/video/Repas_poux-rouges_patte.mp4" type=video/mp4>
       <p>
@@ -17,6 +19,8 @@ Le pou rouge des poules, bien que dépourvu d'ailes comme tous les acariens, peu
     <a href="/video/Repas_poux-rouges_patte.mp4">un lien pour télécharger la vidéo</a>.
   </p>
     </video>
+</div>
+
 
 <p style="text-align:center; width:520px; margin: 0 auto 0 auto; font-size:0.9em">
  <em> Poux rouges affamés se dirigeant vers leur repas (infestation importante mais pas maximale : poule en bonne santé les jours suivants). </em>
