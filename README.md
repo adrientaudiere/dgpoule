@@ -37,7 +37,7 @@ Toute la syntaxe de base peut être trouvée sur le site [original](https://dari
 | Gras italique          | \*\*\*Texte\*\*\*                          | ***Texte en gras et italique***                                                                                           |
 | Lien absolu            | \[texte\](url)                             | [Je suis un lien absolu](https://adrientaudiere.github.io/dgpoule)                                                        |
 | Lien relatif           | \[texte\](chemin)                          | [Je suis un lien relatif](/connaissance)                                                                                 |
-| Image (chemin absolu)  | \!\[texte alternatif\](url vers l'image)   | ![Un texte alternatif pour décrire l'image avec un lien absolu](https://adrientaudiere.github.io/dgpoule/img/logo_PP.png) |
+| Image (chemin absolu)  | \!\[texte alternatif\](url vers l'image)   | ![Un texte alternatif pour décrire l'image avec un lien absolu](https://adrientaudiere.github.io/dgpoule/img/logo_PP.svg) |
 | Image (chemin relatif) | \!\[texte alternatif\](chemin vers l'image)| ![Un texte alternatif pour décrire l'image avec un lien relatif](/img/nom_image.png)                                          |
 | Citations              | \> Texte cité                              | <blockquote>Stay Hungry Stay Foolish</blockquote>                                                                         |
 | Titres                 | \# Titre 1, \## Titre 2 ...)               | <h2>C'est un titre de rang 2</h2>                                                                                         |

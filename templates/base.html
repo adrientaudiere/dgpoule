@@ -4,15 +4,18 @@
 <head>
   <meta charset="utf-8" />
   <title>Pou Rouge</title>
-  <base href="https://pourougepoule.fr/" />
+  <!-- <base href="https://pourougepoule.fr/" /> -->
   <link rel="stylesheet" href="/base.css" />
   <link rel="stylesheet" href="/search.css" />
   <link rel="stylesheet" href="/media.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <a href="/"><img id="logo" src="/img/logo_PP.png" alt="logo" /></a>
+    <a href="/"><img id="logo" src="/img/logo_PP.svg" alt="logo" /></a>
     <h1><a href="/">POUROUGEPOULE</a></h1>
 
     <div class="search-container">
@@ -42,72 +45,72 @@
     <p><strong>Licence :</strong> L'ensemble du texte et des images du site sont sous <a rel="license"
         href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a> <a
         rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons"
-          style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>.</p>
+          style="border-width:0; width: 80px; vertical-align: middle;" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a></p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js "></script>
-  <script>
-    /** https://lebcit.github.io/posts/automatically-close-other-details/ */
-    /* Automatically close other <details>  except details of class "en_savoir_plus" */
-    const allDetails = document.querySelectorAll("details:not(.en_savoir_plus):not(.gestion)");
-
-    allDetails.forEach((details) => {
-      details.addEventListener("toggle", (e) => {
-        if (details.open) {
-          allDetails.forEach((details) => {
-            if (details != e.target && details.open) {
-              details.open = false;
-            }
-          });
-        }
-      });
-    });
-  </script>
-
-  <script>
-    /* Automaticaly open img in a new window on click and change style cursor */
-    const section = document.querySelector('section');
-    const imgs = section.querySelectorAll('img:not(.counter)');
-
-    imgs.forEach((img) => {
-      img.setAttribute('onclick', "window.open(this.src)");
-      img.style.cursor = 'all-scroll';
-    });
-  </script>
-
-  <!-- Add unbreakable space after and before double points ponctuation -->
-  <script>
-    $(function () {
-      $("p,h1,h2,h3,h4,summary,li").each(function (index) {
-        var newText = $(this).html().replace(/ :/, '&nbsp;:');
-        $(this).html(newText);
-        var newText = $(this).html().replace(/ \?/, '&nbsp;?');
-        $(this).html(newText);
-        var newText = $(this).html().replace(/« /, '«&nbsp;');
-        $(this).html(newText);
-        var newText = $(this).html().replace(/ »/, '&nbsp;»');
-        $(this).html(newText);
-      });
-    });
-  </script>
-
-  <!-- To support french in Elasticlunr -->
-  <!-- <script src="/lunr.stemmer.support.js"></script>
- <script src="/lunr.fr.js"></script>
- <script>
-  var idx = lunr(function () {
-      // use the language (fr)
-      this.use(lunr.fr);
-      // then, the normal lunr index initialization
-      this.field('title', { boost: 10 });
-      this.field('body');
-    });
-  </script>
- -->
-  <!-- Elasticlunr -->
-  <script type="text/javascript" src="/elasticlunr.min.js"></script>
-  <script type="text/javascript" src="{{ get_url(path="search.js") }}"></script>
-
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js "></script>
+<script>
+  /** https://lebcit.github.io/posts/automatically-close-other-details/ */
+  /* Automatically close other <details>  except details of class "en_savoir_plus" */
+  const allDetails = document.querySelectorAll("details:not(.en_savoir_plus):not(.gestion)");
+
+  allDetails.forEach((details) => {
+    details.addEventListener("toggle", (e) => {
+      if (details.open) {
+        allDetails.forEach((details) => {
+          if (details != e.target && details.open) {
+            details.open = false;
+          }
+        });
+      }
+    });
+  });
+</script>
+
+<script>
+  /* Automaticaly open img in a new window on click and change style cursor */
+  const section = document.querySelector('section');
+  const imgs = section.querySelectorAll('img:not(.counter)');
+
+  imgs.forEach((img) => {
+    img.setAttribute('onclick', "window.open(this.src)");
+    img.style.cursor = 'all-scroll';
+  });
+</script>
+
+<!-- Add unbreakable space after and before double points ponctuation -->
+<script>
+  $(function () {
+    $("p,h1,h2,h3,h4,summary,li").each(function (index) {
+      var newText = $(this).html().replace(/ :/, '&nbsp;:');
+      $(this).html(newText);
+      var newText = $(this).html().replace(/ \?/, '&nbsp;?');
+      $(this).html(newText);
+      var newText = $(this).html().replace(/« /, '«&nbsp;');
+      $(this).html(newText);
+      var newText = $(this).html().replace(/ »/, '&nbsp;»');
+      $(this).html(newText);
+    });
+  });
+</script>
+
+<!-- To support french in Elasticlunr -->
+<!-- <script src="/lunr.stemmer.support.js"></script>
+<script src="/lunr.fr.js"></script>
+<script>
+var idx = lunr(function () {
+    // use the language (fr)
+    this.use(lunr.fr);
+    // then, the normal lunr index initialization
+    this.field('title', { boost: 10 });
+    this.field('body');
+  });
+</script>
+-->
+<!-- Elasticlunr -->
+<script type="text/javascript" src="/elasticlunr.min.js"></script>
+<script type="text/javascript" src="{{ get_url(path="search.js") }}"></script>
 
 </html>
