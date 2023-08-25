@@ -28,18 +28,26 @@
   }
 
   header {
+    box-shadow: none;
+    border-bottom: solid 2px #cea512;
     nav {
-      width: 60%;
+      width: 100%;
       padding-right: 0;
       font-size: smaller;
-
+      display: table-caption;
+      text-align: center;
+      margin-top: 5px;
       img {
         width: 60%;
       }
     }
 
     #logo {
-      display: none;
+      margin: 2px 12px 2px 12px;
+    }
+
+    .search-container input{
+      width: 90%;
     }
 
     .search-results {
