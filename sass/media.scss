@@ -1,19 +1,24 @@
 @media (max-width: 900px) {
-  body{
+  body {
     font-size: 0.9em;
   }
+
   header h1 {
     display: none;
   }
+
   .container {
     width: 95%;
   }
+
   .container img {
     max-width: 400px;
   }
+
   .button-container {
     display: none;
   }
+
   .section {
     width: 100%;
   }
@@ -23,13 +28,19 @@
       width: 80%;
       padding-right: 0;
       font-size: smaller;
-      img{
+
+      img {
         width: 60%;
       }
     }
-    #logo{
+
+    #logo {
       width: 60%;
-      display: inline;
+      display: none;
+    }
+
+    .search-container {
+      display: inline-block;
     }
   }
 
@@ -38,12 +49,13 @@
   }
 
   summary {
-   background-color: #FFFFFF90;
-  } 
+    background-color: #FFFFFF90;
+  }
 
   .accueil {
     max-width: 100%;
-    img{ 
+
+    img {
       padding-top: 20px;
       margin: auto;
       float: none;
@@ -61,10 +73,9 @@
     line-height: 1.4em;
   }
 
-  
+
   footer {
     width: 90%;
     margin: auto;
   }
 }
-
