@@ -23,9 +23,13 @@
     width: 100%;
   }
 
+  .idr{
+    width: 90%;
+  }
+
   header {
     nav {
-      width: 80%;
+      width: 60%;
       padding-right: 0;
       font-size: smaller;
 
@@ -35,12 +39,12 @@
     }
 
     #logo {
-      width: 60%;
       display: none;
     }
 
-    .search-container {
-      display: inline-block;
+    .search-results {
+      right: 0;
+      left: 12px;
     }
   }
 
@@ -73,6 +77,13 @@
     line-height: 1.4em;
   }
 
+  #carousel__counter {
+    display: none;
+  }
+
+  .slides {
+    width: 90vw;
+  }
 
   footer {
     width: 90%;
