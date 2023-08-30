@@ -1,5 +1,5 @@
 +++
-title = "FOIRES AUX QUESTIONS"
+title = "FOIRE AUX QUESTIONS"
 sort_by = "weight"
 template = "faq.html"
 page_template = "faq-page.html"
