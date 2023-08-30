@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Pou Rouge</title>
+  <base href="https://pourougepoule.fr/" /> 
+  <link rel="stylesheet" href="/base.css" />
+  <link rel="stylesheet" href="/search.css" />
+  <link rel="stylesheet" href="/media.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="/"><img id="logo" src="/img/logo_PP.svg" alt="logo" /></a>
+    <h1><a href="/">POUROUGEPOULE</a></h1>
+
+    <div class="search-container">
+      <input id="search" type="search" placeholder="🔎 Rechercher dans le site">
+
+      <div class="search-results">
+        <div class="search-results__items"></div>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="/ressources"><img src="/img/icon_web_ressource_sm.png" alt="Ressources"></a></li>
+        <li><a href="/faq"><img src="/img/icon_help_sm.png" alt="FAQ"></a></li>
+        <li><a href="/gestion"><img src="/img/icon_gestion_sm.webp" alt="Gestion intégrée"></a></li>
+        <li><a href="/connaissance"><img src="/img/icon_article_sm.png" alt="Connaissance"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+
+<div class="button-container">
+    <button class="button active-button"><a href="/connaissance">LE SAVIEZ-VOUS ?</a></button>
+    <button class="button"><a href="/gestion">GESTION INTÉGRÉE</a></button>
+    <button class="button"><a href="/faq">FAQ</a></button>
+    <button class="button"><a href="/ressources">RESSOURCES</a></button>
+</div>
+
+<section class="section">
+    <div class="idr">
+        <h1 class="title">Le pou rouge ne se noie pas.</h1>
+        <p style="text-align: center;"><a href="/connaissance" class="bouton">Retour à la liste des connaissances</a>
+        </p>
+        <h2 id="le-pou-rouge-survit-a-des-immersions-de-plusieurs-heures-dans-l-eau">Le pou rouge survit à des immersions de plusieurs heures dans l'eau.</h2>
+<p>Le pou rouge respire bel et bien alors qu'il ne possède pas de poumons. Il est équipé d'un système d'orifices et de trachées qui amènent l'oxygène directement vers les organes, comme chez les insectes. La tension de surface de l'eau est trop élevée pour permettre son passage dans les orifices respiratoires très étroits des poux rouges. Ainsi, il faut 60h d'immersion complète dans l'eau pour tuer 50% de la population. Comme d'autres arachnides et des insectes, il entre dans un coma hypoxique après plusieurs heures d'immersion mais retrouve une activité normale une fois au sec.</p>
+<p>L'ajout de savon permet d'abaisser la tension de surface de l'eau, qui peut alors pénétrer dans les orifices respiratoires. L'ajout de liquide vaisselle à 0.1% permet de réduire de 60h à 10h la survie après immersion du pou rouge (et donc d'augmenter la mortalité). </p>
+<h2 id="quelle-consequence">Quelle conséquence ?</h2>
+<p>Lors des nettoyages des bâtiments entre les bandes, nettoyer seulement à l'eau n'est pas suffisant pour permettre de tuer tous les individus. Pour plus d'efficacité, il est recommandé de réaliser le lavage en ajoutant un tensioactif à l'eau (savon). </p>
+<details>
+    <summary>En savoir plus</summary>
+<h4 id="sources-scientifiques">Sources scientifiques</h4>
+<p>Les informations résumées dans cette section sont issues de travaux de l'équipe de L. Roy, non publiés au moment de l'élaboration du site. Ils ont consisté en deux grandes types d'expérimentations : (1°) des tests d'immersion où l'on a immergé in vitro en conditions contrôlées des centaines de femelles adultes dans de l'eau brute ou additionnée de différents produits et à mesurer la mortalité induite par des durées d'immersion variées. (2°) Des observations au microscope optique sur une vingtaine de femelles adultes vivantes ont été réalisées pour déterminer le trajet des liquides dans les trachées de l'acarien : comme sa cuticule est transparente, on peut visualiser les trachées, organes respiratoire reliant dans le corps de l'acarien les orifices permettant l'entrée de l'air depuis l'extérieur (stigmates) et les différents organes. Au cours de ces tests, l'existence d'un coma hypoxique similaire à celui décrit chez une araignée dans l'étude suivante a été observé :</p>
+<ul>
+<li><a href="https://royalsocietypublishing.org/doi/10.1098/rsbl.2009.0127">Pétillon <em>et al.</em> 2009</a>.</li>
+</ul>
+</details>
+
+        <p style="text-align: center;"><a href="/connaissance"  class="bouton"> Retour à la liste des connaissances</a> </p>
+    </div>
+</section>
+
+
+
+
+  <footer>
+    <p><strong>Réalisation du site:</strong> Adrien Taudière et Axelle Delmas à l'aide du logiciel libre <a
+        href="https://getzola.org">Zola</a>. </p>
+    <p><strong>Texte et images :</strong> Axelle Delmas et Lise Roy.</p>
+    <p><strong>Licence :</strong> L'ensemble du texte et des images du site sont sous <a rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a> <a
+        rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons"
+          style="border-width:0; width: 80px; vertical-align: middle;" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a></p>
+  </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js "></script>
+<script>
+  /** https://lebcit.github.io/posts/automatically-close-other-details/ */
+  /* Automatically close other <details>  except details of class "en_savoir_plus" */
+  const allDetails = document.querySelectorAll("details:not(.en_savoir_plus):not(.gestion)");
+
+  allDetails.forEach((details) => {
+    details.addEventListener("toggle", (e) => {
+      if (details.open) {
+        allDetails.forEach((details) => {
+          if (details != e.target && details.open) {
+            details.open = false;
+          }
+        });
+      }
+    });
+  });
+</script>
+
+<script>
+  /* Automaticaly open img in a new window on click and change style cursor */
+  const section = document.querySelector('section');
+  const imgs = section.querySelectorAll('img:not(.counter)');
+
+  imgs.forEach((img) => {
+    img.setAttribute('onclick', "window.open(this.src)");
+    img.style.cursor = 'all-scroll';
+  });
+</script>
+
+<!-- Add unbreakable space after and before double points ponctuation -->
+<script>
+  $(function () {
+    $("p,h1,h2,h3,h4,summary,li").each(function (index) {
+      var newText = $(this).html().replace(/ :/, '&nbsp;:');
+      $(this).html(newText);
+      var newText = $(this).html().replace(/ \?/, '&nbsp;?');
+      $(this).html(newText);
+      var newText = $(this).html().replace(/« /, '«&nbsp;');
+      $(this).html(newText);
+      var newText = $(this).html().replace(/ »/, '&nbsp;»');
+      $(this).html(newText);
+    });
+  });
+</script>
+
+<!-- To support french in Elasticlunr -->
+<!-- <script src="/lunr.stemmer.support.js"></script>
+<script src="/lunr.fr.js"></script>
+<script>
+var idx = lunr(function () {
+    // use the language (fr)
+    this.use(lunr.fr);
+    // then, the normal lunr index initialization
+    this.field('title', { boost: 10 });
+    this.field('body');
+  });
+</script>
+-->
+<!-- Elasticlunr -->
+<script type="text/javascript" src="/elasticlunr.min.js"></script>
+<script type="text/javascript" src="https://pourougepoule.fr/search.js"></script>
+
+</html>

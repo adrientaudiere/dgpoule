@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Pou Rouge</title>
+  <base href="https://pourougepoule.fr/" /> 
+  <link rel="stylesheet" href="/base.css" />
+  <link rel="stylesheet" href="/search.css" />
+  <link rel="stylesheet" href="/media.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="/"><img id="logo" src="/img/logo_PP.svg" alt="logo" /></a>
+    <h1><a href="/">POUROUGEPOULE</a></h1>
+
+    <div class="search-container">
+      <input id="search" type="search" placeholder="🔎 Rechercher dans le site">
+
+      <div class="search-results">
+        <div class="search-results__items"></div>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="/ressources"><img src="/img/icon_web_ressource_sm.png" alt="Ressources"></a></li>
+        <li><a href="/faq"><img src="/img/icon_help_sm.png" alt="FAQ"></a></li>
+        <li><a href="/gestion"><img src="/img/icon_gestion_sm.webp" alt="Gestion intégrée"></a></li>
+        <li><a href="/connaissance"><img src="/img/icon_article_sm.png" alt="Connaissance"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+<section class="section">
+  <div class="container">
+    <div class="button-container">
+      <button class="button"><a href="/connaissance">LE SAVIEZ-VOUS ?</a></button>
+      <button class="button"><a href="/gestion">GESTION INTÉGRÉE</a></button>
+      <button class="button active-button"><a href="/faq">FAQ</a></button>
+      <button class="button"><a href="/ressources">RESSOURCES</a></button>
+    </div>
+
+    <h1 class="title">FOIRE AUX QUESTIONS</h1>
+    <p>Les questions traitées ici ont été formulées à partir de l'expérience de divers acteurs de terrain. Nous espérons avoir ainsi appréhendé les principaux questionnements auxquels sont confrontées les personnes en charge d'élevages de volailles.</p>
+ 
+    
+    <!-- 
+    <div class="sommaire_idr">
+      <p style="text-align: center; font-weight: 900; color:#02004b"> Liste des « Le-saviez-vous »</p> 
+      
+      <p> <a href="/faq#faq-1"> Quelle est la taille d&#x27;un pou rouge ? </a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-2"> Pourquoi les poux rouges n&#x27;ont-ils pas tous la même couleur ?</a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-3"> Le pou rouge tue-t-il les poules ?</a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-4"> D&#x27;où viennent les poux rouges qui infestent nos fermes ? </a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-5"> Le pou rouge est-il différent des poux de la tête ?</a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-6"> Est-ce que le pou rouge transmet des maladies ?</a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-7"> Est-ce que l&#x27;hiver tue les poux rouges ? </a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-8"> Comment nettoyer le poulailler ?</a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-9"> Où vivent les poux rouges ? </a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-10"> Comment savoir s&#x27;il y a des poux rouges dans le bâtiment &#x2F; poulailler ? </a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-11"> Comment peut-on diminuer les populations ? Comment anticiper les infestations ?</a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-12"> Est-ce que les poules peuvent manger les poux rouges ?</a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-13"> Est-ce que les ténébrions sont des prédateurs du pou rouge ? </a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-14"> Combien de temps les poux rouges peuvent-ils survivre sans manger ? </a>
+      </p>
+        
+       
+      <p> <a href="/faq#faq-15"> Les mouches peuvent-elles amener des poux rouges ? </a>
+      </p>
+        
+      
+    </div> -->
+
+    <!-- <hr /> -->
+    
+      
+      <details id="faq-1">
+        <summary>Quelle est la taille d&#x27;un pou rouge ? </summary>
+        <p>La taille des poux varie en fonction de leur stade de vie suivant la séquence suivante : taille des larves = taille des protonymphes &lt; taille des deutonymphes et mâles adultes &lt; taille des femelles adultes. La taille des poux rouges peut augmenter fortement lorsqu'ils sont gorgés de sang. Les tailles des individus à jeun s'échelonnent d'un peu moins de la moitié d'un millimètre de longueur en moyenne pour le stade larvaire à un peu plus d'un millimètre de longueur en moyenne pour les femelles adultes gorgées de sang. Certaines d'entre elles peuvent approcher les 2 mm lorsqu'elles viennent de prendre un repas de sang.
+Il est important de noter que la taille des poux rouges augmente fortement lorsqu'ils sont gorgés de sang. </p>
+
+       
+      </details>
+      
+      
+      <details id="faq-2">
+        <summary>Pourquoi les poux rouges n&#x27;ont-ils pas tous la même couleur ?</summary>
+        <p>La cuticule (la peau) du pou rouge est transparente. Il devient rouge homogène lorsqu'il vient de prendre un repas de sang. Ensuite, lorsque qu'il digère ce sang, il devient noir, puis marron, puis on commence à apercevoir des points blancs correspondant à des parties d'organes internes : l'acarien prend alors une coloration de plus en plus hétérogène, mêlant des zones blanches, beiges et grises (type poivre et sel) quand il a fini sa digestion. 
+Les jeunes stades qui n'ont encore jamais mangé de sang (larve, protonymphe) sont d'un blanc translucide. Ils ne redeviennent jamais complètement blancs une fois qu'ils ont pris leur premier repas de sang, si bien que les deutonymphes et adultes qui ont digéré leur repas présentent toujours des colorations de type poivre et sel. 
+Le jeu ci-dessous permet de se faire une idée de la diversité des couleurs chez le pou rouge :</p>
+<div class="img_largeur_max" style="width:90%">
+<p><img src="/img/diff_poux.webp" alt="Où est le pou rouge?" /></p>
+</div>
+<p><em>Remarque : toutes les formes observables dans le jeu sont communes dans les poulaillers en France. Les rares individus qui ne sont pas des poux rouges dans le jeu sont capables de manger le pou rouge.</em> </p>
+
+       
+      </details>
+      
+      
+      <details id="faq-3">
+        <summary>Le pou rouge tue-t-il les poules ?</summary>
+        <p>Un pou rouge ne tue pas de poule, mais une population de poux rouges peut tuer des poules. À l'instar du parasite typique, le pou rouge en tant qu'individu n'entraîne que rarement la mort immédiate de sa proie (ou « hôte »), contrairement au prédateur. L'impact de quelques dizaines d'acariens sur une poule est plutôt faible, cependant lorsque que les poux rouges se multiplient leur impact augmente. Dans un poulailler, en début de bande, la quantité d'acariens est généralement basse et à très faible impact. Mais l'accroissement de la population d'acariens après quelques semaines peut évoluer en une situation critique et conduire à la mort de certaines poules. </p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<p>Le fait que les infestations de poux rouges puissent être responsables de mortalité chez les poules est connu depuis longtemps des vétérinaires. L'objectivation scientifique de cet effet a été établie assez récemment.</p>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-2">2</a></p>
+<h4 id="sources-scientifiques">Sources scientifiques</h4>
+<ul>
+<li><a href="https://onlinelibrary.wiley.com/doi/10.1002/jez.2496">Zriki <em>et al.</em> 2021</a></li>
+</ul>
+</details>
+
+       
+      </details>
+      
+      
+      <details id="faq-4">
+        <summary>D&#x27;où viennent les poux rouges qui infestent nos fermes ? </summary>
+        <p>Dans la majorité des cas, les <strong>poux arrivent dans les élevages par le biais des transports de volaille</strong> (trajet en élevages et/ou entre élevage et abattoir). <strong>Divers objets, dont les caisses de transport, jouent un rôle de vecteur</strong>.</p>
+<p><em>NB :</em> Les événements de contamination d'un bâtiment sont plutôt rares : même si les acariens transitent effectivement avec les camions, tous les camions n'en transportent pas à chaque transfert et, même lorsqu'ils sont présents dans un camion qui pénètre dans une exploitation, les poux rouges n'ont pas forcément l'occasion de s'introduire dans le bâtiment et de s'y développer. Mais une fois installée, la population de pou rouge est très difficile à éliminer : en effet, le pou rouge est très récalcitrant à une majorité de traitements et à l'immersion dans l'eau. En général, même les nettoyages intenses durant le vide sanitaire ne parviennent qu'à réduire le nombre d'acariens, pas à les supprimer. En conséquence, il reste très souvent en fin de vide sanitaire un nombre suffisant de poux rouges pour que leur descendance repeuple le bâtiment au cours de la bande.</p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-2">2</a> et <a href="https://pourougepoule.fr/connaissance#slide_idr-6">6</a></p>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-5">
+        <summary>Le pou rouge est-il différent des poux de la tête ?</summary>
+        <p>Le pou de la tête et le pou rouge sont deux espèces différentes, qui ne partagent pas grand-chose à part leur nom commun. Voici les principales différences entre les deux :</p>
+<ul>
+<li>Le pou de la tête est un insecte (6 pattes), alors que le pou rouge est un acarien (8 pattes). </li>
+<li>Le pou de la tête est plus gros que le pou rouge (4 mm pour les poux de la tête adultes contre 1 mm pour les plus gros individus des poux rouges).</li>
+<li>Le pou de la tête est un parasite typique alors que le pou rouge est un microprédateur.</li>
+<li>Le pou de la tête vit sur les humains, pas le pou rouge.</li>
+</ul>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-1">1</a></p>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-6">
+        <summary>Est-ce que le pou rouge transmet des maladies ?</summary>
+        <p>Le pou rouge est un réservoir avéré de certains micro-organismes pathogènes (virus, bactéries, champignons qui provoquent des maladies) comme les salmonelles ou le virus de la maladie de Newcastle : ces bactéries et virus peuvent se multiplier dans le corps de l'acarien vivant. Le pou rouge peut donc contribuer à la persistance de certains pathogènes dans le bâtiment, notamment durant le vide sanitaire, puisque les nettoyages ne suffisent pas à l'éliminer. </p>
+<p>Cependant, on ne connaît pas très bien le rôle du pou rouge en tant que vecteur au sens strict : est-il capable de transmettre directement le pathogène aux poules ou aux humains ? On sait que les poules peuvent se contaminer par les salmonelles si elles ingèrent des poux rouges porteurs de ces bactéries, mais on ne connaît pas la fréquence ni l'intensité d'un tel comportement sur le terrain. Et on ignore si la piqûre d'une poule par des poux rouges contaminés permet sa contamination.</p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<h4 id="comment-le-sait-on-et-pourquoi-beaucoup-de-questions-restent-elles-en-suspens">Comment le sait-on et pourquoi beaucoup de questions restent-elles en suspens ?</h4>
+<p>De nombreuses études ont utilisé des marqueurs ADN pour détecter des microorganismes dans le corps d'acariens prélevés sur le terrain ou manipulés en laboratoire : cela a permis de savoir que différents pathogènes peuvent se trouver en présence du pou rouge. Mais cela ne permet pas de déterminer si le pou rouge est réservoir ni vecteur de ces pathogènes. Seule deux études ont étudié explicitement le potentiel de réservoir (et de transmission par ingestion) du pou rouge vis à vis d'une salmonelle : ces auteurs ont nourri artificiellement des poux rouges avec du sang de poule contaminé de salmonelles et ont mesuré l'accroissement du nombre de salmonelles après des durées variées par des techniques de microbiologie classique. Ils ont aussi établi la colonisation des organes par les salmonelles chez des poussins après gavage avec des poux rouges contaminés. Nous manquons d'études expérimentales sur les relations entre le pou rouge et d'autres pathogènes.</p>
+<p>Concernant la capacité vectorielle au sens strict (effet seringue) du pou rouge, nous manquons cruellement de données. Pour que le pou rouge puisse transmettre un pathogène par piqûre, il faudrait que le pathogène se développe dans les glandes salivaires du pou rouge (comme c'est le cas de l'agent du paludisme chez le moustique). Or on ne sait pas où les différents pathogènes séjournent dans le corps de l'acarien, et cela est très difficile à étudier du fait de la très petite taille de l'acarien, qui rend les dissections très délicates.</p>
+<h4 id="sources-scientifiques">Sources scientifiques</h4>
+<ul>
+<li><a href="https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-021-05142-1">Schiavone <em>et al.</em> 2022</a></li>
+<li><a href="https://www.tandfonline.com/doi/full/10.1080/03079450701460484">Valiente Moro <em>et al.</em> 2007a</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S030440170700101X">Valiente Moro <em>et al.</em> 2007b</a></li>
+</ul>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-7">
+        <summary>Est-ce que l&#x27;hiver tue les poux rouges ? </summary>
+        <p>Les basses températures ralentissent le développement du pou rouge mais ne le tuent pas. </p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-6">6</a></p>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-8">
+        <summary>Comment nettoyer le poulailler ?</summary>
+        <p>Lors du nettoyage des bâtiments durant le vide sanitaire, nettoyer seulement à l'eau permet d'éliminer par ruissellement une partie de la population de poux rouges, mais ne noie pas les acariens accumulés dans les interstices. Pour noyer ces derniers et ainsi éliminer une plus grande portion de la population d'acariens, il est recommandé de réaliser le lavage en ajoutant un tensioactif à l'eau (savon). 
+Les fiches techniques développées dans le cadre du projet MiteControl contiennent des préconisations utiles (<a href="/doc/Guide_biologie_du_pou_rouge.pdf">fiche biologie</a> et <a href="/doc/Guide_controle_durable_des_poux.pdf">fiche piège</a>). Un nettoyage et une gestion efficace contre le pou rouge sont délicats, entourez-vous de <a href="/ressources#conseil">personnes qualifiées</a>.</p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<ul>
+<li><a href="/doc/Guide_biologie_du_pou_rouge.pdf">fiche technique MiteControl biologie (pdf)</a></li>
+<li><a href="/doc/Guide_controle_durable_des_poux.pdf">fiche technique Mitecontrol piège (pdf)</a></li>
+</ul>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-7">7</a></p>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-9">
+        <summary>Où vivent les poux rouges ? </summary>
+        <p>Le pou étant un microprédateur, il ne grimpe sur une poule que lorsqu'il se nourrit (prédation). En dehors des (rares et brefs) repas de sang, les poux rouges se réunissent en agrégats à proximité des lieux où les poules demeurent immobiles (repos, ponte). Ils ne vivent pas sur les poules ni en dehors des bâtiments, quel que soit le type d'élevage (commercial de type sol, volière ou cage, et même dans les poulailler familiaux). </p>
+<p>Les poux rouges passent l'essentiel de leur vie agrégés dans des interstices des structures (extrémités et supports de perchoirs, diverses parties des nids, jonction entre les caillebotis …). C'est dans ces agrégats qu'ont lieu tous les événements nécessaires au développement de la population : accouplement, ponte, mue. </p>
+<p>La partie visible de la population à un instant t peut être comparée à la partie émergée d'un iceberg : la plus grande partie de la population demeurant inaccessible à la vue et aux pulvérisations. Durant les périodes de pullulation, les acariens semblent déborder des interstices et forment des agrégats parfois massifs, très visibles à l'œil nu, donnant l'impression d'une apparition en cours de bande. Mais c'est simplement le résultat de la multiplication des individus présents en début de bande. Et la portion cachée de la population est alors immense.</p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-1">1</a> et n° <a href="https://pourougepoule.fr/connaissance#slide_idr-3">3</a></p>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-10">
+        <summary>Comment savoir s&#x27;il y a des poux rouges dans le bâtiment &#x2F; poulailler ? </summary>
+        <p>De par son mode de vie distant de la poule et sa petite taille, le pou rouge est très difficile à détecter en dehors des périodes de pullulation. Pourtant, des individus sont présents dès le début de la bande, indétectables par simple examen visuel pendant des semaines ou des mois avant déclaration de l'infestation (on arrive à en piéger un petit peu cependant si on met beaucoup de pièges). En outre, l'impact sur les poules est relativement hétérogène et peu évident lorsque l'infestation est basse. 
+Une surveillance peut être mise en place au moyen de pièges ou d'observations spécifiques afin de détecter les poux rouges avant pullulation. Des fiches techniques sont disponibles dans la partie &quot;En savoir plus&quot;. <em>La présence de traces blanches et noires très difficiles à nettoyer témoigne de la présence passée d'agrégats de poux rouges conséquents (il s'agit des fientes des acariens ; voir figure ci-dessous).</em></p>
+<div class="img_largeur_max" style="width:80%">
+<p><img src="/img/photos_fientes.webp" alt="Fientes de poux rouges sur divers supports" /></p>
+<p>L'observation de fientes de poux rouges dans le bâtiment ne permet pas d'établir un diagnostic sur la bande en cours, mais indique des zones où les poux rouges se sont agrégés dans le passé. Cela peut aider à localiser les points de départ des futures infestations. Par exemple, les photos ci-dessus montrent des traces d'infestation massive ancienne (A, fientes seules), en cours (B, fientes autour d'un tube rempli de poux rouges) et anciennes avec signes de remontée en cours (C et D, fientes sur zones larges avec des poux rouges vivants par endroits). Note : En (B), la poussière gris-beige clair mêlée aux poux rouges est constituée principalement de mues et d'enveloppes d'œufs de poux rouges.</p>
+</div>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<ul>
+<li><a href="/doc/Guide_biologie_du_pou_rouge.pdf">fiche technique MiteControl biologie (pdf)</a></li>
+<li><a href="/doc/Guide_controle_durable_des_poux.pdf">fiche technique Mitecontrol piège (pdf)</a></li>
+</ul>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-2">2</a></p>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-11">
+        <summary>Comment peut-on diminuer les populations ? Comment anticiper les infestations ?</summary>
+        <p>Le présent site n'a pas pour vocation de proposer des solutions. Pour la gestion des infestations à pou rouge ou pour leur diagnostic, n'hésitez pas à vous faire accompagner par des personnes qualifiées <a href="/ressources#conseil">voir les conseils</a>.</p>
+<p>À titre indicatif, il n'existe pas de solution miracle pour gérer le pou rouge mais les points d'attention suivants peuvent être considérés pour gérer au mieux la situation : </p>
+<ul>
+<li>
+<p><strong>Le pou rouge est présent dès le début de la bande, il n'arrive pas en cours de bande.</strong></p>
+<ul>
+<li>Lorsque le bâtiment a déjà été contaminé par le pou rouge, il est très probable qu'il le reste, même si on a l'impression de s'être débarrassé du problème durant le vide sanitaire. En cours de bande, il est utile de conduire une surveillance régulière pour ne pas se laisser dépasser par une infestation trop brutale. Des fiches techniques sont disponibles pour cela dans la partie &quot;En savoir plus&quot;. </li>
+<li>Lorsque le bâtiment est neuf ou n'a jamais été contaminé par le pou rouge, l'idéal serait d'éviter l'entrée dans l'exploitation de camions transportant du matériel potentiellement contaminé (mais il est très difficile de s'assurer qu'un chargement est indemne). L'usage de ses propres caisses de transport pour la réforme et la production de ses propres poulettes pourraient être des solutions permettant de limiter le risque d'introduction du pou rouge.</li>
+</ul>
+</li>
+<li>
+<p><strong>Le pou rouge ne se noie pas dans l'eau brute, mais dans l'eau additionnée de tensio-actif (savon, liquide vaisselle…).</strong> </p>
+<ul>
+<li>L'efficacité des nettoyages durant le vide sanitaire est augmentée par l'addition de tensio-actif (savon) à l'eau de lavage. </li>
+</ul>
+</li>
+<li>
+<p><strong>La dynamique démographique rapide des populations de pou rouge et la propension des acariens à s'accumuler dans des zones non visibles rendent l'anticipation des pullulations très délicate :</strong></p>
+<ul>
+<li>2 ou 3 femelles adultes ont besoin de plusieurs mois avant que leur descendance ne produise pullulation dans un poulailler. Mais la dynamique d'accroissement n'est pas régulière : après une phase de latence très difficile à diagnostiquer, la multiplication devient très rapide.</li>
+<li>La distribution dans l'espace est hétérogène durant la phase de latence : plusieurs mois avant une pullulation de poux rouges, un ou plusieurs points du bâtiment peuvent héberger de petits foyers très difficiles à détecter. Une fois la pullulation amorcée, la population de poux rouges envahit très rapidement le bâtiment : on passe de quelques zones avec des agrégats à des agrégats visibles partout dans le bâtiment en 15 jours environ. </li>
+</ul>
+</li>
+</ul>
+<p>Si l'on pouvait localiser les foyers longtemps avant la pullulation, on pourrait sans doute anticiper efficacement en traitant les foyers. Malheureusement à ce jour, nous ne connaissons pas de moyen de localiser précisément les foyers débutants (il faudrait installer et surveiller des centaines de pièges dans le bâtiment).</p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<ul>
+<li><a href="/doc/Guide_biologie_du_pou_rouge.pdf">fiche technique MiteControl biologie (pdf)</a></li>
+<li><a href="/doc/Guide_controle_durable_des_poux.pdf">fiche technique Mitecontrol piège (pdf)</a></li>
+</ul>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-3">3</a> et n°<a href="https://pourougepoule.fr/connaissance#slide_idr-7">7</a></p>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-12">
+        <summary>Est-ce que les poules peuvent manger les poux rouges ?</summary>
+        <p>Les poules sont capables de manger des poux rouges : elles picorent parfois activement un agrégat rendu accessible lors de manipulations du matériel dans le poulailler par une personne. Cependant nous ne connaissons pas la fréquence ni l'intensité de ce comportement et il est clair qu'il ne permet pas de réguler les populations de pou rouge vu que la plus grande partie de la population demeure inaccessible la plupart du temps. Le pou rouge étant un microprédateur et non pas un parasite typique comme le pou de la tête, le comportement d'épouillage n'a pas de vertu particulièrement bénéfique.</p>
+<p><em>NB</em> : La prédation des poux rouges par les poules peut entraîner des conséquences secondaires : les poux rouges étant des réservoirs de pathogènes comme les salmonelles, leur  ingestion par la poule peut l'amener à se contaminer.</p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<ul>
+<li><a href="https://www.tandfonline.com/doi/full/10.1080/03079450701460484">Valiente Moro <em>et al.</em> 2007a</a></li>
+</ul>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-13">
+        <summary>Est-ce que les ténébrions sont des prédateurs du pou rouge ? </summary>
+        <p>Le petit ténébrion est un coléoptère omnivore : larves et adultes se nourrissent de substances inertes variées (fientes et cadavres de volailles, plumes, aliment…) et consomment aussi des moisissures, des œufs, larves et pupes de mouches domestiques et d'autres insectes … ainsi que des poux rouges.</p>
+<p>C'est un prédateur avéré du pou rouge cependant il cause trop de dégâts annexes (il détruit les matériaux d'isolation des bâtiments) pour être considéré comme un moyen pertinent de gestion du pou. </p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<ul>
+<li><a href="https://www.cabdirect.org/cabdirect/abstract/19721001749">Koslov 1970</a></li>
+<li><a href="https://www.anses.fr/fr/system/files/SANT-Fi-Tenebrion.pdf">Dossier ANSES sur les problèmes dus au petit ténébrion</a></li>
+</ul>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-14">
+        <summary>Combien de temps les poux rouges peuvent-ils survivre sans manger ? </summary>
+        <p>Les poux rouges peuvent survivre durant de très longues périodes sans manger (au moins jusqu'à 9 mois dans certaines conditions). Malgré la mort d'une portion de la population dans les premières semaines de jeûne, l'absence prolongée des poules ne peut pas suffire à décontaminer le bâtiment. Il est conseillé de réaliser le nettoyage durant le vide sanitaire par lavage à l'eau additionnée d'un produit tensio-actif (savon).</p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-4">4</a> sur le cycle de vie du pou rouge.</p>
+<h4 id="sources-scientifiques">Sources scientifiques</h4>
+<ul>
+<li><a href="https://www.sciencedirect.com/science/article/pii/0014489463900432">Kirkwood (1963)</a></li>
+</ul>
+</details>
+       
+      </details>
+      
+      
+      <details id="faq-15">
+        <summary>Les mouches peuvent-elles amener des poux rouges ? </summary>
+        <p>Non, les poux rouges des poules ne voyagent pas avec les mouches. En revanche, il est possible d'observer d'autres acariens (ou d'autres arachnides) accrochés aux mouches ou aux ténébrions (figures ci-dessous). </p>
+<div class="img_largeur_max">
+<p><img src="/img/photos_phoresie.webp" alt="Exemple de cas de phorésie : photo d'un acariens Uropodina sur un ténébrion et d'un pseudoscorpion sur une mouche" /></p>
+<p>Exemples de cas de phorésie : À gauche (a) acariens Uropodina fixés sur le dos d'un ténébrion grâce à un pédicelle sécrété, et à droite (b) un pseudoscorpion (arachnide proche des acariens et des scorpions, mais dénué de queue venimeuse) accroché à la patte d'une mouche.</p>
+</div>
+<p>De nombreux acariens qui se nourrissent d'autres petits invertébrés utilisent les insectes volants comme taxis pour parcourir de longues distances. On dit qu'ils font de la « phorésie ». Parmi les acariens qui arrivent dans les poulaillers transportés par les mouches ou les ténébrions, des prédateurs du pou rouge sont très fréquemment rencontrés. </p>
+<p>Aucun de ces acariens ne se nourrit de sang de poule ni d'humain, ils ne posent pas de problème en élevage. En tant qu'ennemis naturels du pou rouge, ces acariens prédateurs du pou rouge pourraient théoriquement contribuer à sa régulation. Pourtant ils ne semblent pas freiner son développement, sans doute parce qu'ils se nourrissent aussi d'autres proies (des acariens de la poussière, très abondants en général), ainsi que de cadavres de poux rouges ou d'autres matières en décomposition. </p>
+<details class = "en_savoir_plus">
+    <summary>En savoir plus</summary>
+<p><a href="https://pourougepoule.fr/connaissance">Le saviez-vous ?</a> n°<a href="https://pourougepoule.fr/connaissance#slide_idr-3">3</a></p>
+<h2 id="qu-est-ce-que-la-phoresie-plus-precisement">Qu'est-ce que la phorésie, plus précisément ?</h2>
+<p>La phorésie sur insectes volants chez les acariens et autres arthropodes dénués d'ailes est largement documentée dans la littérature (voir article <a href="https://fr.wikipedia.org/wiki/Phorésie" style="background-color: #0c4da220;">Wikipédia</a>). Pour ce faire, l'animal doit pouvoir s'agripper fermement à l'insecte « taxi » pour y rester accrocher sur la totalité du trajet. Les Macrochelidés ont pour habitude de faire de la phorésie au stade adulte femelle en saisissant fermement un poil de l'insecte avec leurs chélicères (organes buccaux paires équipés chacun d'une pince). Les Uropodina sécrètent une matière adhésive qui durcit et forme un pédicelle qui permet aux deutonymphes de voyager longtemps fixées à la cuticule de l'insecte (ex. ténébrion sur la figure ci-dessous). Des Astigmates (acariens de la poussière) portent des ventouses en face ventrale au stade deutonymphe, qui leur permettent de demeurer étroitement fixés à la cuticule de leur « taxi ». Les pseudoscorpions sont de petits arachnides à l'allure de scorpion mais dénués de queue venimeuse. Comme les scorpions, leurs pédialpes portent des pinces. Ils se déplacent souvent en s'agrippant avec ces pinces à des mouches. Certains acariens prédateurs du pou rouge peuvent aussi se déplacer sur les rongeurs (ex. <em>Androlaelaps casalis</em>).
+Quel est le régime alimentaire des acariens et pseudoscorpions qui arrivent avec les insectes volants dans les poulaillers ?</p>
+<p>Les Macrochélidés que l'on rencontre dans les poulaillers se nourrissent généralement d'œufs et larves de mouches. Les Digamasellidés se nourrissent plutôt de nématodes (vers microscopiques fréquences dans les fientes). Les Uropodina sont omnivores, se nourrissant à la fois de matière en décomposition et de proies vivantes ou mortes (poux rouges et autres invertébrés). Les Astigmates sont les acariens de la poussière auxquels certains humains sont allergiques. Ils se nourrissent essentiellement de champignons microscopiques et de matière organiques diverses et sont toujours présents dans les élevages (au moins de type sol) et généralement très abondants. Les pseudoscorpions sont des prédateurs d'autres invertébrés. Ils sont capables de manger des poux rouges, mais préfèrent des proies légèrement plus grosses. </p>
+<h2 id="comment-sait-on-que-le-pou-rouge-ne-pratique-pas-la-phoresie-sur-les-insectes">Comment sait-on que le pou rouge ne pratique pas la phorésie sur les insectes ?</h2>
+<p>Le pou rouge des poules <em>Dermanyssus gallinae</em> est dénué d'appendices lui permettant de se fixer sur un insecte : il n'a pas de pinces fonctionnelles sur ses chélicères (adaptées à l'hématophagie), ne possède aucune ventouse spécifique et n'est pas capable de sécréter de pédicelle. Une seule observation a été publiée à ce jour rapportant 5 individus femelles adultes posés sur un coléoptère herbivore au Brésil et identifiés par observation morphologique (Flechtmann &amp; Baggio 1993). Afin de voir si cela pouvait arriver dans les élevages de pondeuses, L. Roy a examiné systématiquement les mouches capturées sur des plaques engluées placées en début d'été durant une semaine dans une dizaine de poulaillers infestés par le pou rouge des poules, ainsi que des centaines de ténébrions collectés directement dans des poulaillers infestés (2007-2008, région lyonnaise). Le résultat est clair : de nombreux acariens prédateurs ou omnivores et des pseudoscorpions ont été recensés, mais aucun pou rouge (L. Roy, données non publiées). Étant donné l'absence d'équipement pour se fixer à un insecte et ces résultats concrets, il est très probable que l'unique observation faite au Brésil représente un cas fortuit et concerne une espèce de pou rouge autre que <em>D. gallinae</em> (la distinction entre espèces de <em>Dermanyssus</em> est très difficile voire impossible même pour les spécialistes sur la seule base d'un examen morphologique).</p>
+<h4 id="sources-scientifiques">Sources scientifiques</h4>
+<ul>
+<li><a href="https://fr.wikipedia.org/wiki/Phor%C3%A9sie">Article « Phorésie » Wikipédia</a></li>
+<li><a href="https://www.annualreviews.org/doi/pdf/10.1146/annurev-ento-120220-013329">Seeman &amp; Walter 2023</a> </li>
+<li><a href="https://onlinelibrary.wiley.com/doi/10.1002/jez.2496">Zriki <em>et al.</em> 2021</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S104996441730169X?via%3Dihubs">Roy <em>et al.</em> 2017</a></li>
+</ul>
+</details>
+       
+      </details>
+      
+      
+  </div>
+</section>
+
+
+  <footer>
+    <p><strong>Réalisation du site:</strong> Adrien Taudière et Axelle Delmas à l'aide du logiciel libre <a
+        href="https://getzola.org">Zola</a>. </p>
+    <p><strong>Texte et images :</strong> Axelle Delmas et Lise Roy.</p>
+    <p><strong>Licence :</strong> L'ensemble du texte et des images du site sont sous <a rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</a> <a
+        rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons"
+          style="border-width:0; width: 80px; vertical-align: middle;" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a></p>
+  </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js "></script>
+<script>
+  /** https://lebcit.github.io/posts/automatically-close-other-details/ */
+  /* Automatically close other <details>  except details of class "en_savoir_plus" */
+  const allDetails = document.querySelectorAll("details:not(.en_savoir_plus):not(.gestion)");
+
+  allDetails.forEach((details) => {
+    details.addEventListener("toggle", (e) => {
+      if (details.open) {
+        allDetails.forEach((details) => {
+          if (details != e.target && details.open) {
+            details.open = false;
+          }
+        });
+      }
+    });
+  });
+</script>
+
+<script>
+  /* Automaticaly open img in a new window on click and change style cursor */
+  const section = document.querySelector('section');
+  const imgs = section.querySelectorAll('img:not(.counter)');
+
+  imgs.forEach((img) => {
+    img.setAttribute('onclick', "window.open(this.src)");
+    img.style.cursor = 'all-scroll';
+  });
+</script>
+
+<!-- Add unbreakable space after and before double points ponctuation -->
+<script>
+  $(function () {
+    $("p,h1,h2,h3,h4,summary,li").each(function (index) {
+      var newText = $(this).html().replace(/ :/, '&nbsp;:');
+      $(this).html(newText);
+      var newText = $(this).html().replace(/ \?/, '&nbsp;?');
+      $(this).html(newText);
+      var newText = $(this).html().replace(/« /, '«&nbsp;');
+      $(this).html(newText);
+      var newText = $(this).html().replace(/ »/, '&nbsp;»');
+      $(this).html(newText);
+    });
+  });
+</script>
+
+<!-- To support french in Elasticlunr -->
+<!-- <script src="/lunr.stemmer.support.js"></script>
+<script src="/lunr.fr.js"></script>
+<script>
+var idx = lunr(function () {
+    // use the language (fr)
+    this.use(lunr.fr);
+    // then, the normal lunr index initialization
+    this.field('title', { boost: 10 });
+    this.field('body');
+  });
+</script>
+-->
+<!-- Elasticlunr -->
+<script type="text/javascript" src="/elasticlunr.min.js"></script>
+<script type="text/javascript" src="https://pourougepoule.fr/search.js"></script>
+
+</html>
